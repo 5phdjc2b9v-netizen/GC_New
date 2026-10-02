@@ -192,3 +192,37 @@ section{padding:105px 0}.section-kicker{display:grid;grid-template-columns:220px
   .globe-break,.globe-copy{min-height:620px}
   .globe-copy{padding-top:80px;padding-bottom:70px}
 }
+
+
+/* Hero v2: calm editorial opening */
+.hero-v2{padding:62px 0 34px;background:var(--paper)}
+.hero-v2-copy{display:grid;grid-template-columns:1fr;gap:28px;padding:34px 0 46px;max-width:1180px}
+.hero-v2 h1{font-family:var(--display-sans);font-size:clamp(62px,7.8vw,118px);line-height:.9;letter-spacing:-.065em;font-weight:650;margin:0;max-width:1180px}
+.hero-v2-bottom{display:grid;grid-template-columns:minmax(0,720px) auto;gap:42px;align-items:end}
+.hero-v2-bottom p{margin:0;font-size:20px;line-height:1.5;color:var(--muted)}
+.hero-v2 .hero-actions{margin:0;justify-content:flex-end}
+.hero-v2-media{position:relative;margin:0;border-radius:2px;overflow:hidden;min-height:520px;background:#ddd}
+.hero-v2-media img{width:100%;height:100%;min-height:520px;object-fit:cover;object-position:center}
+.hero-v2-media:after{content:"";position:absolute;inset:auto 0 0;height:42%;background:linear-gradient(to top,rgba(0,0,0,.5),transparent)}
+.hero-v2-media figcaption{position:absolute;z-index:2;left:28px;right:28px;bottom:24px;display:flex;justify-content:space-between;gap:24px;color:#fff;font-size:13px;font-weight:800;letter-spacing:.02em}
+.fact-strip-v2{margin-top:0;background:#fff;border-top:0}
+.fact-strip-v2 .fact{padding-top:30px;padding-bottom:30px}
+.fact-strip-v2 .fact strong{font-family:var(--display-sans);font-weight:650}
+.motion-enabled .hero-v2-copy{animation:heroIn .8s cubic-bezier(.2,.7,.2,1) both}
+.motion-enabled .hero-v2-media{animation:tileIn .9s .08s cubic-bezier(.2,.7,.2,1) both}
+.motion-enabled .hero-v2-media img{transition:transform 1.4s cubic-bezier(.2,.7,.2,1)}
+.motion-enabled .hero-v2-media:hover img{transform:scale(1.018)}
+
+@media(max-width:900px){
+  .hero-v2{padding-top:34px}
+  .hero-v2-bottom{grid-template-columns:1fr;gap:24px}
+  .hero-v2 .hero-actions{justify-content:flex-start}
+  .hero-v2-media,.hero-v2-media img{min-height:420px}
+}
+@media(max-width:600px){
+  .hero-v2 h1{font-size:54px}
+  .hero-v2-copy{padding-top:18px}
+  .hero-v2-bottom p{font-size:17px}
+  .hero-v2-media,.hero-v2-media img{min-height:330px}
+  .hero-v2-media figcaption{left:18px;right:18px;bottom:16px;flex-direction:column;gap:4px}
+}
