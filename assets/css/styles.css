@@ -86,3 +86,109 @@ section{padding:105px 0}.section-kicker{display:grid;grid-template-columns:220px
 .history-copy .accent-serif,
 .cta .accent-serif{color:#fff}
 .hero h1 .accent-serif{color:var(--red)}
+
+
+/* Editorial portfolio stage */
+.portfolio-showcase{background:#f4efe7;overflow:hidden}
+.portfolio-intro{margin-bottom:70px}
+.portfolio-stage{display:grid;grid-template-columns:1.35fr .65fr;gap:20px;align-items:stretch}
+.portfolio-world{position:relative;border-radius:30px;background:#fff;min-height:420px;padding:34px;overflow:hidden;border:1px solid rgba(23,23,23,.07)}
+.world-outdoor{grid-row:span 2;min-height:900px;background:linear-gradient(145deg,#fff 0%,#f8f4ed 100%)}
+.world-images{min-height:440px;background:#191816;color:#fff}
+.world-gift{min-height:440px;background:#f2d15c}
+.world-family{grid-column:1/2;min-height:430px;background:#dceff2}
+.world-puzzle{grid-column:2/3;min-height:430px;background:#f3c934}
+.world-copy{position:relative;z-index:6;max-width:560px}
+.world-copy.compact{max-width:420px}
+.world-index{display:block;font-size:12px;letter-spacing:.12em;font-weight:850;color:var(--red);margin-bottom:12px}
+.world-images .world-index{color:#f1a2aa}
+.world-copy h3{font-family:var(--display-sans);font-size:clamp(34px,4vw,58px);line-height:.98;letter-spacing:-.055em;margin:0 0 16px}
+.world-copy p{font-size:16px;color:var(--muted);max-width:570px;margin:0}
+.world-images .world-copy p{color:#c7c3bd}
+.world-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
+.world-tags span{font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;border:1px solid rgba(23,23,23,.15);padding:8px 10px;border-radius:999px;background:rgba(255,255,255,.55)}
+
+.product-scene{position:relative;min-height:290px;margin-top:28px;perspective:1200px}
+.scene-outdoor{min-height:580px}
+.product{position:absolute;margin:0;filter:drop-shadow(0 20px 22px rgba(20,20,20,.16));transition:transform .35s cubic-bezier(.2,.7,.2,1),filter .35s ease,opacity .35s ease;transform-origin:center bottom;z-index:2}
+.product img{width:100%;height:auto;object-fit:contain;border-radius:4px}
+.product figcaption{position:absolute;left:50%;bottom:-46px;transform:translateX(-50%);min-width:max-content;background:rgba(255,255,255,.96);padding:8px 11px;border-radius:12px;box-shadow:0 10px 30px rgba(20,20,20,.12);opacity:0;pointer-events:none;transition:.25s ease;text-align:center}
+.product figcaption strong,.product figcaption span{display:block}
+.product figcaption strong{font-size:12px}
+.product figcaption span{font-size:10px;color:var(--muted);margin-top:2px}
+.product:hover{z-index:20!important;transform:translateY(-8px) scale(1.035) rotate(0deg)!important;filter:drop-shadow(0 28px 28px rgba(20,20,20,.22))}
+.product:hover figcaption{opacity:1;bottom:-52px}
+.product-scene:has(.product:hover) .product:not(:hover){opacity:.72}
+
+.product-iwanowski{width:31%;left:6%;bottom:70px;transform:rotate(-6deg)}
+.product-bikeline{width:45%;left:27%;bottom:6px;transform:rotate(2deg)}
+.product-lonely{width:27%;right:3%;bottom:105px;transform:rotate(5deg)}
+.product-womo{width:25%;left:50%;bottom:170px;transform:rotate(-2deg)}
+
+.scene-images{min-height:275px}
+.product-rolex{width:45%;left:5%;bottom:0;transform:rotate(-4deg)}
+.product-gestalten{width:39%;right:5%;bottom:8px;transform:rotate(5deg)}
+.scene-gift{min-height:280px}
+.product-yearbook{width:46%;left:4%;bottom:0;transform:rotate(-5deg)}
+.product-places{width:38%;right:5%;bottom:4px;transform:rotate(4deg)}
+.scene-family{min-height:270px}
+.product-kids{width:36%;left:7%;bottom:0;transform:rotate(-4deg)}
+.product-biber{width:42%;right:7%;bottom:4px;transform:rotate(5deg)}
+.scene-puzzle{min-height:270px}
+.product-puzzle{width:70%;left:15%;bottom:0;transform:rotate(-2deg)}
+
+.product-type-card{filter:drop-shadow(0 18px 20px rgba(20,20,20,.14))}
+.type-cover{aspect-ratio:3/4;border-radius:6px;padding:22px;background:#078eb8;color:#fff;display:flex;flex-direction:column;justify-content:space-between;border:1px solid rgba(255,255,255,.3)}
+.type-cover span{font-size:12px;font-weight:900;letter-spacing:.12em}
+.type-cover strong{font-family:var(--display-sans);font-size:clamp(22px,2.6vw,38px);line-height:.93;letter-spacing:-.05em}
+.type-cover small{font-size:10px;line-height:1.3;opacity:.82}
+.muted-card .type-cover{background:linear-gradient(135deg,#d49b32,#71817c 36%,#b66155 66%,#4a2f28);color:#fff}
+.places-cover{background:#f7f1e7;color:#111;border:1px solid #d4b35b}
+.places-cover span{color:#9a6d13}
+.biber-card .type-cover{background:linear-gradient(160deg,#bfe6ee,#4bb7d1 54%,#ed6a3e);color:#0d3151}
+.puzzle-card .type-cover{background:#f3c72f;color:#111;border:6px solid #ef2d65}
+.puzzle-card .type-cover span{color:#ef2d65}
+
+.portfolio-discovery{grid-column:1/-1;border-top:1px solid var(--line);padding:26px 6px 0;display:grid;grid-template-columns:240px 1fr;gap:40px;align-items:start}
+.portfolio-discovery p{margin:0;font-size:18px;max-width:760px;color:var(--muted)}
+.portfolio-discovery strong{color:var(--ink)}
+
+.globe-break{position:relative;padding:0!important;background:#111;color:#fff;min-height:760px;overflow:hidden}
+.globe-photo{position:absolute;inset:-5% 0;background-size:cover;background-position:center;transform:scale(1.06);will-change:transform}
+.globe-break:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,10,10,.72),rgba(10,10,10,.15) 55%,rgba(10,10,10,.05))}
+.globe-copy{position:relative;z-index:2;padding-top:120px;padding-bottom:120px;min-height:760px;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start}
+.globe-copy .eyebrow{color:#f3a4ab}
+.globe-copy h2{font-family:var(--display-sans);font-size:clamp(52px,7vw,94px);line-height:.94;letter-spacing:-.06em;max-width:850px;margin:14px 0 22px}
+.globe-copy p{max-width:590px;color:#e4e0d9;font-size:18px}
+.globe-copy .accent-serif{color:#fff}
+
+.motion-enabled .portfolio-world.reveal{transform:translateY(34px) scale(.99)}
+.motion-enabled .portfolio-world.reveal.is-visible{transform:none}
+.motion-enabled .portfolio-world.is-visible .product{animation:productSettle .8s cubic-bezier(.2,.7,.2,1) both}
+.motion-enabled .portfolio-world.is-visible .product:nth-child(2){animation-delay:.09s}
+.motion-enabled .portfolio-world.is-visible .product:nth-child(3){animation-delay:.16s}
+.motion-enabled .portfolio-world.is-visible .product:nth-child(4){animation-delay:.23s}
+@keyframes productSettle{from{opacity:0;translate:0 30px;scale:.96}to{opacity:1;translate:0 0;scale:1}}
+
+@media(max-width:1050px){
+  .portfolio-stage{grid-template-columns:1fr}
+  .world-outdoor,.world-images,.world-gift,.world-family,.world-puzzle{grid-column:auto;grid-row:auto;min-height:auto}
+  .world-outdoor{min-height:820px}
+  .portfolio-discovery{grid-template-columns:1fr;gap:12px}
+}
+@media(max-width:700px){
+  .portfolio-world{padding:24px;border-radius:22px}
+  .world-outdoor{min-height:930px}
+  .scene-outdoor{min-height:650px}
+  .product-iwanowski{width:42%;left:2%;bottom:270px}
+  .product-bikeline{width:70%;left:8%;bottom:20px}
+  .product-lonely{width:36%;right:0;bottom:315px}
+  .product-womo{width:36%;left:42%;bottom:390px}
+  .scene-images,.scene-gift,.scene-family,.scene-puzzle{min-height:360px}
+  .product-rolex{width:50%}.product-gestalten{width:43%}
+  .product-yearbook{width:50%}.product-places{width:43%}
+  .product-kids{width:44%}.product-biber{width:49%}
+  .product-puzzle{width:82%;left:9%}
+  .globe-break,.globe-copy{min-height:620px}
+  .globe-copy{padding-top:80px;padding-bottom:70px}
+}
