@@ -58,3 +58,31 @@ section{padding:105px 0}.section-kicker{display:grid;grid-template-columns:220px
 @media (prefers-reduced-motion:reduce){
   *,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}
 }
+
+/* Mixed display typography: modern sans + editorial serif accent */
+:root{
+  --display-sans:"Inter Tight","Aptos","Helvetica Neue",Arial,sans-serif;
+  --accent-serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+}
+.hero h1,
+.section-kicker h2,
+.history-copy h2,
+.cta h2,
+.subhero h1,
+.service-row h3,
+.category h3,
+.info-card h3{
+  font-family:var(--display-sans);
+  font-weight:650;
+  letter-spacing:-.055em;
+}
+.accent-serif{
+  font-family:var(--accent-serif);
+  font-style:italic;
+  font-weight:400;
+  letter-spacing:-.035em;
+  color:var(--red);
+}
+.history-copy .accent-serif,
+.cta .accent-serif{color:#fff}
+.hero h1 .accent-serif{color:var(--red)}
