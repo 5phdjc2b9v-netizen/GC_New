@@ -13,7 +13,7 @@ if(!reduceMotion){
   document.documentElement.classList.add('motion-enabled');
 
   const revealTargets=[
-    ...document.querySelectorAll('.section-kicker,.story-grid,.category,.service-row,.history-band,.partner-band,.cta-inner,.info-card,.market-card,.timeline article,.portfolio-world,.portfolio-discovery,.globe-copy')
+    ...document.querySelectorAll('.section-kicker,.story-grid,.category,.service-row,.history-band,.partner-band,.cta-inner,.info-card,.market-card,.timeline article,.portfolio-world,.portfolio-discovery,.globe-copy,.history-card,.history-mini-timeline,.geokatalog-grid,.subhero-register')
   ];
   revealTargets.forEach((el,i)=>{
     el.classList.add('reveal');
