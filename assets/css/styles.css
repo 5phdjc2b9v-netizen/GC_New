@@ -360,3 +360,25 @@ body{background:var(--geo-paper)}
   .subhero-register{grid-template-columns:1fr 1fr}
   .geokatalog-yellow{min-height:460px}
 }
+
+
+/* Hero trust signal */
+.hero-trust-label{
+  display:inline-flex;
+  align-items:center;
+  width:max-content;
+  margin-bottom:14px;
+  padding:10px 13px 9px;
+  background:var(--geo-yellow);
+  color:#171717;
+  font-size:11px;
+  line-height:1;
+  font-weight:900;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+.hero-editorial .editorial-labels{margin-bottom:30px}
+.hero-editorial .editorial-labels span:first-child{
+  background:transparent;
+  border-color:rgba(23,23,23,.2);
+}
