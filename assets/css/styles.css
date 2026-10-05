@@ -382,3 +382,17 @@ body{background:var(--geo-paper)}
   background:transparent;
   border-color:rgba(23,23,23,.2);
 }
+
+
+/* Real portfolio artwork: crop source margins without cropping the product */
+.product-visual{width:100%;overflow:hidden;display:block}
+.product-visual img{display:block;max-width:none;height:auto}
+.crop-rolex{aspect-ratio:1/1}
+.crop-rolex img{width:150%;margin-left:-25%;margin-top:-24%}
+.crop-gestalten{aspect-ratio:1/1}
+.crop-gestalten img{width:150%;margin-left:-25%;margin-top:-23%}
+.crop-kids{aspect-ratio:1/1.12;background:transparent}
+.crop-kids img{width:132%;margin-left:-16%;margin-top:-7%}
+.product-womo img,.product-biber img{border-radius:3px}
+.product-puzzle img{width:100%;filter:none}
+.product-puzzle{filter:drop-shadow(0 22px 22px rgba(20,20,20,.18))}
