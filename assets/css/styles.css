@@ -396,3 +396,29 @@ body{background:var(--geo-paper)}
 .product-womo img,.product-biber img{border-radius:3px}
 .product-puzzle img{width:100%;filter:none}
 .product-puzzle{filter:drop-shadow(0 22px 22px rgba(20,20,20,.18))}
+
+
+/* Local original publisher artwork */
+.story-media-real{position:relative;min-height:640px;overflow:visible;background:#e8e0d4}
+.story-media-real .trade-photo{position:absolute;display:block;object-fit:cover;box-shadow:0 24px 60px rgba(23,23,23,.16)}
+.story-media-real .trade-photo-main{inset:0 15% 9% 0;width:85%;height:91%;object-position:center 55%}
+.story-media-real .trade-photo-detail{right:0;bottom:0;width:40%;height:46%;object-position:center;border:8px solid var(--paper)}
+.product-botswana{width:24%;left:4%;bottom:250px;transform:rotate(4deg);z-index:3}
+.product-kyoto{width:24%;right:20%;bottom:250px;transform:rotate(-4deg);z-index:4}
+.product-yearbook-wide{width:53%;left:1%}
+.product-yearbook-wide img{aspect-ratio:auto;object-fit:contain}
+.product-rolex{width:52%;left:1%;bottom:-4px}
+.product-rolex img{object-fit:contain}
+.product-gestalten{width:45%;right:0;bottom:0}
+.product-gestalten img{object-fit:contain}
+.product-kids img,.product-puzzle img{object-fit:contain}
+.product-puzzle{width:78%;left:11%}
+.product-womo img,.product-biber img,.product-places img,.product-iwanowski img,.product-botswana img,.product-lonely img,.product-kyoto img{object-fit:contain}
+@media(max-width:700px){
+  .story-media-real{min-height:520px}
+  .story-media-real .trade-photo-main{width:88%;height:86%}
+  .story-media-real .trade-photo-detail{width:46%;height:40%}
+  .product-botswana{width:32%;left:1%;bottom:430px}
+  .product-kyoto{width:30%;right:4%;bottom:445px}
+  .product-yearbook-wide{width:57%}
+}
