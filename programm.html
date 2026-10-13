@@ -1,1 +1,149 @@
-<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Programm & Sortimente | GeoCenter</title><meta name="description" content="Das GeoCenter-Portfolio: Lifestyle, Freizeit, Familie, Bildbände, Geschenk, Puzzle, Karten und Orientierung."><link rel="stylesheet" href="./assets/css/styles.css"></head><body><header class="site-header"><div class="wrap header-inner"><a class="brand" href="./index.html"><img src="./assets/images/geocenter-logo.svg" alt="GeoCenter"></a><nav class="nav" aria-label="Hauptnavigation"><a href="./leistungen.html">Leistungen</a><a href="./programm.html">Programm</a><a href="./partner.html">Partner</a><a href="./unternehmen.html">Unternehmen</a><a href="./kontakt.html">Kontakt</a></nav><a class="header-cta" href="./kontakt.html">Vertrieb sprechen →</a><button class="menu-btn" aria-label="Menü öffnen" aria-expanded="false">☰</button></div></header><main><section class="subhero"><div class="wrap"><div class="eyebrow">Programm</div><h1>Sortimente, die <span class="accent-serif">Fläche verdienen.</span></h1><p>Lifestyle, Freizeit, Familie, Geschenk, Bildwelten, Puzzle und Orientierung: Unser Programm verbindet Substanz mit Impuls – und eröffnet Verlagen wie Händlern zusätzliche Umsatzchancen.</p></div></section><section class="portfolio"><div class="wrap"><div class="portfolio-grid"><article class="category"><span class="category-num">01</span><div><h3>Lifestyle & Inspiration</h3><p>Design, Fotografie, Coffee Table Books, Genuss, Geschenk und Reiseinspiration.</p></div></article><article class="category"><span class="category-num">02</span><div><h3>Freizeit & Erlebnis</h3><p>Outdoor, Rad, Wandern, Wasser, Motorrad, Wohnmobil und Reise.</p></div></article><article class="category"><span class="category-num">03</span><div><h3>Kinder & Familie</h3><p>Entdecken, Wissen, Beschäftigung und gemeinsames Erleben.</p></div></article><article class="category"><span class="category-num">04</span><div><h3>Puzzle & Spielen</h3><p>Visuelle, generationenübergreifende Produkte mit hoher Impulskraft.</p></div></article><article class="category"><span class="category-num">05</span><div><h3>Geschenk & Genuss</h3><p>Anlassstarke Produkte für Buchhandel, Geschenkflächen und Nebenmärkte.</p></div></article><article class="category"><span class="category-num">06</span><div><h3>Karten & Orientierung</h3><p>Kartografie, Atlanten, Globen und geografische Spezialprodukte.</p></div></article></div></div></section><section class="cta"><div class="wrap cta-inner"><div><h2>Das passende Sortiment für die <span class="accent-serif">richtige Fläche.</span></h2></div><div><p>Sie sind Händler und möchten wissen, welche Programme zu Ihrem Standort passen?</p><a class="btn" href="./kontakt.html">Sortiment besprechen →</a></div></div></section></main><footer class="site-footer"><div class="wrap"><div class="footer-grid"><div><img src="./assets/images/geocenter-logo.svg" alt="GeoCenter" style="width:180px;filter:brightness(0) invert(1)"><p>Verlagsvertrieb für Buchhandel und Nebenmarkt.</p></div><div><h4>Kontakt</h4><p>GeoCenter Touristik Medienservice GmbH<br>Kurze Straße 40<br>70794 Filderstadt</p><p><a href="mailto:vertrieb@geocenter.de">vertrieb@geocenter.de</a><br>+49 (0) 711 – 78 19 46 10</p></div><div><h4>Navigation</h4><p><a href="./leistungen.html">Leistungen</a><br><a href="./programm.html">Programm</a><br><a href="./partner.html">Partner</a><br><a href="./unternehmen.html">Unternehmen</a><br><a href="./kontakt.html">Kontakt</a></p></div></div><div class="footer-bottom"><span>© 2026 GeoCenter Touristik Medienservice GmbH</span><span>Impressum · Datenschutz · AGB</span></div></div></footer><script src="./assets/js/main.js"></script></body></html>
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Programm & Sortimente | GeoCenter</title>
+  <meta name="description" content="GeoCenter Programm nach Themen: Rad, Wohnmobil, Outdoor, Coffee Table, Bildband, Karten, Globen, Reise, Familie, Geschenk und Puzzle.">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <style>
+    .program-hero{padding:96px 0 64px;border-bottom:1px solid rgba(17,17,17,.12)}
+    .program-hero-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);gap:48px;align-items:end}
+    .program-hero h1{max-width:900px;margin:10px 0 20px;font-size:clamp(3.2rem,7vw,6.4rem);line-height:.92;letter-spacing:-.055em}
+    .program-hero p{max-width:760px;font-size:1.12rem;line-height:1.65;color:#5f5f5f}
+    .program-actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+    .program-actions a{display:inline-flex;align-items:center;min-height:46px;padding:0 20px;border:1px solid rgba(17,17,17,.18);border-radius:999px;text-decoration:none;color:inherit;font-weight:650}
+    .program-actions a.primary{background:#c61f2d;color:#fff;border-color:#c61f2d}
+    .topic-nav{padding:58px 0 76px}
+    .topic-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:24px}
+    .topic-head h2,.program-section h2,.map-service h2{font-size:clamp(2rem,4vw,3.5rem);line-height:1;margin:6px 0 0;letter-spacing:-.035em}
+    .topic-note{color:#757575;font-size:.95rem}
+    .topic-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:14px}
+    .topic-tile{min-height:180px;border:1px solid rgba(17,17,17,.14);border-radius:22px;padding:24px;text-decoration:none;color:inherit;display:flex;flex-direction:column;justify-content:space-between;background:#fff;transition:.2s ease}
+    .topic-tile:hover{transform:translateY(-2px);border-color:rgba(17,17,17,.38)}
+    .topic-tile .n{font-size:.78rem;color:#8a8a8a;letter-spacing:.16em}
+    .topic-tile h3{font-size:1.55rem;line-height:1.06;margin:28px 0 0}
+    .topic-tile p{margin:10px 0 0;color:#6f6f6f;line-height:1.5}
+    .topic-tile.rad{grid-column:span 7;background:#f6f3ef}
+    .topic-tile.womo{grid-column:span 5}
+    .topic-tile.outdoor{grid-column:span 4}
+    .topic-tile.coffee{grid-column:span 8;background:#f1f1ef}
+    .topic-tile.maps{grid-column:span 5}
+    .topic-tile.travel{grid-column:span 7}
+    .topic-tile.family,.topic-tile.gift,.topic-tile.puzzle{grid-column:span 4}
+    .program-section{padding:70px 0;border-top:1px solid rgba(17,17,17,.12)}
+    .section-kicker{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:#7b7b7b}
+    .section-copy{max-width:760px;margin:12px 0 30px;color:#666;line-height:1.65}
+    .catalog-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+    .catalog-card{text-decoration:none;color:inherit;min-width:0}
+    .catalog-cover{aspect-ratio:3/4;border-radius:18px;overflow:hidden;background:#f3f1ee;border:1px solid rgba(17,17,17,.09);display:flex;align-items:center;justify-content:center}
+    .catalog-cover img{width:100%;height:100%;object-fit:cover;display:block}
+    .catalog-meta{padding:14px 2px 0}
+    .catalog-meta h3{font-size:1.12rem;margin:0 0 6px}
+    .catalog-meta p{margin:0;color:#6c6c6c;font-size:.93rem;line-height:1.45}
+    .catalog-label{display:inline-block;margin-top:10px;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:#7a7a7a}
+    .catalog-link{display:block;margin-top:10px;font-weight:650}
+    .placeholder .catalog-cover{padding:26px;text-align:left;align-items:flex-end;justify-content:flex-start;background:#161616;color:#fff}
+    .placeholder .catalog-cover strong{font-size:1.7rem;line-height:1.05}
+    .placeholder .catalog-cover span{display:block;margin-top:12px;color:#bdbdbd;font-size:.9rem}
+    .map-service{padding:76px 0;border-top:1px solid rgba(17,17,17,.12)}
+    .map-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:start}
+    .map-service p{color:#666;line-height:1.65;max-width:650px}
+    .map-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .map-links a{min-height:170px;padding:22px;border:1px solid rgba(17,17,17,.14);border-radius:20px;text-decoration:none;color:inherit;display:flex;flex-direction:column;justify-content:flex-end}
+    .map-links small{color:#7a7a7a;margin-bottom:auto}
+    .map-links strong{font-size:1.3rem}
+    .program-cta{padding:68px 0}
+    .program-cta-box{background:#f4f1ed;border-radius:24px;padding:34px;display:grid;grid-template-columns:1fr auto;gap:26px;align-items:end}
+    .program-cta-box h2{font-size:clamp(2rem,4vw,3.4rem);margin:6px 0 10px}
+    .program-cta-box p{max-width:720px;color:#656565;line-height:1.6}
+    @media(max-width:900px){
+      .program-hero-grid,.map-grid{grid-template-columns:1fr}
+      .program-actions{justify-content:flex-start}
+      .catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .topic-tile.rad,.topic-tile.womo,.topic-tile.outdoor,.topic-tile.coffee,.topic-tile.maps,.topic-tile.travel,.topic-tile.family,.topic-tile.gift,.topic-tile.puzzle{grid-column:span 6}
+      .map-links{grid-template-columns:1fr}
+      .program-cta-box{grid-template-columns:1fr}
+    }
+    @media(max-width:620px){
+      .program-hero{padding-top:64px}
+      .topic-grid{grid-template-columns:1fr}
+      .topic-tile.rad,.topic-tile.womo,.topic-tile.outdoor,.topic-tile.coffee,.topic-tile.maps,.topic-tile.travel,.topic-tile.family,.topic-tile.gift,.topic-tile.puzzle{grid-column:auto}
+      .catalog-grid{grid-template-columns:1fr 1fr;gap:16px}
+      .catalog-meta h3{font-size:1rem}
+      .catalog-meta p{font-size:.85rem}
+      .program-cta-box{padding:24px}
+    }
+  </style>
+</head>
+<body>
+<header class="site-header"><div class="wrap header-inner"><a class="brand" href="./index.html"><img src="./assets/images/geocenter-logo.svg" alt="GeoCenter"></a><nav class="nav" aria-label="Hauptnavigation"><a href="./leistungen.html">Leistungen</a><a href="./programm.html" aria-current="page">Programm</a><a href="./partner.html">Partner</a><a href="./unternehmen.html">Unternehmen</a><a href="./kontakt.html">Kontakt</a></nav><a class="header-cta" href="./kontakt.html">Vertrieb sprechen →</a><button class="menu-btn" aria-label="Menü öffnen" aria-expanded="false">☰</button></div></header>
+
+<main>
+<section class="program-hero"><div class="wrap program-hero-grid"><div><div class="eyebrow">Programm</div><h1>Unser Programm.<br><span class="accent-serif">Nach Themen gedacht.</span></h1><p>Von Rad, Wohnmobil und Outdoor über Coffee Table und Bildband bis zu Karten, Globen, Familie und Puzzle: Entdecken Sie unser Sortiment so, wie Sie es im Handel brauchen – nach Themen, nicht nach Verlagsnamen.</p></div><div class="program-actions"><a href="https://www.geocenter.de/programm" target="_blank" rel="noopener">Gesamtprogramm ansehen</a><a class="primary" href="https://www.geocenter.de/programm" target="_blank" rel="noopener">Aktuelle Neuheiten →</a></div></div></section>
+
+<section class="topic-nav"><div class="wrap"><div class="topic-head"><div><div class="section-kicker">Themenwelten</div><h2>Direkt ins Sortiment einsteigen.</h2></div><div class="topic-note">Thema wählen → Programme entdecken</div></div>
+<div class="topic-grid">
+<a class="topic-tile rad" href="#rad"><span class="n">01</span><div><h3>Rad &amp; Radtouren</h3><p>Radführer, Radkarten, Tourenplanung und aktive Freizeit.</p></div></a>
+<a class="topic-tile womo" href="#wohnmobil"><span class="n">02</span><div><h3>Wohnmobil &amp; Camping</h3><p>Wohnmobilführer, Stellplatzführer, Camping und Touren.</p></div></a>
+<a class="topic-tile outdoor" href="#outdoor"><span class="n">03</span><div><h3>Wandern &amp; Outdoor</h3><p>Wandern, Natur, Wassersport und aktive Erlebnisse.</p></div></a>
+<a class="topic-tile coffee" href="#coffee"><span class="n">04</span><div><h3>Coffee Table, Bildband &amp; Design</h3><p>Fotografie, Architektur, Kunst, Lifestyle und hochwertige Bildwelten.</p></div></a>
+<a class="topic-tile maps" href="#karten"><span class="n">05</span><div><h3>Karten &amp; Globen</h3><p>Kartografie, Weltkarten, Globen und geografische Spezialprodukte.</p></div></a>
+<a class="topic-tile travel" href="#reise"><span class="n">06</span><div><h3>Reise &amp; Entdecken</h3><p>Individualreisen, Länder, Regionen und besondere Reiseformate.</p></div></a>
+<a class="topic-tile family" href="#familie"><span class="n">07</span><div><h3>Familie &amp; Kinder</h3><p>Reisen, Wissen und Entdecken für Familien.</p></div></a>
+<a class="topic-tile gift" href="#geschenk"><span class="n">08</span><div><h3>Geschenk &amp; Inspiration</h3><p>Anlassstarke Titel und kuratierte Verkaufsübersichten.</p></div></a>
+<a class="topic-tile puzzle" href="#puzzle"><span class="n">09</span><div><h3>Puzzle &amp; Spiel</h3><p>Visuelle Produkte für Familie, Geschenk und Impuls.</p></div></a>
+</div></div></section>
+
+<section class="program-section" id="rad"><div class="wrap"><div class="section-kicker">01 · Rad &amp; Radtouren</div><h2>Radkompetenz mit Tradition.</h2><p class="section-copy">Tourenbücher, Radkarten und Wanderprogramme für aktive Kundinnen und Kunden. Den Auftakt macht unser langjähriger Partner Esterbauer mit bikeline und hikeline.</p><div class="catalog-grid">
+<a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img src="./assets/images/catalogs/bikeline-hikeline-2026.png" alt="Esterbauer bikeline hikeline Programm 2026"></div><div class="catalog-meta"><h3>Verlag Esterbauer</h3><p>Radreisen · Radkarten · Wanderführer</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
+</div></div></section>
+
+<section class="program-section" id="wohnmobil"><div class="wrap"><div class="section-kicker">02 · Wohnmobil &amp; Camping</div><h2>Unterwegs mit dem Wohnmobil.</h2><p class="section-copy">Wohnmobilreisen, Stellplätze, Camping und Tourenplanung bilden eine eigene, starke Sortimentswelt. WOMO steht dabei prominent für einen der etablierten Spezialverlage des Segments; Dolde, ECC und DCC ergänzen das Thema mit Stellplatz- und Campingführern.</p><div class="catalog-grid">
+<a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img src="./assets/images/catalogs/womo-2026.png" alt="WOMO Verlag Programm 2026"></div><div class="catalog-meta"><h3>WOMO Verlag</h3><p>Wohnmobilreisen · Touren · Regionen</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
+<div class="catalog-card placeholder"><div class="catalog-cover"><div><strong>Dolde · ECC · DCC</strong><span>Stellplatzführer und Campingprogramme werden hier ergänzt.</span></div></div><div class="catalog-meta"><h3>Weitere Wohnmobil-Programme</h3><p>Stellplätze · Camping · Tourenplanung</p><span class="catalog-label">Unterlagen folgen</span></div></div>
+</div></div></section>
+
+<section class="program-section" id="outdoor"><div class="wrap"><div class="section-kicker">03 · Wandern &amp; Outdoor</div><h2>Draußen zuhause.</h2><p class="section-copy">Wandern, Natur und Wassersport ergänzen das aktive Sortiment und machen die Outdoor-Welt bewusst breiter als klassische Reise.</p><div class="catalog-grid">
+<a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img src="./assets/images/catalogs/naturzeit-2026.png" alt="Naturzeit Programm Wandern 2026"></div><div class="catalog-meta"><h3>Naturzeit</h3><p>Wandern · Naturreisen · Aktivurlaub</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
+<a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img src="./assets/images/catalogs/kettler-wassersport-2026.png" alt="Thomas Kettler Verlag Wassersport Kanu 2026"></div><div class="catalog-meta"><h3>Thomas Kettler Verlag</h3><p>Wassersport · SUP · Kanu</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
+</div></div></section>
+
+<section class="program-section" id="coffee"><div class="wrap"><div class="section-kicker">04 · Coffee Table, Bildband &amp; Design</div><h2>Große Bilder. Starke Flächen.</h2><p class="section-copy">Coffee Table Books, Fotografie, Design und Architektur gehören zu den wichtigen Standbeinen unseres Programms – visuell stark und ideal für hochwertige Präsentationen.</p><div class="catalog-grid">
+<a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img src="./assets/images/catalogs/teneues-herbst-2026.png" alt="teNeues Programm Herbst 2026"></div><div class="catalog-meta"><h3>teNeues</h3><p>Fotografie · Lifestyle · Coffee Table Books</p><span class="catalog-label">Verlagskatalog Herbst 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
+<a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img src="./assets/images/catalogs/gestalten-herbst-2026.png" alt="gestalten Programm Herbst 2026"></div><div class="catalog-meta"><h3>gestalten</h3><p>Design · Architektur · Reise &amp; Lifestyle</p><span class="catalog-label">Verlagskatalog Herbst 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
+</div></div></section>
+
+<section class="program-section" id="karten"><div class="wrap"><div class="section-kicker">05 · Karten &amp; Globen</div><h2>Die Welt im Blick.</h2><p class="section-copy">Karten, Globen und geografische Spezialprodukte verbinden Funktion, Orientierung und hochwertige Präsentation. Der Räthgloben-Katalog wird ergänzt, sobald das Cover vorliegt.</p><div class="catalog-grid">
+<div class="catalog-card placeholder"><div class="catalog-cover"><div><strong>Räthgloben</strong><span>Katalogcover noch ausstehend.</span></div></div><div class="catalog-meta"><h3>Räthgloben</h3><p>Globen · Weltkarten · Orientierung</p><span class="catalog-label">Katalog folgt</span></div></div>
+<a class="catalog-card" href="#blattschnitte"><div class="catalog-cover"><img src="./assets/images/catalogs/geocenter-programm-2026.png" alt="GeoCenter Programm 2026"></div><div class="catalog-meta"><h3>Karten &amp; Blattschnitte</h3><p>Kartenserien · Regionen · geografische Abdeckung</p><span class="catalog-label">GeoCenter Service</span><span class="catalog-link">Blattschnitte öffnen →</span></div></a>
+</div></div></section>
+
+<section class="program-section" id="reise"><div class="wrap"><div class="section-kicker">06 · Reise &amp; Entdecken</div><h2>Reise bleibt Teil unserer DNA.</h2><p class="section-copy">Individualreisen, Länder, Regionen und Familienreisen – kuratiert für unterschiedliche Zielgruppen und Sortimente.</p><div class="catalog-grid">
+<a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img src="./assets/images/catalogs/iwanowski-herbst-2026.png" alt="Iwanowski Programm Herbst 2026"></div><div class="catalog-meta"><h3>Iwanowski’s</h3><p>Fernreisen · Individualreisen · Reiseführer</p><span class="catalog-label">Verlagskatalog Herbst 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
+<a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img src="./assets/images/catalogs/biber-butzemann-2026.png" alt="Biber und Butzemann Programm 2026"></div><div class="catalog-meta"><h3>Biber &amp; Butzemann</h3><p>Familienreisen · Kinderreiseführer · Deutschland &amp; Europa</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
+</div></div></section>
+
+<section class="program-section" id="familie"><div class="wrap"><div class="section-kicker">07 · Familie &amp; Kinder</div><h2>Gemeinsam entdecken.</h2><p class="section-copy">Reise, Wissen und visuelles Entdecken für Kinder und Familien – mit eigenständigen Programmen und Überschneidungen zu Reise und Design.</p><div class="catalog-grid">
+<a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img src="./assets/images/catalogs/world-for-kids-2026.png" alt="World for Kids Programm 2026"></div><div class="catalog-meta"><h3>World for Kids</h3><p>Kinderreiseführer · Länderwissen · Entdecken</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
+<a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img src="./assets/images/catalogs/kleine-gestalten-herbst-2026.png" alt="Kleine gestalten Programm Herbst 2026"></div><div class="catalog-meta"><h3>Kleine gestalten</h3><p>Kinderbuch · Wissen · Design</p><span class="catalog-label">Verlagskatalog Herbst 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
+<a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img src="./assets/images/catalogs/biber-butzemann-2026.png" alt="Biber und Butzemann Programm 2026"></div><div class="catalog-meta"><h3>Biber &amp; Butzemann</h3><p>Familienreisen · Kinderreiseführer · Deutschland &amp; Europa</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
+</div></div></section>
+
+<section class="program-section" id="geschenk"><div class="wrap"><div class="section-kicker">08 · Geschenk &amp; Inspiration</div><h2>Für Anlass, Impuls und Präsentation.</h2><p class="section-copy">Hier bündeln wir passende Verlagsprogramme und von GeoCenter zusammengestellte Verkaufsübersichten – unabhängig davon, ob ein Verlag einen eigenen Katalog anbietet.</p><div class="catalog-grid">
+<div class="catalog-card placeholder"><div class="catalog-cover"><div><strong>GeoCenter Auswahl</strong><span>Geschenkbücher und verkaufsstarke Themen kompakt zusammengestellt.</span></div></div><div class="catalog-meta"><h3>Geschenk &amp; Inspiration</h3><p>Geschenkbücher · Jahrgangsbücher · Impulstitel</p><span class="catalog-label">GeoCenter Verkaufsübersicht</span></div></div>
+</div></div></section>
+
+<section class="program-section" id="puzzle"><div class="wrap"><div class="section-kicker">09 · Puzzle &amp; Spiel</div><h2>Visuell. Spielerisch. Impulsstark.</h2><p class="section-copy">Puzzles und spielerische Produkte erweitern das Sortiment über das klassische Buch hinaus und funktionieren besonders gut auf Geschenk- und Aktionsflächen.</p><div class="catalog-grid">
+<a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img src="./assets/images/catalogs/teampuzzle-herbst-2026.png" alt="TEAMPUZZLE Programm Herbst 2026"></div><div class="catalog-meta"><h3>TEAMPUZZLE</h3><p>Puzzle · Geschenk · Familie</p><span class="catalog-label">Verlagskatalog Herbst 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
+</div></div></section>
+
+<section class="map-service" id="blattschnitte"><div class="wrap map-grid"><div><div class="section-kicker">Kartenservice</div><h2>Karten &amp; Blattschnitte.</h2><p>Welches Kartenblatt deckt welche Region ab? Unsere Blattschnitte helfen dabei, schnell die passende Reihe, Region und geografische Abdeckung zu finden.</p></div><div class="map-links"><a href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><small>Blattschnitte</small><strong>Deutschland</strong><span>BKG, Esterbauer, GeoMap u. a. →</span></a><a href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><small>Blattschnitte</small><strong>Europa</strong><span>Regionale und nationale Kartenprogramme →</span></a><a href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><small>Blattschnitte</small><strong>Weltweit</strong><span>Internationale Kartenwerke →</span></a></div></div></section>
+
+<section class="program-cta"><div class="wrap"><div class="program-cta-box"><div><div class="section-kicker">Sortimentsberatung</div><h2>Sie suchen ein bestimmtes Sortiment?</h2><p>Wir unterstützen Sie gerne dabei, passende Titel und Produktwelten für Ihren Standort und Ihre Zielgruppe zusammenzustellen.</p></div><a class="btn" href="./kontakt.html">Kontakt zum Vertrieb →</a></div></div></section>
+</main>
+
+<footer class="site-footer"><div class="wrap"><div class="footer-grid"><div><img src="./assets/images/geocenter-logo.svg" alt="GeoCenter" style="width:180px;filter:brightness(0) invert(1)"><p>Verlagsvertrieb für Buchhandel und Nebenmarkt.</p></div><div><h4>Kontakt</h4><p>GeoCenter Touristik Medienservice GmbH<br>Kurze Straße 40<br>70794 Filderstadt</p><p><a href="mailto:vertrieb@geocenter.de">vertrieb@geocenter.de</a><br>+49 (0) 711 – 78 19 46 10</p></div><div><h4>Navigation</h4><p><a href="./leistungen.html">Leistungen</a><br><a href="./programm.html">Programm</a><br><a href="./partner.html">Partner</a><br><a href="./unternehmen.html">Unternehmen</a><br><a href="./kontakt.html">Kontakt</a></p></div></div><div class="footer-bottom"><span>© 2026 GeoCenter Touristik Medienservice GmbH</span><span>Impressum · Datenschutz · AGB</span></div></div></footer>
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
