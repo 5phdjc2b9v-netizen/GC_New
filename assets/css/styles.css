@@ -1024,3 +1024,40 @@ body{background:var(--geo-paper)}
 @media (prefers-reduced-motion:reduce){
   .hero-book-geometry .spine,.hero-book-geometry .page-curve{animation:none!important;transition:none!important}
 }
+
+
+/* Leadership portraits: transparent, equal scale */
+.portrait-cutout{
+  min-height:530px;
+  align-items:flex-end;
+}
+.portrait-cutout img,
+.leader-portrait-klaus .portrait-cutout img{
+  width:min(100%,440px);
+  height:520px;
+  object-fit:contain;
+  object-position:center bottom;
+  -webkit-mask-image:none;
+  mask-image:none;
+  filter:drop-shadow(0 18px 22px rgba(23,23,23,.12));
+}
+.leader-portrait-anja,
+.leader-portrait-klaus{
+  transform:none;
+}
+@media(max-width:900px){
+  .portrait-cutout{min-height:430px}
+  .portrait-cutout img,
+  .leader-portrait-klaus .portrait-cutout img{
+    width:min(100%,380px);
+    height:420px;
+  }
+}
+@media(max-width:640px){
+  .portrait-cutout{min-height:370px}
+  .portrait-cutout img,
+  .leader-portrait-klaus .portrait-cutout img{
+    width:min(100%,340px);
+    height:360px;
+  }
+}
