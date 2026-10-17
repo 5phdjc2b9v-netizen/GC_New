@@ -691,3 +691,140 @@ body{background:var(--geo-paper)}
   .hero-book-geometry{border-left:0;border-top:1px solid rgba(23,23,23,.08)}
   .page-curve{right:-5%;width:36%;height:48%}
 }
+
+
+/* About / Über uns 2026 */
+.about-page{background:var(--geo-paper)}
+.about-hero{padding:54px 0 34px;background:#f8f3ea}
+.about-hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:34px;align-items:stretch}
+.about-hero-copy{padding:58px 34px 44px 0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+.about-hero h1{font-family:var(--display-sans);font-size:clamp(58px,6.6vw,102px);line-height:.92;letter-spacing:-.065em;font-weight:650;margin:18px 0 30px;max-width:880px}
+.about-hero-copy>p{font-size:20px;line-height:1.55;color:#4f4b46;max-width:720px;margin:0 0 28px}
+.about-hero-media{margin:0;min-height:640px;position:relative;overflow:hidden;background:#ddd}
+.about-hero-media img{width:100%;height:100%;min-height:640px;object-fit:cover;object-position:center}
+.about-hero-media:after{content:"";position:absolute;inset:auto 0 0;height:42%;background:linear-gradient(to top,rgba(0,0,0,.52),transparent)}
+.about-hero-media figcaption{position:absolute;left:24px;right:24px;bottom:22px;z-index:2;color:#fff;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:800}
+
+.about-facts{padding:0;background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.about-fact-grid{display:grid;grid-template-columns:repeat(3,1fr)}
+.about-fact{padding:34px 28px;border-right:1px solid var(--line)}
+.about-fact:last-child{border-right:0}
+.about-fact strong{display:block;font-family:var(--display-sans);font-size:clamp(38px,4vw,58px);line-height:1;font-weight:650;letter-spacing:-.055em}
+.about-fact:first-child strong{color:var(--red)}
+.about-fact span{display:block;margin-top:7px;color:var(--muted);font-size:13px}
+
+.about-positioning{background:#fff}
+.about-positioning-grid{display:grid;grid-template-columns:220px 1fr;gap:52px}
+.about-positioning h2,.about-leadership h2,.about-field h2,.about-partners h2,.about-history h2{font-family:var(--display-sans);font-size:clamp(46px,5.3vw,78px);line-height:.96;letter-spacing:-.06em;margin:0}
+.about-positioning-copy{max-width:900px}
+.about-positioning-copy>p{font-size:18px;color:var(--muted);max-width:760px}
+.about-positioning-copy .about-lead{font-family:var(--accent-serif);font-style:italic;font-size:clamp(30px,3.2vw,48px);line-height:1.07;color:var(--ink);margin:24px 0 18px}
+.about-principles{display:grid;grid-template-columns:repeat(3,1fr);margin-top:46px;border-top:1px solid var(--ink)}
+.about-principles span{padding:22px 18px 8px 0;border-right:1px solid var(--line);font-size:15px;font-weight:800}
+.about-principles span:not(:first-child){padding-left:18px}
+.about-principles span:last-child{border-right:0}
+
+.about-photo-break{padding:0;background:#fff}
+.about-photo-break figure{margin:0;height:min(68vw,760px);overflow:hidden}
+.about-photo-break img{width:100%;height:100%;object-fit:cover;object-position:center}
+
+.about-history{background:#eee8de}
+.about-history-layout{display:grid;grid-template-columns:1.22fr .78fr;gap:22px;align-items:start}
+.about-timeline{background:#fff;border-top:6px solid var(--red)}
+.about-timeline article{display:grid;grid-template-columns:120px 1fr;gap:28px;padding:26px 30px;border-bottom:1px solid var(--line)}
+.about-timeline article:last-child{border-bottom:0}
+.about-timeline .year{font-family:var(--display-sans);font-size:30px;font-weight:700;letter-spacing:-.045em}
+.about-timeline p{margin:4px 0;color:var(--muted)}
+.about-timeline .history-highlight{background:#f8f4ed}
+.about-timeline .history-highlight .year{color:var(--red)}
+.about-timeline .history-highlight p{color:var(--ink)}
+.geokatalog-card{background:#fff;position:sticky;top:118px}
+.geokatalog-placeholder{min-height:360px;background:var(--geo-yellow);border-top:18px solid var(--red);padding:26px;display:flex;flex-direction:column;justify-content:space-between}
+.geokatalog-placeholder span{font-size:11px;letter-spacing:.22em;font-weight:900}
+.geokatalog-placeholder strong{font-family:var(--display-sans);font-size:clamp(52px,5vw,78px);line-height:.82;letter-spacing:-.07em}
+.geokatalog-card>div:last-child{padding:30px}
+.geokatalog-card h3{font-family:var(--display-sans);font-size:34px;letter-spacing:-.045em;margin:16px 0 12px}
+.geokatalog-card p{color:var(--muted);margin:8px 0}
+.geokatalog-card small{display:block;margin-top:20px;font-size:10px;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:#827b72}
+
+.about-leadership{background:#fff}
+.about-leadership-heading{display:grid;grid-template-columns:220px 1fr;gap:52px;margin-bottom:58px}
+.about-leadership-heading h2{grid-column:2}
+.about-leadership-heading>p{grid-column:2;max-width:780px;font-size:18px;color:var(--muted);margin:0}
+.leadership-editorial{display:grid;grid-template-columns:1.18fr .82fr;gap:20px;align-items:stretch}
+.leadership-scene{margin:0;min-height:620px;overflow:hidden;background:#ded7cc}
+.leadership-scene img{width:100%;height:100%;min-height:620px;object-fit:cover;object-position:center}
+.leadership-people{display:grid;grid-template-columns:1fr;gap:16px}
+.leader{display:grid;grid-template-columns:42% 1fr;background:#f5f0e8;min-height:300px}
+.leader img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.leader>div{padding:28px 24px;display:flex;flex-direction:column;justify-content:flex-end}
+.leader h3{font-family:var(--display-sans);font-size:26px;line-height:1.02;letter-spacing:-.045em;margin:0 0 8px}
+.leader p{font-size:13px;color:var(--muted);margin:0 0 6px}
+.leader strong{font-size:14px;line-height:1.35}
+.leader small{display:block;margin-top:12px;color:var(--red);font-size:10px;line-height:1.35;text-transform:uppercase;letter-spacing:.1em;font-weight:850}
+.leadership-statement{font-family:var(--accent-serif);font-style:italic;font-size:clamp(46px,6vw,86px);line-height:.95;letter-spacing:-.04em;color:var(--red);margin:50px 0 0;text-align:right}
+
+.about-field{background:var(--geo-charcoal);color:#fff}
+.about-field .eyebrow{color:#f1b3b9}
+.about-field-grid{display:grid;grid-template-columns:1fr .78fr;gap:70px;align-items:start;position:relative}
+.about-field h2{margin-top:18px;max-width:720px}
+.field-copy p{font-size:18px;line-height:1.6;color:#d1ceca;max-width:620px;margin:0 0 28px}
+.about-field .btn-outline{border-color:#777;color:#fff}
+.about-field .btn-outline:hover{color:var(--ink)}
+.germany-abstract{grid-column:1/-1;margin-top:28px;display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid #4a4845;border-bottom:1px solid #4a4845}
+.germany-abstract span{padding:24px 18px;border-right:1px solid #4a4845;font-size:11px;letter-spacing:.13em;text-transform:uppercase;font-weight:800;color:#b9b6b2}
+.germany-abstract span:last-child{border-right:0}
+
+.about-partners{background:#fff}
+.about-partners .section-kicker{margin-bottom:44px}
+.partner-wordmark-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.partner-wordmark-grid>span{min-height:150px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;font-family:var(--display-sans);font-size:clamp(20px,2.3vw,34px);font-weight:750;letter-spacing:-.04em}
+.partner-wordmark-grid small{display:block;font-family:inherit;font-size:10px;letter-spacing:.06em;font-weight:700;color:var(--muted);margin-top:7px}
+.text-link{display:inline-block;margin-top:28px;font-weight:850;font-size:14px;border-bottom:2px solid var(--geo-yellow);padding-bottom:4px}
+.about-cta{border-top:8px solid var(--geo-yellow)}
+
+@media(max-width:980px){
+  .about-hero-grid,.about-positioning-grid,.about-history-layout,.leadership-editorial,.about-field-grid{grid-template-columns:1fr}
+  .about-hero-copy{padding-right:0}
+  .about-hero-media,.about-hero-media img{min-height:480px}
+  .about-positioning-grid{gap:24px}
+  .about-principles{grid-template-columns:1fr}
+  .about-principles span{border-right:0;border-bottom:1px solid var(--line);padding:18px 0}
+  .about-principles span:not(:first-child){padding-left:0}
+  .about-principles span:last-child{border-bottom:0}
+  .geokatalog-card{position:static}
+  .about-leadership-heading{grid-template-columns:1fr;gap:20px}
+  .about-leadership-heading h2,.about-leadership-heading>p{grid-column:auto}
+  .leadership-scene,.leadership-scene img{min-height:520px}
+  .leadership-people{grid-template-columns:1fr 1fr}
+  .leader{grid-template-columns:1fr;min-height:0}
+  .leader img{aspect-ratio:4/5}
+  .leader>div{min-height:180px}
+  .partner-wordmark-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:640px){
+  .about-hero{padding-top:28px}
+  .about-hero h1{font-size:50px}
+  .about-hero-copy>p{font-size:17px}
+  .about-hero-media,.about-hero-media img{min-height:360px}
+  .about-fact-grid{grid-template-columns:1fr}
+  .about-fact{border-right:0;border-bottom:1px solid var(--line);padding:24px 0}
+  .about-fact:last-child{border-bottom:0}
+  .about-positioning h2,.about-leadership h2,.about-field h2,.about-partners h2,.about-history h2{font-size:44px}
+  .about-photo-break figure{height:440px}
+  .about-timeline article{grid-template-columns:72px 1fr;gap:16px;padding:22px 18px}
+  .about-timeline .year{font-size:23px}
+  .geokatalog-placeholder{min-height:300px}
+  .leadership-scene,.leadership-scene img{min-height:380px}
+  .leadership-people{grid-template-columns:1fr}
+  .leader{grid-template-columns:42% 1fr}
+  .leader img{aspect-ratio:auto}
+  .leader>div{min-height:220px;padding:20px}
+  .leadership-statement{text-align:left;margin-top:34px}
+  .germany-abstract{grid-template-columns:1fr}
+  .germany-abstract span{border-right:0;border-bottom:1px solid #4a4845}
+  .germany-abstract span:last-child{border-bottom:0}
+  .partner-wordmark-grid{grid-template-columns:1fr 1fr}
+  .partner-wordmark-grid>span{min-height:110px;font-size:20px}
+}
