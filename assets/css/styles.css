@@ -828,3 +828,134 @@ body{background:var(--geo-paper)}
   .partner-wordmark-grid{grid-template-columns:1fr 1fr}
   .partner-wordmark-grid>span{min-height:110px;font-size:20px}
 }
+
+
+/* Leadership stage refinement: calm, shared background, portrait-led */
+.leadership-stage{
+  position:relative;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:28px;
+  align-items:end;
+  min-height:720px;
+  padding:52px 60px 40px;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 22% 18%,rgba(255,255,255,.9),transparent 36%),
+    linear-gradient(145deg,#f1ebe2 0%,#ebe3d8 48%,#f4efe8 100%);
+  border-top:1px solid rgba(23,23,23,.08);
+  border-bottom:1px solid rgba(23,23,23,.08);
+}
+.leadership-stage:before{
+  content:"";
+  position:absolute;
+  width:340px;height:340px;
+  right:-110px;top:-120px;
+  border:1px solid rgba(23,23,23,.08);
+  border-radius:50%;
+}
+.leadership-stage-line{
+  position:absolute;
+  left:7%;right:7%;bottom:168px;
+  height:1px;background:rgba(23,23,23,.16)
+}
+.leader-portrait{
+  position:relative;
+  z-index:2;
+  display:grid;
+  grid-template-rows:minmax(0,1fr) auto;
+  min-width:0;
+}
+.leader-portrait-anja{transform:translateY(10px)}
+.leader-portrait-klaus{transform:translateY(-10px)}
+.portrait-cutout{
+  position:relative;
+  min-height:480px;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  overflow:visible;
+}
+.portrait-cutout img{
+  width:min(100%,460px);
+  height:520px;
+  object-fit:cover;
+  object-position:center top;
+  display:block;
+  -webkit-mask-image:radial-gradient(ellipse 72% 78% at 50% 47%,#000 0 61%,rgba(0,0,0,.96) 69%,rgba(0,0,0,.7) 77%,transparent 93%);
+  mask-image:radial-gradient(ellipse 72% 78% at 50% 47%,#000 0 61%,rgba(0,0,0,.96) 69%,rgba(0,0,0,.7) 77%,transparent 93%);
+  filter:drop-shadow(0 18px 24px rgba(23,23,23,.12));
+}
+.leader-portrait-klaus .portrait-cutout img{
+  width:min(100%,420px);
+}
+.leader-meta{
+  position:relative;
+  z-index:3;
+  padding:28px 12px 0;
+  max-width:420px;
+}
+.leader-portrait-klaus .leader-meta{margin-left:auto;text-align:right}
+.leader-meta h3{
+  font-family:var(--display-sans);
+  font-size:clamp(26px,2.5vw,38px);
+  line-height:1;
+  letter-spacing:-.045em;
+  margin:0 0 10px;
+}
+.leader-meta p{
+  margin:0 0 7px;
+  font-size:13px;
+  color:var(--muted);
+}
+.leader-meta strong{
+  display:block;
+  font-size:15px;
+  line-height:1.4;
+}
+.leader-meta small{
+  display:block;
+  margin-top:12px;
+  color:var(--red);
+  font-size:10px;
+  text-transform:uppercase;
+  letter-spacing:.11em;
+  font-weight:850;
+}
+.leadership-statement{
+  position:relative;
+  margin-top:42px;
+  padding-right:6%;
+}
+
+@media(max-width:900px){
+  .leadership-stage{
+    grid-template-columns:1fr 1fr;
+    min-height:620px;
+    padding:34px 28px 34px;
+  }
+  .portrait-cutout{min-height:400px}
+  .portrait-cutout img{height:430px}
+  .leader-portrait-klaus .portrait-cutout img{height:420px}
+  .leadership-stage-line{bottom:154px}
+}
+@media(max-width:640px){
+  .leadership-stage{
+    grid-template-columns:1fr;
+    gap:36px;
+    min-height:0;
+    padding:26px 18px 34px;
+  }
+  .leader-portrait-anja,.leader-portrait-klaus{transform:none}
+  .portrait-cutout{min-height:360px}
+  .portrait-cutout img,.leader-portrait-klaus .portrait-cutout img{
+    width:min(100%,360px);
+    height:390px;
+  }
+  .leader-meta,.leader-portrait-klaus .leader-meta{
+    margin:0;
+    text-align:left;
+    padding:18px 4px 0;
+  }
+  .leadership-stage-line{display:none}
+}
