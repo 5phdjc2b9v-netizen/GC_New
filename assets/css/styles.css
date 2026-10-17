@@ -959,3 +959,68 @@ body{background:var(--geo-paper)}
   }
   .leadership-stage-line{display:none}
 }
+
+
+/* Hero book spines: staged entrance + restrained tactile hover */
+.motion-enabled .hero-book-geometry .spine{
+  animation:heroSpineIn .78s cubic-bezier(.18,.82,.24,1) both;
+  will-change:transform,opacity;
+}
+.motion-enabled .hero-book-geometry .spine:nth-child(1){animation-delay:.10s}
+.motion-enabled .hero-book-geometry .spine:nth-child(2){animation-delay:.17s}
+.motion-enabled .hero-book-geometry .spine:nth-child(3){animation-delay:.24s}
+.motion-enabled .hero-book-geometry .spine:nth-child(4){animation-delay:.31s}
+.motion-enabled .hero-book-geometry .spine:nth-child(5){animation-delay:.38s}
+.motion-enabled .hero-book-geometry .page-curve{
+  animation:heroPageIn .72s .46s cubic-bezier(.18,.82,.24,1) both;
+}
+
+@keyframes heroSpineIn{
+  0%{opacity:0;transform:translate3d(105px,0,0) rotateY(-7deg)}
+  65%{opacity:1}
+  100%{opacity:1;transform:translate3d(0,0,0) rotateY(0)}
+}
+@keyframes heroPageIn{
+  from{opacity:0;transform:translate3d(72px,18px,0) rotate(6deg)}
+  to{opacity:1;transform:translate3d(0,0,0) rotate(4deg)}
+}
+
+.hero-book-geometry{perspective:900px}
+.hero-book-geometry .spine{
+  transform-origin:center bottom;
+  transition:
+    transform .34s cubic-bezier(.2,.75,.2,1),
+    filter .34s ease,
+    box-shadow .34s ease;
+}
+.hero-book-geometry .spine span{
+  transition:transform .34s cubic-bezier(.2,.75,.2,1),opacity .34s ease;
+}
+
+/* Each 'book spine' reacts like a physical object, without turning into a gimmick. */
+@media (hover:hover) and (pointer:fine){
+  .hero-book-geometry:hover .spine{filter:saturate(.96) brightness(.985)}
+  .hero-book-geometry .spine:hover{
+    transform:translate3d(0,-9px,18px) scaleX(1.025);
+    filter:saturate(1.04) brightness(1.025);
+    box-shadow:0 22px 32px rgba(20,20,20,.12);
+    z-index:4;
+  }
+  .hero-book-geometry .spine:hover span{
+    transform:translateY(-5px);
+  }
+  .hero-book-geometry .spine-pages:hover{
+    transform:translate3d(0,-6px,14px) scaleX(1.035);
+  }
+  .hero-book-geometry .page-curve{
+    transition:transform .45s cubic-bezier(.2,.75,.2,1),opacity .3s ease;
+  }
+  .hero-book-geometry:hover .page-curve{
+    transform:translate3d(-7px,-5px,0) rotate(3deg);
+  }
+}
+
+/* Do not animate for users who request reduced motion. */
+@media (prefers-reduced-motion:reduce){
+  .hero-book-geometry .spine,.hero-book-geometry .page-curve{animation:none!important;transition:none!important}
+}
