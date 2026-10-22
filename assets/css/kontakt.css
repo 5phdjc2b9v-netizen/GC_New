@@ -1,0 +1,26 @@
+/* Kontakt – editorial directory */
+.contact-page .contact-hero{padding:90px 0 74px;background:#f5f1ea}
+.contact-page .contact-hero h1{font-family:var(--display-sans);font-size:clamp(56px,8vw,112px);line-height:.95;letter-spacing:-.065em;max-width:1000px;margin:20px 0 28px}
+.contact-page .contact-hero h1 span{font-family:var(--accent-serif);font-style:italic;font-weight:400;color:var(--red)}
+.contact-page .contact-hero .intro{font-size:clamp(18px,2vw,24px);max-width:790px;color:var(--muted)}
+.contact-top{display:grid;grid-template-columns:1.2fr .8fr;gap:34px;margin-top:64px;border-top:1px solid var(--ink);padding-top:30px}
+.contact-top h2{font-size:clamp(24px,3vw,38px);line-height:1.12;letter-spacing:-.04em;margin:8px 0 16px}
+.contact-top address{font-style:normal;line-height:1.8}.contact-top a:not(.btn):hover,.contact-directory a:hover{color:var(--red)}
+.contact-shortcuts{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.contact-shortcuts a{display:flex;flex-direction:column;justify-content:space-between;min-height:180px;padding:26px;border-right:1px solid var(--line);transition:background .2s}
+.contact-shortcuts a:last-child{border-right:0}.contact-shortcuts a:hover{background:#fff}.contact-shortcuts strong{font-size:clamp(21px,2.3vw,32px);letter-spacing:-.045em}.contact-shortcuts span{font-size:13px;color:var(--muted)}
+.contact-directory{background:#fff}.contact-heading{display:grid;grid-template-columns:1fr 1fr;gap:35px;margin-bottom:36px}
+.contact-heading h2{font-family:var(--display-sans);font-size:clamp(40px,5vw,70px);letter-spacing:-.06em;line-height:1;margin:14px 0}.contact-heading p{color:var(--muted);font-size:17px;max-width:550px;align-self:end}
+.postcode-tool{background:#f5f1ea;padding:32px;border-radius:20px;margin:0 0 48px}
+.postcode-tool label{display:block;font-weight:750;margin-bottom:12px}.postcode-controls{display:flex;gap:12px;max-width:580px}.postcode-controls input{min-width:0;flex:1;border:1px solid #bcb4a9;border-radius:10px;padding:14px 18px;font:inherit;font-size:18px;background:white}.postcode-controls button{border:0;cursor:pointer}.postcode-results{margin-top:16px}.postcode-results:empty{display:none}.postcode-results a{font-weight:750;text-decoration:underline;text-underline-offset:3px}.postcode-help{margin:12px 0 0;font-size:13px;color:var(--muted)}
+.region-heading{display:flex;justify-content:space-between;gap:20px;align-items:end;border-top:2px solid var(--ink);padding:24px 0 18px;margin-top:45px}.region-heading h3{font-family:var(--display-sans);font-size:clamp(28px,3vw,42px);letter-spacing:-.05em;margin:0}.region-heading span{font-size:12px;text-transform:uppercase;color:var(--red);font-weight:850;letter-spacing:.13em}
+.contact-person{display:grid;grid-template-columns:minmax(170px,.85fr) minmax(170px,1fr) minmax(220px,1.2fr);gap:28px;padding:26px 0;border-top:1px solid var(--line);scroll-margin-top:120px}
+.contact-person h4{font-size:clamp(21px,2vw,29px);line-height:1.15;letter-spacing:-.04em;margin:4px 0 0}.contact-person .role{font-size:14px;color:var(--muted);margin:0 0 8px}.contact-person .district{font-size:13px;color:var(--red);font-weight:850}.contact-person address{font-style:normal;font-size:14px;color:#4f4b47;line-height:1.75}.contact-person .links{font-size:14px;line-height:1.8;overflow-wrap:anywhere}.contact-person .links a{text-decoration:underline;text-decoration-color:#cbc3b8;text-underline-offset:4px}.contact-person .links small{display:block;color:var(--muted);font-size:12px}
+.contact-special{background:#f5f1ea}.contact-special .region-heading{margin-top:0}
+.contact-office{background:#fff}.contact-office-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 44px}.contact-office-grid .contact-person{grid-template-columns:1fr;gap:7px}
+.contact-office-grid .contact-person h4{margin:0}.contact-office-grid .contact-person .links{margin-top:7px}
+.contact-returns{background:#eae3d9}.returns-box{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}.returns-box h2{font-size:clamp(38px,5vw,66px);line-height:1;letter-spacing:-.055em;margin:12px 0}.returns-box address{font-style:normal;font-size:20px;line-height:1.8}
+.contact-message{background:#171717;color:#fff}.contact-message h2{font-size:clamp(40px,5vw,70px);line-height:1;letter-spacing:-.055em;margin:14px 0 20px}.contact-message p{color:#d3d0cc;max-width:650px}.contact-message .btn{background:#fff;color:#171717}
+.contact-page [id]{scroll-margin-top:115px}
+@media(max-width:850px){.contact-top,.contact-heading,.returns-box{grid-template-columns:1fr}.contact-person{grid-template-columns:1fr 1fr;gap:10px 24px}.contact-person .links{grid-column:2}.contact-office-grid{gap:0 24px}}
+@media(max-width:600px){.contact-page .contact-hero{padding:64px 0}.contact-top{margin-top:40px}.contact-shortcuts{grid-template-columns:1fr}.contact-shortcuts a{min-height:115px;border-right:0;border-bottom:1px solid var(--line);padding:22px 4px}.contact-shortcuts a:last-child{border:0}.postcode-tool{padding:22px}.postcode-controls{flex-direction:column}.postcode-controls button{width:100%}.contact-person{grid-template-columns:1fr;gap:7px}.contact-person .links{grid-column:auto}.contact-office-grid{grid-template-columns:1fr}.contact-person address{margin-top:5px}}
