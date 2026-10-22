@@ -1462,3 +1462,16 @@ body{background:var(--geo-paper)}
     margin-left:-3%;
   }
 }
+
+
+/* Homepage history + partner refinements */
+.partner-names span{
+  transition:none;
+  cursor:default;
+}
+.partner-names span:hover{
+  transform:none;
+  background:transparent;
+  color:inherit;
+  border-color:var(--line);
+}
