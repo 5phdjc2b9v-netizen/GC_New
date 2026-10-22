@@ -1475,3 +1475,176 @@ body{background:var(--geo-paper)}
   color:inherit;
   border-color:var(--line);
 }
+
+
+/* About v2: calmer, more editorial, five clear chapters */
+.about-page-v2{background:#f7f3ec}
+.about-page-v2 section{padding:108px 0}
+
+.about-intro{padding-top:62px!important;background:#f8f3ea}
+.about-intro-copy{max-width:1080px;margin-bottom:46px}
+.about-intro-copy h1{
+  font-family:var(--display-sans);
+  font-size:clamp(62px,7vw,108px);
+  line-height:.92;
+  letter-spacing:-.065em;
+  margin:16px 0 26px;
+}
+.about-intro-copy>p{max-width:760px;font-size:20px;color:#4c4843;margin:0}
+.about-intro-media{position:relative;margin:0;min-height:690px;overflow:hidden;background:#ddd}
+.about-intro-media>img{width:100%;height:100%;min-height:690px;object-fit:cover;object-position:center}
+.about-intro-media:after{content:"";position:absolute;inset:auto 0 0;height:32%;background:linear-gradient(to top,rgba(0,0,0,.5),transparent)}
+.about-intro-media figcaption{position:absolute;left:24px;bottom:22px;z-index:3;color:#fff;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800}
+.about-intro-facts{
+  position:absolute;
+  right:22px;
+  bottom:22px;
+  z-index:3;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(130px,1fr));
+  background:rgba(247,243,236,.95);
+  backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,.5);
+}
+.about-intro-facts>div{padding:18px 20px;border-right:1px solid rgba(23,23,23,.12)}
+.about-intro-facts>div:last-child{border-right:0}
+.about-intro-facts strong{display:block;font-family:var(--display-sans);font-size:28px;line-height:1;letter-spacing:-.05em}
+.about-intro-facts>div:first-child strong{color:var(--red)}
+.about-intro-facts span{display:block;margin-top:5px;font-size:10px;line-height:1.35;color:var(--muted)}
+
+.about-attitude{background:#fff}
+.about-attitude-grid{display:grid;grid-template-columns:.86fr 1.14fr;gap:72px;align-items:center}
+.about-attitude-copy h2{
+  font-family:var(--display-sans);
+  font-size:clamp(48px,5.3vw,80px);
+  line-height:.96;
+  letter-spacing:-.06em;
+  margin:18px 0 28px;
+}
+.about-attitude-copy p{font-size:20px;line-height:1.58;color:#4e4a45;max-width:670px;margin:0}
+.about-attitude-media{margin:0;min-height:620px;overflow:hidden;background:#ddd}
+.about-attitude-media img{width:100%;height:100%;min-height:620px;object-fit:cover;object-position:center}
+
+.about-history-v2{background:#eee8de}
+.about-history-head{display:grid;grid-template-columns:210px 1fr;gap:54px;margin-bottom:62px}
+.about-history-head h2{
+  grid-column:2;
+  font-family:var(--display-sans);
+  font-size:clamp(48px,5.4vw,80px);
+  line-height:.96;
+  letter-spacing:-.06em;
+  margin:0;
+  max-width:980px;
+}
+.about-history-head>p{grid-column:2;max-width:760px;font-size:18px;color:var(--muted);margin:0}
+.history-ribbon{display:grid;grid-template-columns:repeat(6,1fr);background:#fff;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.history-ribbon article{min-height:260px;padding:26px 24px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;flex-direction:column}
+.history-year{font-family:var(--display-sans);font-size:27px;font-weight:700;letter-spacing:-.04em;color:var(--red)}
+.history-ribbon h3{font-family:var(--display-sans);font-size:22px;line-height:1.05;letter-spacing:-.04em;margin:auto 0 12px}
+.history-ribbon p{font-size:13px;line-height:1.5;color:var(--muted);margin:0}
+.history-ribbon .history-major{background:#f8f4ed}
+.history-ribbon .history-major h3{font-size:26px}
+.history-ribbon .history-bertelsmann{border-top:8px solid var(--geo-yellow)}
+.history-ribbon .history-mbo{background:var(--geo-charcoal);color:#fff;border-top:8px solid var(--red)}
+.history-ribbon .history-mbo .history-year{color:#f0c7cc}
+.history-ribbon .history-mbo p{color:#d1ceca}
+
+.geokatalog-inline{display:grid;grid-template-columns:.55fr 1.45fr;gap:0;margin-top:42px;background:#fff;min-height:360px}
+.geokatalog-inline-visual{background:var(--geo-yellow);border-top:18px solid var(--red);padding:30px;display:flex;flex-direction:column;justify-content:space-between}
+.geokatalog-inline-visual span{font-size:10px;letter-spacing:.18em;font-weight:900}
+.geokatalog-inline-visual strong{font-family:var(--display-sans);font-size:clamp(50px,5vw,76px);line-height:.82;letter-spacing:-.07em}
+.geokatalog-inline-copy{padding:48px 54px;display:flex;flex-direction:column;justify-content:center}
+.geokatalog-inline-copy h3{font-family:var(--display-sans);font-size:clamp(36px,4vw,58px);letter-spacing:-.05em;margin:15px 0 14px}
+.geokatalog-inline-copy p{max-width:700px;color:var(--muted);font-size:17px;margin:0}
+
+.about-leadership-v2{background:#fff}
+.leadership-v2-head{display:grid;grid-template-columns:1fr .85fr;gap:70px;align-items:end;margin-bottom:48px}
+.leadership-v2-head h2{
+  font-family:var(--display-sans);
+  font-size:clamp(52px,5.6vw,82px);
+  line-height:.96;
+  letter-spacing:-.06em;
+  margin:16px 0 0;
+}
+.leadership-v2-head>p{font-size:18px;line-height:1.6;color:var(--muted);max-width:650px;margin:0}
+.leadership-v2-stage{
+  position:relative;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:54px;
+  padding:28px 58px 34px;
+  background:linear-gradient(145deg,#f4efe7,#eee7dd);
+  overflow:hidden;
+  border-top:1px solid rgba(23,23,23,.08);
+  border-bottom:1px solid rgba(23,23,23,.08);
+}
+.leader-v2{display:grid;grid-template-rows:minmax(0,1fr) auto;align-items:end;min-width:0}
+.leader-v2 img{display:block;width:min(100%,470px);height:520px;object-fit:contain;object-position:center bottom;margin:0 auto;filter:drop-shadow(0 18px 22px rgba(23,23,23,.10))}
+.leader-v2-meta{padding:18px 12px 4px;border-top:1px solid rgba(23,23,23,.12)}
+.leader-v2-meta h3{font-family:var(--display-sans);font-size:30px;line-height:1;letter-spacing:-.045em;margin:0 0 8px}
+.leader-v2-meta p{font-size:13px;color:var(--muted);margin:0 0 5px}
+.leader-v2-meta strong{font-size:14px}
+.leadership-v2-note{
+  position:absolute;
+  right:28px;
+  top:24px;
+  font-family:var(--accent-serif);
+  font-style:italic;
+  font-size:18px;
+  color:var(--red);
+  letter-spacing:-.02em;
+}
+
+.about-market-partners{background:#f7f3ec}
+.market-partners-top{display:grid;grid-template-columns:1fr .85fr;gap:70px;align-items:end}
+.market-partners-top h2{
+  font-family:var(--display-sans);
+  font-size:clamp(50px,5.4vw,80px);
+  line-height:.96;
+  letter-spacing:-.06em;
+  margin:16px 0 0;
+}
+.market-partners-copy p{font-size:18px;line-height:1.6;color:var(--muted);max-width:620px;margin:0 0 20px}
+.market-region-line{display:grid;grid-template-columns:repeat(5,1fr);margin-top:50px;border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}
+.market-region-line span{padding:19px 14px;border-right:1px solid var(--line);font-size:11px;text-transform:uppercase;letter-spacing:.13em;font-weight:800;color:#736e68}
+.market-region-line span:last-child{border-right:0}
+.market-partners-divider{height:1px;background:var(--line);margin:76px 0 54px}
+.partners-v2-head{display:grid;grid-template-columns:220px 1fr;gap:46px;align-items:end;margin-bottom:34px}
+.partners-v2-head h3{font-family:var(--display-sans);font-size:clamp(38px,4.2vw,62px);line-height:1;letter-spacing:-.05em;margin:0}
+.partner-wordmark-grid-v2{background:#fff}
+.partners-program-link{margin-top:28px}
+
+@media(max-width:1050px){
+  .about-attitude-grid,.leadership-v2-head,.market-partners-top{grid-template-columns:1fr}
+  .about-attitude-grid{gap:34px}
+  .about-history-head{grid-template-columns:1fr;gap:20px}
+  .about-history-head h2,.about-history-head>p{grid-column:auto}
+  .history-ribbon{grid-template-columns:repeat(2,1fr)}
+  .geokatalog-inline{grid-template-columns:1fr 1.4fr}
+  .leadership-v2-head{gap:22px}
+  .market-partners-top{gap:24px}
+}
+@media(max-width:760px){
+  .about-page-v2 section{padding:78px 0}
+  .about-intro-copy h1{font-size:52px}
+  .about-intro-copy>p,.about-attitude-copy p{font-size:17px}
+  .about-intro-media,.about-intro-media>img{min-height:460px}
+  .about-intro-facts{left:12px;right:12px;bottom:12px;grid-template-columns:1fr}
+  .about-intro-facts>div{display:grid;grid-template-columns:100px 1fr;align-items:center;border-right:0;border-bottom:1px solid rgba(23,23,23,.1);padding:10px 14px}
+  .about-intro-facts>div:last-child{border-bottom:0}
+  .about-intro-facts span{margin-top:0}
+  .about-intro-media figcaption{display:none}
+  .about-attitude-media,.about-attitude-media img{min-height:430px}
+  .history-ribbon{grid-template-columns:1fr}
+  .history-ribbon article{min-height:210px}
+  .geokatalog-inline{grid-template-columns:1fr}
+  .geokatalog-inline-visual{min-height:280px}
+  .geokatalog-inline-copy{padding:32px 26px}
+  .leadership-v2-stage{grid-template-columns:1fr;gap:28px;padding:28px 20px 30px}
+  .leader-v2 img{height:410px}
+  .leadership-v2-note{position:static;grid-column:1/-1;order:3;margin-top:4px;padding:0 12px}
+  .market-region-line{grid-template-columns:1fr}
+  .market-region-line span{border-right:0;border-bottom:1px solid var(--line)}
+  .market-region-line span:last-child{border-bottom:0}
+  .partners-v2-head{grid-template-columns:1fr;gap:14px}
+}
