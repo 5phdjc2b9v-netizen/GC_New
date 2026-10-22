@@ -1,0 +1,41 @@
+name: Process World for Kids cutout
+
+on:
+  push:
+    branches: [relaunch-v1]
+    paths:
+      - "tools/process_world_for_kids.py"
+      - ".github/workflows/process-world-for-kids.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: relaunch-v1
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: python -m pip install pillow
+
+      - name: Cut out product
+        run: python tools/process_world_for_kids.py
+
+      - name: Commit cleaned asset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/images/portfolio/world-for-kids-portugal.webp
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Properly cut out World for Kids cover"
+          git push origin HEAD:relaunch-v1
