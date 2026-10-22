@@ -1092,3 +1092,150 @@ body{background:var(--geo-paper)}
 @media(max-width:640px){
   .story-media-boutique,.story-media-boutique img{min-height:410px}
 }
+
+
+/* Homepage portfolio final visual hierarchy */
+.portfolio-showcase{
+  background:#f3eee6;
+}
+.portfolio-intro{
+  margin-bottom:58px;
+}
+.portfolio-stage{
+  gap:18px;
+}
+.portfolio-world{
+  border-radius:24px;
+  border-color:rgba(23,23,23,.08);
+  box-shadow:0 14px 36px rgba(23,23,23,.035);
+}
+.world-outdoor{
+  min-height:850px;
+  background:linear-gradient(145deg,#fff 0%,#f7f3ec 100%);
+}
+.world-images{
+  background:#201f1d;
+}
+.world-gift{
+  background:#f1dc79;
+}
+.world-family{
+  background:#e7eff0;
+}
+.world-puzzle{
+  background:#f6e7a7;
+  border-top:8px solid var(--geo-yellow);
+}
+
+/* Less scrapbook, more curated shelf: calmer angles and one visual baseline. */
+.scene-outdoor{
+  min-height:500px;
+  margin-top:46px;
+}
+.scene-outdoor .product{
+  bottom:14px;
+}
+.product-iwanowski{
+  width:29%;
+  left:2%;
+  bottom:18px!important;
+  transform:rotate(-2deg);
+  z-index:4;
+}
+.product-bikeline{
+  width:35%;
+  left:25%;
+  bottom:0!important;
+  transform:rotate(1deg);
+  z-index:3;
+}
+.product-womo{
+  width:27%;
+  left:53%;
+  bottom:20px!important;
+  transform:rotate(-1deg);
+  z-index:5;
+}
+.product-lonely{
+  width:27%;
+  right:0;
+  bottom:5px!important;
+  transform:rotate(2deg);
+  z-index:2;
+}
+
+/* Smaller worlds use the same calm bottom alignment. */
+.scene-images,.scene-gift,.scene-family{
+  min-height:300px;
+  margin-top:34px;
+}
+.product-rolex{
+  width:45%;
+  left:4%;
+  bottom:0;
+  transform:rotate(-2deg);
+}
+.product-gestalten{
+  width:43%;
+  right:3%;
+  bottom:0;
+  transform:rotate(2deg);
+}
+.product-yearbook-wide{
+  width:49%;
+  left:2%;
+  bottom:0;
+  transform:rotate(-2deg);
+}
+.product-places{
+  width:39%;
+  right:5%;
+  bottom:0;
+  transform:rotate(2deg);
+}
+.product-kids{
+  width:45%;
+  left:2%;
+  bottom:0;
+  transform:rotate(-2deg);
+}
+.product-biber{
+  width:45%;
+  right:2%;
+  bottom:0;
+  transform:rotate(2deg);
+}
+.scene-puzzle{
+  min-height:320px;
+  margin-top:28px;
+}
+.product-puzzle{
+  width:94%;
+  left:3%;
+  bottom:-4px;
+  transform:rotate(-1deg);
+}
+
+/* Softer physical depth. Covers should be the colour, not the shadows. */
+.product{
+  filter:drop-shadow(0 15px 18px rgba(20,20,20,.13));
+}
+.product:hover{
+  transform:translateY(-6px) scale(1.025) rotate(0deg)!important;
+  filter:drop-shadow(0 22px 24px rgba(20,20,20,.18));
+}
+.product-scene:has(.product:hover) .product:not(:hover){
+  opacity:.86;
+}
+
+@media(max-width:1050px){
+  .world-outdoor{min-height:760px}
+  .scene-outdoor{min-height:470px}
+}
+@media(max-width:700px){
+  .world-outdoor{min-height:auto!important}
+  .scene-outdoor{
+    min-height:0!important;
+    margin-top:30px;
+  }
+}
