@@ -1061,3 +1061,34 @@ body{background:var(--geo-paper)}
     height:360px;
   }
 }
+
+
+/* Homepage story: calm boutique image instead of the trade-photo collage */
+.story-media-boutique{
+  margin:0;
+  min-height:620px;
+  background:#e9e2d8;
+}
+.story-media-boutique img{
+  width:100%;
+  height:100%;
+  min-height:620px;
+  object-fit:cover;
+  object-position:center;
+}
+.story .story-grid{
+  grid-template-columns:1.16fr .84fr;
+}
+.story .story-copy blockquote{
+  font-family:var(--accent-serif);
+  font-style:italic;
+  font-weight:400;
+  letter-spacing:-.035em;
+}
+@media(max-width:980px){
+  .story .story-grid{grid-template-columns:1fr}
+  .story-media-boutique,.story-media-boutique img{min-height:520px}
+}
+@media(max-width:640px){
+  .story-media-boutique,.story-media-boutique img{min-height:410px}
+}
