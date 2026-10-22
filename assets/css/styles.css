@@ -1252,3 +1252,213 @@ body{background:var(--geo-paper)}
 .portfolio-program-link:hover{
   color:var(--red);
 }
+
+
+/* Homepage portfolio correction pass: market hierarchy + premium scale */
+@media (min-width:1101px){
+  .portfolio-stage{
+    grid-template-columns:repeat(12,minmax(0,1fr));
+    gap:18px;
+  }
+
+  .world-outdoor{
+    grid-column:1/-1;
+    grid-row:auto;
+    min-height:700px;
+    padding:38px 42px 34px;
+    background:linear-gradient(145deg,#fff 0%,#f8f4ed 100%);
+  }
+
+  .world-images{
+    grid-column:1/span 7;
+    min-height:560px;
+    padding:38px 40px 30px;
+    background:#1f1f1d;
+  }
+
+  .world-gift{
+    grid-column:8/span 5;
+    min-height:560px;
+    padding:38px 34px 30px;
+    background:#efe3cc;
+  }
+
+  .world-family{
+    grid-column:1/span 7;
+    min-height:500px;
+    padding:38px 40px 30px;
+    background:#f3f0ea;
+    border-top:8px solid #dcecef;
+  }
+
+  .world-puzzle{
+    grid-column:8/span 5;
+    min-height:500px;
+    padding:38px 34px 30px;
+    background:#f3efe7;
+    border-top:8px solid var(--geo-yellow);
+  }
+
+  /* Travel: Esterbauer is intentionally the strongest visual signal. */
+  .scene-outdoor{
+    min-height:420px;
+    margin-top:34px;
+  }
+  .scene-outdoor .product{
+    bottom:0!important;
+  }
+  .product-iwanowski{
+    width:22%;
+    left:1%;
+    transform:rotate(-1.5deg);
+    z-index:3;
+  }
+  .product-bikeline{
+    width:34%;
+    left:20%;
+    transform:rotate(.5deg);
+    z-index:6;
+  }
+  .product-womo{
+    width:23%;
+    left:53%;
+    transform:rotate(-.5deg);
+    z-index:5;
+  }
+  .product-lonely{
+    width:20%;
+    right:1%;
+    transform:rotate(1.5deg);
+    z-index:2;
+  }
+
+  /* Bildwelten: the books should read as design objects, not thumbnails. */
+  .scene-images{
+    min-height:350px;
+    margin-top:28px;
+  }
+  .product-rolex{
+    width:50%;
+    left:0;
+    bottom:0;
+    transform:rotate(-1.5deg);
+  }
+  .product-gestalten{
+    width:48%;
+    right:0;
+    bottom:0;
+    transform:rotate(1.5deg);
+  }
+  .scene-images .product img{
+    max-height:335px;
+  }
+
+  /* Gift remains secondary but balanced. */
+  .scene-gift{
+    min-height:330px;
+    margin-top:30px;
+  }
+  .product-yearbook-wide{
+    width:50%;
+    left:0;
+    bottom:0;
+    transform:rotate(-1.5deg);
+  }
+  .product-places{
+    width:42%;
+    right:1%;
+    bottom:0;
+    transform:rotate(1.5deg);
+  }
+
+  /* Family: same optical height and same baseline. */
+  .scene-family{
+    min-height:335px;
+    margin-top:30px;
+  }
+  .product-kids,
+  .product-biber{
+    width:47%;
+    bottom:0!important;
+    transform:none;
+  }
+  .product-kids{left:0}
+  .product-biber{right:0}
+  .scene-family .product img{
+    width:auto;
+    max-width:100%;
+    height:300px;
+    margin:0 auto;
+    object-fit:contain;
+  }
+  .product-kids img{
+    max-width:100%;
+    margin:0 auto;
+    clip-path:none;
+    mix-blend-mode:normal;
+    filter:none;
+  }
+
+  /* Puzzle: clear distance from copy; strong but not oversized. */
+  .scene-puzzle{
+    min-height:315px;
+    margin-top:42px;
+  }
+  .product-puzzle{
+    width:74%;
+    left:13%;
+    bottom:0;
+    transform:none;
+  }
+  .product-puzzle img{
+    width:112%;
+    max-width:none;
+    margin-left:-6%;
+    transform:none;
+  }
+}
+
+/* Tablet and mobile: preserve hierarchy without overlaps. */
+@media (max-width:1100px){
+  .scene-outdoor{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+  .scene-outdoor .product-bikeline{
+    max-width:360px;
+  }
+  .scene-family .product img{
+    height:auto;
+    max-height:280px;
+  }
+  .scene-puzzle{
+    margin-top:34px;
+  }
+  .scene-puzzle .product{
+    max-width:360px;
+  }
+  .product-puzzle img{
+    width:110%;
+    margin-left:-5%;
+    transform:none;
+  }
+}
+
+@media (max-width:700px){
+  .scene-outdoor .product-bikeline{
+    max-width:260px;
+  }
+  .scene-images .product img,
+  .scene-family .product img{
+    max-height:230px;
+  }
+  .scene-puzzle{
+    margin-top:30px;
+  }
+  .scene-puzzle .product{
+    max-width:285px;
+  }
+  .product-puzzle img{
+    width:106%;
+    margin-left:-3%;
+  }
+}
