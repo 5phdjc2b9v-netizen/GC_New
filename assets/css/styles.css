@@ -2105,3 +2105,66 @@ body{background:var(--geo-paper)}
   .services-more-grid{grid-template-columns:1fr}
   .services-final-links a{grid-template-columns:1fr;gap:8px}
 }
+
+
+/* About final QA pass */
+.hero-person-blur{display:none!important}
+
+/* Keep both management portraits optically equal without card-like treatment. */
+.leadership-v2-stage{
+  gap:42px;
+  padding-left:72px;
+  padding-right:72px;
+}
+.leader-v2{
+  justify-items:center;
+}
+.leader-v2 img,
+.leader-v2:first-child img,
+.leader-v2:nth-child(2) img{
+  width:420px;
+  max-width:100%;
+  height:500px;
+  object-fit:contain;
+  object-position:center bottom;
+}
+.leader-v2-meta{
+  width:min(100%,420px);
+  box-sizing:border-box;
+}
+.leader-v2-meta h3{font-size:28px}
+
+/* Esterbauer brands share one cell, balanced as a pair. */
+.partner-logo-duo{
+  gap:18px;
+  flex-wrap:nowrap;
+}
+.partner-logo-duo img{
+  max-width:43%;
+  max-height:58px;
+}
+
+/* Logo cells should feel like one curated system despite different source proportions. */
+.partner-logo img{
+  max-width:72%;
+  max-height:66px;
+}
+.partner-logo:nth-child(2) img{max-height:58px}
+.partner-logo:nth-child(3) img{max-height:62px}
+.partner-logo:nth-child(4) img{max-height:54px}
+.partner-logo:nth-child(5) img{max-height:62px}
+.partner-logo:nth-child(6) img{max-height:64px}
+.partner-logo:nth-child(7) img{max-height:62px}
+.partner-logo:nth-child(8) img{max-height:62px}
+
+@media(max-width:760px){
+  .leadership-v2-stage{padding-left:22px;padding-right:22px}
+  .leader-v2 img,
+  .leader-v2:first-child img,
+  .leader-v2:nth-child(2) img{
+    width:340px;
+    height:390px;
+  }
+  .partner-logo-duo{gap:10px}
+  .partner-logo-duo img{max-width:45%;max-height:44px}
+}
