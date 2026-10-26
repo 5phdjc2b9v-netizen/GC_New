@@ -1,6 +1,10 @@
 name: IONOS SFTP Verbindungstest
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/test-ionos-sftp.yml'
 permissions:
   contents: read
 jobs:
