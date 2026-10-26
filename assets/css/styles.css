@@ -2168,3 +2168,51 @@ body{background:var(--geo-paper)}
   .partner-logo-duo{gap:10px}
   .partner-logo-duo img{max-width:45%;max-height:44px}
 }
+
+
+/* Partner logo optical balancing */
+.partner-logo{
+  min-height:168px;
+  padding:28px 30px;
+}
+.partner-logo img{
+  max-width:none;
+  max-height:none;
+}
+
+/* Esterbauer brands */
+.logo-esterbauer{gap:14px}
+.logo-esterbauer img:first-child{width:58%;height:auto}
+.logo-esterbauer img:last-child{width:20%;height:auto}
+
+/* Individual optical sizes */
+.logo-womo img{width:62%;height:auto}
+.logo-teneues img{width:46%;height:auto}
+.logo-gestalten img{width:60%;height:auto}
+.logo-iwanowski img{width:58%;height:auto}
+.logo-vistapoint img{width:48%;height:auto}
+.logo-teampuzzle img{width:42%;height:auto}
+.logo-bna img{width:44%;height:auto}
+
+@media(max-width:980px){
+  .partner-logo{min-height:145px}
+  .logo-esterbauer img:first-child{width:56%}
+  .logo-esterbauer img:last-child{width:19%}
+  .logo-womo img{width:58%}
+  .logo-teneues img{width:44%}
+  .logo-gestalten img{width:58%}
+  .logo-iwanowski img{width:56%}
+  .logo-vistapoint img{width:46%}
+  .logo-teampuzzle img{width:40%}
+  .logo-bna img{width:42%}
+}
+@media(max-width:640px){
+  .partner-logo{min-height:118px;padding:20px 16px}
+  .logo-womo img{width:64%}
+  .logo-teneues img{width:50%}
+  .logo-gestalten img{width:64%}
+  .logo-iwanowski img{width:62%}
+  .logo-vistapoint img{width:52%}
+  .logo-teampuzzle img{width:46%}
+  .logo-bna img{width:48%}
+}
