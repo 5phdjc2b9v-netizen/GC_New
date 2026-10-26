@@ -13,7 +13,7 @@ if(!reduceMotion){
   document.documentElement.classList.add('motion-enabled');
 
   const revealTargets=[
-    ...document.querySelectorAll('.section-kicker,.story-grid,.category,.service-row,.history-band,.partner-band,.cta-inner,.info-card,.market-card,.timeline article,.portfolio-world,.portfolio-discovery,.globe-copy,.history-card,.history-mini-timeline,.geokatalog-grid,.subhero-register')
+    ...document.querySelectorAll('.section-kicker,.story-grid,.category,.service-row,.history-band,.partner-band,.cta-inner,.info-card,.market-card,.timeline article,.portfolio-world,.portfolio-discovery,.globe-copy,.history-card,.history-mini-timeline,.geokatalog-grid,.subhero-register,.services-principle-grid,.services-section-head,.services-sales-grid,.services-feedback-top,.feedback-questions,.services-backoffice-intro,.service-words,.services-logistics-grid,.services-more-grid,.services-final-links')
   ];
   revealTargets.forEach((el,i)=>{
     el.classList.add('reveal');
