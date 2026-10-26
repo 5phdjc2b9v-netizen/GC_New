@@ -41,3 +41,5 @@ jobs:
           finally:
               client.close()
           PY
+
+# Read-only connectivity retest after SFTP credentials update
