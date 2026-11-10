@@ -23,7 +23,9 @@ fs.mkdirSync('qa/screenshots',{recursive:true});
 for (const pageName of pages){
   for (const [label,width,height] of viewports){
     const page=await browser.newPage({viewport:{width,height},deviceScaleFactor:1});
-    await page.goto('http://127.0.0.1:4173/'+pageName,{waitUntil:'networkidle'});
+    page.setDefaultNavigationTimeout(15000);
+    await page.goto('http://127.0.0.1:4173/'+pageName,{waitUntil:'domcontentloaded'});
+    await page.waitForTimeout(1200);
     await page.evaluate(()=>window.scrollTo(0,0));
     await page.screenshot({
       path:`qa/screenshots/${pageName.replace('.html','')}__${label}.png`,
