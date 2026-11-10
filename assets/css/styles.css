@@ -2763,3 +2763,18 @@ section[id]{scroll-margin-top:96px}
 .hero-editorial-copy{
   box-shadow:none!important;
 }
+
+
+/* Stronger Räthgloben parallax depth */
+.globe-photo-image{
+  top:-12%;
+  bottom:auto;
+  height:124%;
+  transform-origin:center center;
+}
+@media(max-width:760px){
+  .globe-photo-image{
+    top:-9%;
+    height:118%;
+  }
+}

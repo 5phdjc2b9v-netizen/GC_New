@@ -65,14 +65,25 @@ if(!reduceMotion){
 
   const globe=document.querySelector('[data-parallax-globe]');
   if(globe){
+    let globeTicking=false;
     const updateGlobe=()=>{
       const rect=globe.parentElement.getBoundingClientRect();
-      const viewport=window.innerHeight;
-      const progress=Math.max(-1,Math.min(1,(viewport/2-(rect.top+rect.height/2))/viewport));
-      globe.style.transform=`scale(1.06) translate3d(0,${progress*28}px,0)`;
+      const viewport=window.innerHeight||1;
+      const progress=Math.max(-1,Math.min(1,(viewport/2-(rect.top+rect.height/2))/(viewport*.78)));
+      const mobile=window.matchMedia('(max-width: 760px)').matches;
+      const strength=mobile?42:64;
+      const scale=mobile?1.08:1.10;
+      globe.style.transform=`scale(${scale}) translate3d(0,${progress*strength}px,0)`;
+      globeTicking=false;
+    };
+    const requestGlobeUpdate=()=>{
+      if(globeTicking)return;
+      globeTicking=true;
+      requestAnimationFrame(updateGlobe);
     };
     updateGlobe();
-    window.addEventListener('scroll',updateGlobe,{passive:true});
+    window.addEventListener('scroll',requestGlobeUpdate,{passive:true});
+    window.addEventListener('resize',requestGlobeUpdate,{passive:true});
   }
 
   const counters=[...document.querySelectorAll('.fact strong')];
