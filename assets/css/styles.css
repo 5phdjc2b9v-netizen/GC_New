@@ -2707,3 +2707,35 @@ section[id]{scroll-margin-top:96px}
     width:min(100%,360px);
   }
 }
+
+
+/* Leadership final portraits: user-supplied matched cut-outs 2026-11-11 */
+.leader-v2-photo{
+  width:min(100%,420px);
+  height:500px;
+  overflow:hidden;
+  margin:0 auto;
+  background:linear-gradient(145deg,#f4efe7,#eee7dd);
+}
+.leader-v2--anja .leader-v2-photo img,
+.leader-v2--klaus .leader-v2-photo img,
+.leader-v2 .leader-v2-photo img{
+  position:static!important;
+  display:block;
+  width:100%!important;
+  height:100%!important;
+  max-width:100%!important;
+  margin:0 auto!important;
+  object-fit:contain!important;
+  object-position:center bottom!important;
+  transform:none!important;
+  filter:none!important;
+  -webkit-mask-image:none!important;
+  mask-image:none!important;
+}
+@media(max-width:760px){
+  .leader-v2-photo{
+    width:min(100%,360px);
+    height:430px;
+  }
+}
