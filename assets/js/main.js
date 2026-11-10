@@ -121,4 +121,80 @@ if(!reduceMotion){
       ticking=false;
     });
   },{passive:true});
+
+  // Global scroll depth and parallax layer
+  const parallaxMedia=[
+    ...document.querySelectorAll(
+      '.story-media-boutique,.about-hero-media,.about-photo-break figure,.leadership-scene'
+    )
+  ];
+  parallaxMedia.forEach(el=>el.classList.add('scroll-parallax-media'));
+
+  const catalogParallax=[...document.querySelectorAll('.catalog-card')];
+  catalogParallax.forEach(el=>el.classList.add('scroll-parallax-cover'));
+
+  const depthLightTargets=[
+    ...document.querySelectorAll('.portfolio-world,.history-card,.topic-tile')
+  ];
+
+  const heroGeometry=document.querySelector('.hero-book-geometry');
+
+  const clamp=(min,value,max)=>Math.max(min,Math.min(max,value));
+  let depthTicking=false;
+
+  const updateScrollDepth=()=>{
+    const viewport=window.innerHeight||1;
+
+    parallaxMedia.forEach((el,index)=>{
+      const rect=el.getBoundingClientRect();
+      if(rect.bottom<-180||rect.top>viewport+180)return;
+      const center=rect.top+rect.height/2;
+      const progress=clamp(-1,(viewport/2-center)/(viewport*.72),1);
+      const strength=index===0?18:14;
+      el.style.setProperty('--parallax-y',`${progress*strength}px`);
+    });
+
+    catalogParallax.forEach(el=>{
+      const rect=el.getBoundingClientRect();
+      if(rect.bottom<-140||rect.top>viewport+140)return;
+      const center=rect.top+rect.height/2;
+      const progress=clamp(-1,(viewport/2-center)/(viewport*.78),1);
+      el.style.setProperty('--cover-parallax-y',`${progress*7}px`);
+    });
+
+    depthLightTargets.forEach((el,index)=>{
+      const rect=el.getBoundingClientRect();
+      if(rect.bottom<-180||rect.top>viewport+180)return;
+      const center=rect.top+rect.height/2;
+      const progress=clamp(-1,(viewport/2-center)/(viewport*.75),1);
+      const x=50+progress*(index%2===0?9:-9);
+      const y=50-progress*11;
+      el.style.setProperty('--depth-light-x',`${x}%`);
+      el.style.setProperty('--depth-light-y',`${y}%`);
+    });
+
+    if(heroGeometry){
+      const rect=heroGeometry.getBoundingClientRect();
+      const center=rect.top+rect.height/2;
+      const progress=clamp(-1,(viewport/2-center)/(viewport*.8),1);
+      heroGeometry.style.setProperty('--hero-spine-1',`${progress*-8}px`);
+      heroGeometry.style.setProperty('--hero-spine-2',`${progress*5}px`);
+      heroGeometry.style.setProperty('--hero-spine-3',`${progress*-4}px`);
+      heroGeometry.style.setProperty('--hero-spine-4',`${progress*7}px`);
+      heroGeometry.style.setProperty('--hero-spine-5',`${progress*-6}px`);
+    }
+
+    depthTicking=false;
+  };
+
+  const requestDepthUpdate=()=>{
+    if(depthTicking)return;
+    depthTicking=true;
+    requestAnimationFrame(updateScrollDepth);
+  };
+
+  updateScrollDepth();
+  window.addEventListener('scroll',requestDepthUpdate,{passive:true});
+  window.addEventListener('resize',requestDepthUpdate,{passive:true});
+
 }
