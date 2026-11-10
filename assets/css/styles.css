@@ -2575,3 +2575,46 @@ section[id]{scroll-margin-top:96px}
     width:min(100%,330px);
   }
 }
+
+
+/* Local cropped partner-logo sizing */
+.partner-logo img{
+  transform:none!important;
+  width:auto!important;
+  height:auto!important;
+  max-width:68%!important;
+  max-height:64px!important;
+}
+.logo-esterbauer{
+  gap:18px;
+}
+.logo-esterbauer img:first-child{
+  width:auto!important;
+  max-width:58%!important;
+  max-height:52px!important;
+}
+.logo-esterbauer img:last-child{
+  width:auto!important;
+  max-width:25%!important;
+  max-height:42px!important;
+}
+.logo-womo img{max-width:62%!important;max-height:58px!important}
+.logo-teneues img{max-width:50%!important;max-height:56px!important}
+.logo-gestalten img{max-width:62%!important;max-height:58px!important;transform:scale(1.18)!important}
+.logo-iwanowski img{max-width:72%!important;max-height:54px!important}
+.logo-vistapoint img{max-width:52%!important;max-height:58px!important}
+.logo-teampuzzle img{max-width:44%!important;max-height:78px!important}
+.logo-bna img{max-width:48%!important;max-height:72px!important}
+
+@media(max-width:640px){
+  .partner-logo img{max-width:72%!important;max-height:54px!important}
+  .logo-esterbauer img:first-child{max-width:58%!important;max-height:42px!important}
+  .logo-esterbauer img:last-child{max-width:25%!important;max-height:34px!important}
+  .logo-womo img{max-width:64%!important;max-height:48px!important}
+  .logo-teneues img{max-width:54%!important;max-height:46px!important}
+  .logo-gestalten img{max-width:66%!important;max-height:50px!important;transform:scale(1.12)!important}
+  .logo-iwanowski img{max-width:76%!important;max-height:44px!important}
+  .logo-vistapoint img{max-width:56%!important;max-height:48px!important}
+  .logo-teampuzzle img{max-width:48%!important;max-height:64px!important}
+  .logo-bna img{max-width:52%!important;max-height:58px!important}
+}
