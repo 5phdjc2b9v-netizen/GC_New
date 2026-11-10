@@ -13,7 +13,7 @@
     },
     "clippedText": [
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "01Vertrieb & AußendienstDeutschlandweite Kundenbetreuung, Sortimentsberatung, Aktionen und Umsetzung am Point of Sale.↗",
         "client": [
           1320,
@@ -25,7 +25,7 @@
         ]
       },
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "02Customer ServiceBestellungen, Kundenanfragen, Retouren, Verkaufsunterlagen und Messeorganisation.↗",
         "client": [
           1320,
@@ -37,7 +37,7 @@
         ]
       },
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "03VerlagsbetreuungPersönliche Ansprechpartner, Titeldaten, Reporting und laufende Programmbetreuung.↗",
         "client": [
           1320,
@@ -49,7 +49,7 @@
         ]
       },
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "04AuslieferungGebündelte Logistik, Fakturierung, Sonderleistungen und After-Sales.↗",
         "client": [
           1320,
@@ -86,15 +86,15 @@
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://static.wixstatic.com/media/3b5c40_4f5edce81fa64bc980f3bab1eb5d72ec~mv2.jpg",
+        "src": "./assets/images/trade/boutique-coffee-table.jpg",
         "ok": true,
         "natural": [
           3024,
           4032
         ],
         "rendered": [
-          794,
-          1059
+          753,
+          1004
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -107,8 +107,8 @@
           710
         ],
         "rendered": [
-          279,
-          389
+          281,
+          392
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -121,8 +121,8 @@
           1012
         ],
         "rendered": [
-          417,
-          223
+          421,
+          225
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -135,8 +135,8 @@
           1000
         ],
         "rendered": [
-          286,
-          523
+          288,
+          528
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -149,8 +149,8 @@
           2327
         ],
         "rendered": [
-          254,
-          382
+          257,
+          386
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -163,8 +163,8 @@
           1600
         ],
         "rendered": [
-          345,
-          340
+          349,
+          344
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -177,8 +177,8 @@
           1600
         ],
         "rendered": [
-          332,
-          332
+          335,
+          335
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -191,8 +191,8 @@
           1667
         ],
         "rendered": [
-          240,
-          316
+          243,
+          319
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -205,8 +205,8 @@
           708
         ],
         "rendered": [
-          202,
-          281
+          204,
+          284
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -219,8 +219,8 @@
           974
         ],
         "rendered": [
-          222,
-          297
+          224,
+          300
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -233,8 +233,8 @@
           1024
         ],
         "rendered": [
-          207,
-          297
+          209,
+          300
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -247,8 +247,8 @@
           1946
         ],
         "rendered": [
-          385,
-          385
+          389,
+          389
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -321,7 +321,7 @@
       },
       {
         "i": 6,
-        "cls": "partner-band reveal",
+        "cls": "partner-band",
         "h": 205,
         "w": 2560
       },
@@ -347,7 +347,7 @@
     },
     "clippedText": [
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "01Vertrieb & AußendienstDeutschlandweite Kundenbetreuung, Sortimentsberatung, Aktionen und Umsetzung am Point of Sale.↗",
         "client": [
           1320,
@@ -359,7 +359,7 @@
         ]
       },
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "02Customer ServiceBestellungen, Kundenanfragen, Retouren, Verkaufsunterlagen und Messeorganisation.↗",
         "client": [
           1320,
@@ -371,7 +371,7 @@
         ]
       },
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "03VerlagsbetreuungPersönliche Ansprechpartner, Titeldaten, Reporting und laufende Programmbetreuung.↗",
         "client": [
           1320,
@@ -383,7 +383,7 @@
         ]
       },
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "04AuslieferungGebündelte Logistik, Fakturierung, Sonderleistungen und After-Sales.↗",
         "client": [
           1320,
@@ -420,15 +420,15 @@
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://static.wixstatic.com/media/3b5c40_4f5edce81fa64bc980f3bab1eb5d72ec~mv2.jpg",
+        "src": "./assets/images/trade/boutique-coffee-table.jpg",
         "ok": true,
         "natural": [
           3024,
           4032
         ],
         "rendered": [
-          794,
-          1059
+          753,
+          1004
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -441,8 +441,8 @@
           710
         ],
         "rendered": [
-          279,
-          389
+          281,
+          392
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -455,8 +455,8 @@
           1012
         ],
         "rendered": [
-          417,
-          223
+          421,
+          225
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -469,8 +469,8 @@
           1000
         ],
         "rendered": [
-          286,
-          523
+          288,
+          528
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -483,8 +483,8 @@
           2327
         ],
         "rendered": [
-          254,
-          382
+          257,
+          386
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -497,8 +497,8 @@
           1600
         ],
         "rendered": [
-          345,
-          340
+          349,
+          344
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -511,8 +511,8 @@
           1600
         ],
         "rendered": [
-          332,
-          332
+          335,
+          335
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -525,8 +525,8 @@
           1667
         ],
         "rendered": [
-          240,
-          316
+          243,
+          319
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -539,8 +539,8 @@
           708
         ],
         "rendered": [
-          202,
-          281
+          204,
+          284
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -553,8 +553,8 @@
           974
         ],
         "rendered": [
-          222,
-          297
+          224,
+          300
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -567,8 +567,8 @@
           1024
         ],
         "rendered": [
-          207,
-          297
+          209,
+          300
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -581,8 +581,8 @@
           1946
         ],
         "rendered": [
-          385,
-          385
+          389,
+          389
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -655,7 +655,7 @@
       },
       {
         "i": 6,
-        "cls": "partner-band reveal",
+        "cls": "partner-band",
         "h": 205,
         "w": 1440
       },
@@ -681,7 +681,7 @@
     },
     "clippedText": [
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "01Vertrieb & AußendienstDeutschlandweite Kundenbetreuung, Sortimentsberatung, Aktionen und Umsetzung am Point of Sale.↗",
         "client": [
           724,
@@ -693,7 +693,7 @@
         ]
       },
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "02Customer ServiceBestellungen, Kundenanfragen, Retouren, Verkaufsunterlagen und Messeorganisation.↗",
         "client": [
           724,
@@ -705,7 +705,7 @@
         ]
       },
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "03VerlagsbetreuungPersönliche Ansprechpartner, Titeldaten, Reporting und laufende Programmbetreuung.↗",
         "client": [
           724,
@@ -717,7 +717,7 @@
         ]
       },
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "04AuslieferungGebündelte Logistik, Fakturierung, Sonderleistungen und After-Sales.↗",
         "client": [
           724,
@@ -760,15 +760,15 @@
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://static.wixstatic.com/media/3b5c40_4f5edce81fa64bc980f3bab1eb5d72ec~mv2.jpg",
+        "src": "./assets/images/trade/boutique-coffee-table.jpg",
         "ok": true,
         "natural": [
           3024,
           4032
         ],
         "rendered": [
-          764,
-          1018
+          724,
+          965
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -781,8 +781,8 @@
           710
         ],
         "rendered": [
-          209,
-          297
+          211,
+          300
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -795,8 +795,8 @@
           1012
         ],
         "rendered": [
-          313,
-          165
+          316,
+          167
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -809,8 +809,8 @@
           1000
         ],
         "rendered": [
-          160,
-          297
+          162,
+          300
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -823,8 +823,8 @@
           2327
         ],
         "rendered": [
-          193,
-          297
+          195,
+          300
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -837,8 +837,8 @@
           1600
         ],
         "rendered": [
-          297,
-          297
+          300,
+          300
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -851,8 +851,8 @@
           1600
         ],
         "rendered": [
-          297,
-          297
+          300,
+          300
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -865,8 +865,8 @@
           1667
         ],
         "rendered": [
-          223,
-          297
+          225,
+          300
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -879,8 +879,8 @@
           708
         ],
         "rendered": [
-          210,
-          297
+          212,
+          300
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -893,8 +893,8 @@
           974
         ],
         "rendered": [
-          232,
-          277
+          234,
+          280
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -907,8 +907,8 @@
           1024
         ],
         "rendered": [
-          194,
-          277
+          195,
+          280
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -921,8 +921,8 @@
           1946
         ],
         "rendered": [
-          327,
-          297
+          330,
+          300
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -995,7 +995,7 @@
       },
       {
         "i": 6,
-        "cls": "partner-band reveal",
+        "cls": "partner-band",
         "h": 257,
         "w": 768
       },
@@ -1017,11 +1017,11 @@
     "doc": {
       "scrollWidth": 390,
       "clientWidth": 390,
-      "scrollHeight": 12220
+      "scrollHeight": 12279
     },
     "clippedText": [
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "01Vertrieb & AußendienstDeutschlandweite Kundenbetreuung, Sortimentsberatung, Aktionen und Umsetzung am Point of Sale.↗",
         "client": [
           362,
@@ -1033,7 +1033,7 @@
         ]
       },
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "02Customer ServiceBestellungen, Kundenanfragen, Retouren, Verkaufsunterlagen und Messeorganisation.↗",
         "client": [
           362,
@@ -1045,7 +1045,7 @@
         ]
       },
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "03VerlagsbetreuungPersönliche Ansprechpartner, Titeldaten, Reporting und laufende Programmbetreuung.↗",
         "client": [
           362,
@@ -1057,7 +1057,7 @@
         ]
       },
       {
-        "el": "a.service-row.reveal",
+        "el": "a.service-row",
         "text": "04AuslieferungGebündelte Logistik, Fakturierung, Sonderleistungen und After-Sales.↗",
         "client": [
           362,
@@ -1100,15 +1100,15 @@
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://static.wixstatic.com/media/3b5c40_4f5edce81fa64bc980f3bab1eb5d72ec~mv2.jpg",
+        "src": "./assets/images/trade/boutique-coffee-table.jpg",
         "ok": true,
         "natural": [
           3024,
           4032
         ],
         "rendered": [
-          382,
-          509
+          362,
+          483
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1121,8 +1121,8 @@
           710
         ],
         "rendered": [
-          143,
-          203
+          144,
+          205
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -1135,8 +1135,8 @@
           1012
         ],
         "rendered": [
-          149,
-          78
+          150,
+          79
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -1149,8 +1149,8 @@
           1000
         ],
         "rendered": [
-          110,
-          203
+          111,
+          205
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -1163,8 +1163,8 @@
           2327
         ],
         "rendered": [
-          132,
-          203
+          133,
+          205
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -1177,8 +1177,8 @@
           1600
         ],
         "rendered": [
-          149,
-          149
+          150,
+          150
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -1191,8 +1191,8 @@
           1600
         ],
         "rendered": [
-          149,
-          149
+          150,
+          150
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -1205,8 +1205,8 @@
           1667
         ],
         "rendered": [
-          152,
-          203
+          154,
+          205
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -1219,8 +1219,8 @@
           708
         ],
         "rendered": [
-          143,
-          203
+          145,
+          205
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -1233,8 +1233,8 @@
           974
         ],
         "rendered": [
-          166,
-          223
+          168,
+          225
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -1247,8 +1247,8 @@
           1024
         ],
         "rendered": [
-          148,
-          213
+          150,
+          215
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -1261,8 +1261,8 @@
           1946
         ],
         "rendered": [
-          215,
-          203
+          217,
+          205
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -1300,7 +1300,7 @@
       {
         "i": 0,
         "cls": "hero hero-editorial",
-        "h": 1424,
+        "h": 1483,
         "w": 390
       },
       {
@@ -1335,7 +1335,7 @@
       },
       {
         "i": 6,
-        "cls": "partner-band reveal",
+        "cls": "partner-band",
         "h": 361,
         "w": 390
       },
@@ -1797,7 +1797,7 @@
     "doc": {
       "scrollWidth": 2560,
       "clientWidth": 2560,
-      "scrollHeight": 11683
+      "scrollHeight": 12219
     },
     "clippedText": [],
     "offscreen": [],
@@ -1825,8 +1825,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1839,8 +1839,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1853,8 +1853,8 @@
           1815
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1867,8 +1867,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1881,8 +1881,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1895,8 +1895,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1909,8 +1909,8 @@
           1434
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1923,8 +1923,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1937,8 +1937,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1951,8 +1951,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1965,8 +1965,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          328,
+          438
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1979,8 +1979,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          328,
+          438
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -1993,8 +1993,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          328,
+          438
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2007,8 +2007,8 @@
           1667
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2021,8 +2021,8 @@
           1585
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2058,55 +2058,55 @@
       {
         "i": 2,
         "cls": "program-section",
-        "h": 915,
+        "h": 979,
         "w": 2560
       },
       {
         "i": 3,
         "cls": "program-section",
-        "h": 961,
+        "h": 1025,
         "w": 2560
       },
       {
         "i": 4,
         "cls": "program-section",
-        "h": 934,
+        "h": 998,
         "w": 2560
       },
       {
         "i": 5,
         "cls": "program-section",
-        "h": 934,
+        "h": 998,
         "w": 2560
       },
       {
         "i": 6,
         "cls": "program-section",
-        "h": 963,
+        "h": 1027,
         "w": 2560
       },
       {
         "i": 7,
         "cls": "program-section",
-        "h": 937,
+        "h": 1001,
         "w": 2560
       },
       {
         "i": 8,
         "cls": "program-section",
-        "h": 937,
+        "h": 961,
         "w": 2560
       },
       {
         "i": 9,
         "cls": "program-section",
-        "h": 956,
+        "h": 1020,
         "w": 2560
       },
       {
         "i": 10,
         "cls": "program-section",
-        "h": 915,
+        "h": 979,
         "w": 2560
       },
       {
@@ -2133,7 +2133,7 @@
     "doc": {
       "scrollWidth": 1440,
       "clientWidth": 1440,
-      "scrollHeight": 11678
+      "scrollHeight": 12214
     },
     "clippedText": [],
     "offscreen": [],
@@ -2161,8 +2161,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2175,8 +2175,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2189,8 +2189,8 @@
           1815
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2203,8 +2203,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2217,8 +2217,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2231,8 +2231,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2245,8 +2245,8 @@
           1434
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2259,8 +2259,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2273,8 +2273,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2287,8 +2287,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2301,8 +2301,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          328,
+          438
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2315,8 +2315,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          328,
+          438
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2329,8 +2329,8 @@
           1654
         ],
         "rendered": [
-          321,
-          428
+          328,
+          438
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2343,8 +2343,8 @@
           1667
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2357,8 +2357,8 @@
           1585
         ],
         "rendered": [
-          321,
-          428
+          358,
+          478
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2394,55 +2394,55 @@
       {
         "i": 2,
         "cls": "program-section",
-        "h": 915,
+        "h": 979,
         "w": 1440
       },
       {
         "i": 3,
         "cls": "program-section",
-        "h": 961,
+        "h": 1025,
         "w": 1440
       },
       {
         "i": 4,
         "cls": "program-section",
-        "h": 934,
+        "h": 998,
         "w": 1440
       },
       {
         "i": 5,
         "cls": "program-section",
-        "h": 934,
+        "h": 998,
         "w": 1440
       },
       {
         "i": 6,
         "cls": "program-section",
-        "h": 963,
+        "h": 1027,
         "w": 1440
       },
       {
         "i": 7,
         "cls": "program-section",
-        "h": 937,
+        "h": 1001,
         "w": 1440
       },
       {
         "i": 8,
         "cls": "program-section",
-        "h": 937,
+        "h": 961,
         "w": 1440
       },
       {
         "i": 9,
         "cls": "program-section",
-        "h": 956,
+        "h": 1020,
         "w": 1440
       },
       {
         "i": 10,
         "cls": "program-section",
-        "h": 915,
+        "h": 979,
         "w": 1440
       },
       {
@@ -2497,8 +2497,8 @@
           1654
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2511,8 +2511,8 @@
           1654
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2525,8 +2525,8 @@
           1815
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2539,8 +2539,8 @@
           1654
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2553,8 +2553,8 @@
           1654
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2567,8 +2567,8 @@
           1654
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2581,8 +2581,8 @@
           1434
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2595,8 +2595,8 @@
           1654
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2609,8 +2609,8 @@
           1654
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2623,8 +2623,8 @@
           1654
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2637,8 +2637,8 @@
           1654
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2651,8 +2651,8 @@
           1654
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2665,8 +2665,8 @@
           1654
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2679,8 +2679,8 @@
           1667
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2693,8 +2693,8 @@
           1585
         ],
         "rendered": [
-          360,
-          481
+          348,
+          465
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2833,8 +2833,8 @@
           1654
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2847,8 +2847,8 @@
           1654
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2861,8 +2861,8 @@
           1815
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2875,8 +2875,8 @@
           1654
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2889,8 +2889,8 @@
           1654
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2903,8 +2903,8 @@
           1654
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2917,8 +2917,8 @@
           1434
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2931,8 +2931,8 @@
           1654
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2945,8 +2945,8 @@
           1654
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2959,8 +2959,8 @@
           1654
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2973,8 +2973,8 @@
           1654
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -2987,8 +2987,8 @@
           1654
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -3001,8 +3001,8 @@
           1654
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -3015,8 +3015,8 @@
           1667
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -3029,8 +3029,8 @@
           1585
         ],
         "rendered": [
-          373,
-          497
+          360,
+          481
         ],
         "objectFit": "cover",
         "objectPosition": "50% 50%"
@@ -3141,26 +3141,11 @@
     "doc": {
       "scrollWidth": 2560,
       "clientWidth": 2560,
-      "scrollHeight": 6292
+      "scrollHeight": 6559
     },
     "clippedText": [],
     "offscreen": [],
-    "missingImages": [
-      {
-        "src": "https://svgsilh.com/svg/2718284.svg",
-        "ok": false,
-        "natural": [
-          0,
-          0
-        ],
-        "rendered": [
-          360,
-          0
-        ],
-        "objectFit": "fill",
-        "objectPosition": "50% 50%"
-      }
-    ],
+    "missingImages": [],
     "images": [
       {
         "src": "./assets/images/geocenter-logo.svg",
@@ -3177,10 +3162,10 @@
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/2026-10-FBM_AAP_TR.png",
+        "src": "./assets/images/about/frankfurt-book-fair-aap.png",
         "ok": true,
         "natural": [
-          940,
+          461,
           788
         ],
         "rendered": [
@@ -3191,7 +3176,7 @@
         "objectPosition": "50% 100%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/IMG_8598.JPG",
+        "src": "./assets/images/about/frankfurt-book-fair-exterior.jpg",
         "ok": true,
         "natural": [
           5712,
@@ -3205,15 +3190,15 @@
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/AAP_Portrait.png",
+        "src": "./assets/images/team/anja-alexandra-pfister.png",
         "ok": true,
         "natural": [
-          940,
-          788
+          686,
+          739
         ],
         "rendered": [
-          420,
-          500
+          458,
+          545
         ],
         "objectFit": "contain",
         "objectPosition": "50% 100%"
@@ -3226,148 +3211,148 @@
           1500
         ],
         "rendered": [
-          420,
-          500
+          395,
+          470
         ],
         "objectFit": "contain",
         "objectPosition": "50% 100%"
       },
       {
-        "src": "https://svgsilh.com/svg/2718284.svg",
-        "ok": false,
+        "src": "./assets/images/about/germany-silhouette.svg",
+        "ok": true,
         "natural": [
-          0,
-          0
+          900,
+          1222
         ],
         "rendered": [
           360,
-          0
+          360
         ],
         "objectFit": "fill",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/bikeline.png",
+        "src": "./assets/images/partners/bikeline.png",
         "ok": true,
         "natural": [
           1280,
           267
         ],
         "rendered": [
-          134,
-          28
+          156,
+          33
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/hikeline.png",
+        "src": "./assets/images/partners/hikeline.png",
         "ok": true,
         "natural": [
           717,
-          1280
+          204
         ],
         "rendered": [
-          49,
-          87
+          67,
+          19
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/womo.png",
+        "src": "./assets/images/partners/womo.png",
         "ok": true,
         "natural": [
           1176,
           189
         ],
         "rendered": [
-          143,
-          23
+          167,
+          27
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teneues.png",
+        "src": "./assets/images/partners/teneues.png",
+        "ok": true,
+        "natural": [
+          1334,
+          288
+        ],
+        "rendered": [
+          134,
+          29
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/partners/gestalten.png",
+        "ok": true,
+        "natural": [
+          438,
+          227
+        ],
+        "rendered": [
+          132,
+          68
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/partners/iwanowski.png",
         "ok": true,
         "natural": [
           1414,
-          2000
+          145
         ],
         "rendered": [
-          243,
-          133
+          194,
+          20
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/gestalten%20schwarz.png",
+        "src": "./assets/images/partners/vista-point.png",
         "ok": true,
         "natural": [
-          905,
-          1280
+          906,
+          296
         ],
         "rendered": [
-          378,
-          173
+          140,
+          46
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/iwanowski.png",
+        "src": "./assets/images/partners/teampuzzle.png",
         "ok": true,
         "natural": [
-          1414,
-          2000
+          1846,
+          1795
         ],
         "rendered": [
-          355,
-          171
+          80,
+          78
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/vista%20point.png",
+        "src": "./assets/images/partners/book-n-app.png",
         "ok": true,
         "natural": [
-          1104,
-          628
+          751,
+          548
         ],
         "rendered": [
-          151,
-          82
-        ],
-        "objectFit": "contain",
-        "objectPosition": "50% 50%"
-      },
-      {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teampuzzle-logo-full-color-cmyk.png",
-        "ok": true,
-        "natural": [
-          1988,
-          1937
-        ],
-        "rendered": [
-          148,
-          86
-        ],
-        "objectFit": "contain",
-        "objectPosition": "50% 50%"
-      },
-      {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/LOGO_BnA_300.png",
-        "ok": true,
-        "natural": [
-          1024,
-          1024
-        ],
-        "rendered": [
-          175,
-          96
+          99,
+          72
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -3415,7 +3400,7 @@
       {
         "i": 4,
         "cls": "about-market-partners",
-        "h": 1208,
+        "h": 1475,
         "w": 2560
       },
       {
@@ -3436,26 +3421,11 @@
     "doc": {
       "scrollWidth": 1440,
       "clientWidth": 1440,
-      "scrollHeight": 6253
+      "scrollHeight": 6520
     },
     "clippedText": [],
     "offscreen": [],
-    "missingImages": [
-      {
-        "src": "https://svgsilh.com/svg/2718284.svg",
-        "ok": false,
-        "natural": [
-          0,
-          0
-        ],
-        "rendered": [
-          360,
-          0
-        ],
-        "objectFit": "fill",
-        "objectPosition": "50% 50%"
-      }
-    ],
+    "missingImages": [],
     "images": [
       {
         "src": "./assets/images/geocenter-logo.svg",
@@ -3472,10 +3442,10 @@
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/2026-10-FBM_AAP_TR.png",
+        "src": "./assets/images/about/frankfurt-book-fair-aap.png",
         "ok": true,
         "natural": [
-          940,
+          461,
           788
         ],
         "rendered": [
@@ -3486,7 +3456,7 @@
         "objectPosition": "50% 100%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/IMG_8598.JPG",
+        "src": "./assets/images/about/frankfurt-book-fair-exterior.jpg",
         "ok": true,
         "natural": [
           5712,
@@ -3500,15 +3470,15 @@
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/AAP_Portrait.png",
+        "src": "./assets/images/team/anja-alexandra-pfister.png",
         "ok": true,
         "natural": [
-          940,
-          788
+          686,
+          739
         ],
         "rendered": [
-          420,
-          500
+          458,
+          545
         ],
         "objectFit": "contain",
         "objectPosition": "50% 100%"
@@ -3521,148 +3491,148 @@
           1500
         ],
         "rendered": [
-          420,
-          500
+          395,
+          470
         ],
         "objectFit": "contain",
         "objectPosition": "50% 100%"
       },
       {
-        "src": "https://svgsilh.com/svg/2718284.svg",
-        "ok": false,
+        "src": "./assets/images/about/germany-silhouette.svg",
+        "ok": true,
         "natural": [
-          0,
-          0
+          900,
+          1222
         ],
         "rendered": [
           360,
-          0
+          360
         ],
         "objectFit": "fill",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/bikeline.png",
+        "src": "./assets/images/partners/bikeline.png",
         "ok": true,
         "natural": [
           1280,
           267
         ],
         "rendered": [
-          134,
-          28
+          156,
+          33
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/hikeline.png",
+        "src": "./assets/images/partners/hikeline.png",
         "ok": true,
         "natural": [
           717,
-          1280
+          204
         ],
         "rendered": [
-          49,
-          87
+          67,
+          19
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/womo.png",
+        "src": "./assets/images/partners/womo.png",
         "ok": true,
         "natural": [
           1176,
           189
         ],
         "rendered": [
-          143,
-          23
+          167,
+          27
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teneues.png",
+        "src": "./assets/images/partners/teneues.png",
+        "ok": true,
+        "natural": [
+          1334,
+          288
+        ],
+        "rendered": [
+          134,
+          29
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/partners/gestalten.png",
+        "ok": true,
+        "natural": [
+          438,
+          227
+        ],
+        "rendered": [
+          132,
+          68
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/partners/iwanowski.png",
         "ok": true,
         "natural": [
           1414,
-          2000
+          145
         ],
         "rendered": [
-          243,
-          133
+          194,
+          20
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/gestalten%20schwarz.png",
+        "src": "./assets/images/partners/vista-point.png",
         "ok": true,
         "natural": [
-          905,
-          1280
+          906,
+          296
         ],
         "rendered": [
-          378,
-          173
+          140,
+          46
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/iwanowski.png",
+        "src": "./assets/images/partners/teampuzzle.png",
         "ok": true,
         "natural": [
-          1414,
-          2000
+          1846,
+          1795
         ],
         "rendered": [
-          355,
-          171
+          80,
+          78
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/vista%20point.png",
+        "src": "./assets/images/partners/book-n-app.png",
         "ok": true,
         "natural": [
-          1104,
-          628
+          751,
+          548
         ],
         "rendered": [
-          151,
-          82
-        ],
-        "objectFit": "contain",
-        "objectPosition": "50% 50%"
-      },
-      {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teampuzzle-logo-full-color-cmyk.png",
-        "ok": true,
-        "natural": [
-          1988,
-          1937
-        ],
-        "rendered": [
-          148,
-          86
-        ],
-        "objectFit": "contain",
-        "objectPosition": "50% 50%"
-      },
-      {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/LOGO_BnA_300.png",
-        "ok": true,
-        "natural": [
-          1024,
-          1024
-        ],
-        "rendered": [
-          175,
-          96
+          99,
+          72
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -3710,7 +3680,7 @@
       {
         "i": 4,
         "cls": "about-market-partners",
-        "h": 1202,
+        "h": 1469,
         "w": 1440
       },
       {
@@ -3731,26 +3701,11 @@
     "doc": {
       "scrollWidth": 768,
       "clientWidth": 768,
-      "scrollHeight": 8606
+      "scrollHeight": 8966
     },
     "clippedText": [],
     "offscreen": [],
-    "missingImages": [
-      {
-        "src": "https://svgsilh.com/svg/2718284.svg",
-        "ok": false,
-        "natural": [
-          0,
-          0
-        ],
-        "rendered": [
-          360,
-          0
-        ],
-        "objectFit": "fill",
-        "objectPosition": "50% 50%"
-      }
-    ],
+    "missingImages": [],
     "images": [
       {
         "src": "./assets/images/geocenter-logo.svg",
@@ -3767,10 +3722,10 @@
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/2026-10-FBM_AAP_TR.png",
+        "src": "./assets/images/about/frankfurt-book-fair-aap.png",
         "ok": true,
         "natural": [
-          940,
+          461,
           788
         ],
         "rendered": [
@@ -3781,7 +3736,7 @@
         "objectPosition": "50% 100%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/IMG_8598.JPG",
+        "src": "./assets/images/about/frankfurt-book-fair-exterior.jpg",
         "ok": true,
         "natural": [
           5712,
@@ -3795,15 +3750,15 @@
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/AAP_Portrait.png",
+        "src": "./assets/images/team/anja-alexandra-pfister.png",
         "ok": true,
         "natural": [
-          940,
-          788
+          686,
+          739
         ],
         "rendered": [
-          269,
-          500
+          293,
+          545
         ],
         "objectFit": "contain",
         "objectPosition": "50% 100%"
@@ -3816,148 +3771,148 @@
           1500
         ],
         "rendered": [
-          269,
-          500
+          253,
+          470
         ],
         "objectFit": "contain",
         "objectPosition": "50% 100%"
       },
       {
-        "src": "https://svgsilh.com/svg/2718284.svg",
-        "ok": false,
+        "src": "./assets/images/about/germany-silhouette.svg",
+        "ok": true,
         "natural": [
-          0,
-          0
+          900,
+          1222
         ],
         "rendered": [
           360,
-          0
+          360
         ],
         "objectFit": "fill",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/bikeline.png",
+        "src": "./assets/images/partners/bikeline.png",
         "ok": true,
         "natural": [
           1280,
           267
         ],
         "rendered": [
-          149,
-          31
+          174,
+          36
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/hikeline.png",
+        "src": "./assets/images/partners/hikeline.png",
         "ok": true,
         "natural": [
           717,
-          1280
+          204
         ],
         "rendered": [
-          54,
-          97
+          75,
+          21
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/womo.png",
+        "src": "./assets/images/partners/womo.png",
         "ok": true,
         "natural": [
           1176,
           189
         ],
         "rendered": [
-          160,
-          26
+          186,
+          30
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teneues.png",
+        "src": "./assets/images/partners/teneues.png",
+        "ok": true,
+        "natural": [
+          1334,
+          288
+        ],
+        "rendered": [
+          150,
+          32
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/partners/gestalten.png",
+        "ok": true,
+        "natural": [
+          438,
+          227
+        ],
+        "rendered": [
+          132,
+          68
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/partners/iwanowski.png",
         "ok": true,
         "natural": [
           1414,
-          2000
+          145
         ],
         "rendered": [
-          246,
-          121
+          216,
+          22
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/gestalten%20schwarz.png",
+        "src": "./assets/images/partners/vista-point.png",
         "ok": true,
         "natural": [
-          905,
-          1280
-        ],
-        "rendered": [
-          377,
-          154
-        ],
-        "objectFit": "contain",
-        "objectPosition": "50% 50%"
-      },
-      {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/iwanowski.png",
-        "ok": true,
-        "natural": [
-          1414,
-          2000
-        ],
-        "rendered": [
-          353,
-          152
-        ],
-        "objectFit": "contain",
-        "objectPosition": "50% 50%"
-      },
-      {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/vista%20point.png",
-        "ok": true,
-        "natural": [
-          1104,
-          628
-        ],
-        "rendered": [
-          159,
-          77
-        ],
-        "objectFit": "contain",
-        "objectPosition": "50% 50%"
-      },
-      {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teampuzzle-logo-full-color-cmyk.png",
-        "ok": true,
-        "natural": [
-          1988,
-          1937
+          906,
+          296
         ],
         "rendered": [
           156,
-          81
+          51
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/LOGO_BnA_300.png",
+        "src": "./assets/images/partners/teampuzzle.png",
         "ok": true,
         "natural": [
-          1024,
-          1024
+          1846,
+          1795
         ],
         "rendered": [
-          179,
-          88
+          80,
+          78
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/partners/book-n-app.png",
+        "ok": true,
+        "natural": [
+          751,
+          548
+        ],
+        "rendered": [
+          99,
+          72
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -4005,7 +3960,7 @@
       {
         "i": 4,
         "cls": "about-market-partners",
-        "h": 1703,
+        "h": 2063,
         "w": 768
       },
       {
@@ -4024,47 +3979,13 @@
       844
     ],
     "doc": {
-      "scrollWidth": 458,
+      "scrollWidth": 390,
       "clientWidth": 390,
-      "scrollHeight": 9207
+      "scrollHeight": 10095
     },
     "clippedText": [],
-    "offscreen": [
-      {
-        "el": "div.eyebrow",
-        "left": 14,
-        "right": 458,
-        "w": 444
-      },
-      {
-        "el": "h2",
-        "left": 14,
-        "right": 458,
-        "w": 444
-      },
-      {
-        "el": "p",
-        "left": 14,
-        "right": 458,
-        "w": 444
-      }
-    ],
-    "missingImages": [
-      {
-        "src": "https://svgsilh.com/svg/2718284.svg",
-        "ok": false,
-        "natural": [
-          0,
-          0
-        ],
-        "rendered": [
-          360,
-          0
-        ],
-        "objectFit": "fill",
-        "objectPosition": "50% 50%"
-      }
-    ],
+    "offscreen": [],
+    "missingImages": [],
     "images": [
       {
         "src": "./assets/images/geocenter-logo.svg",
@@ -4081,10 +4002,10 @@
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/2026-10-FBM_AAP_TR.png",
+        "src": "./assets/images/about/frankfurt-book-fair-aap.png",
         "ok": true,
         "natural": [
-          940,
+          461,
           788
         ],
         "rendered": [
@@ -4095,7 +4016,7 @@
         "objectPosition": "50% 100%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/IMG_8598.JPG",
+        "src": "./assets/images/about/frankfurt-book-fair-exterior.jpg",
         "ok": true,
         "natural": [
           5712,
@@ -4109,15 +4030,15 @@
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/AAP_Portrait.png",
+        "src": "./assets/images/team/anja-alexandra-pfister.png",
         "ok": true,
         "natural": [
-          940,
-          788
+          686,
+          739
         ],
         "rendered": [
-          148,
-          390
+          356,
+          432
         ],
         "objectFit": "contain",
         "objectPosition": "50% 100%"
@@ -4130,148 +4051,148 @@
           1500
         ],
         "rendered": [
-          140,
-          390
+          310,
+          376
         ],
         "objectFit": "contain",
         "objectPosition": "50% 100%"
       },
       {
-        "src": "https://svgsilh.com/svg/2718284.svg",
-        "ok": false,
+        "src": "./assets/images/about/germany-silhouette.svg",
+        "ok": true,
         "natural": [
-          0,
-          0
+          900,
+          1222
         ],
         "rendered": [
-          360,
-          0
+          300,
+          360
         ],
         "objectFit": "fill",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/bikeline.png",
+        "src": "./assets/images/partners/bikeline.png",
         "ok": true,
         "natural": [
           1280,
           267
         ],
         "rendered": [
-          73,
-          15
+          86,
+          18
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/hikeline.png",
+        "src": "./assets/images/partners/hikeline.png",
         "ok": true,
         "natural": [
           717,
-          1280
+          204
         ],
         "rendered": [
-          27,
-          48
+          37,
+          10
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/womo.png",
+        "src": "./assets/images/partners/womo.png",
         "ok": true,
         "natural": [
           1176,
           189
         ],
         "rendered": [
-          79,
-          13
+          94,
+          15
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teneues.png",
+        "src": "./assets/images/partners/teneues.png",
+        "ok": true,
+        "natural": [
+          1334,
+          288
+        ],
+        "rendered": [
+          80,
+          17
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/partners/gestalten.png",
+        "ok": true,
+        "natural": [
+          438,
+          227
+        ],
+        "rendered": [
+          108,
+          56
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/partners/iwanowski.png",
         "ok": true,
         "natural": [
           1414,
-          2000
+          145
         ],
         "rendered": [
-          105,
-          105
+          112,
+          11
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/gestalten%20schwarz.png",
+        "src": "./assets/images/partners/vista-point.png",
         "ok": true,
         "natural": [
-          905,
-          1280
+          906,
+          296
         ],
         "rendered": [
-          152,
-          127
+          83,
+          27
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/iwanowski.png",
+        "src": "./assets/images/partners/teampuzzle.png",
         "ok": true,
         "natural": [
-          1414,
-          2000
+          1846,
+          1795
         ],
         "rendered": [
-          145,
-          127
+          66,
+          64
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
       },
       {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/vista%20point.png",
+        "src": "./assets/images/partners/book-n-app.png",
         "ok": true,
         "natural": [
-          1104,
-          628
+          751,
+          548
         ],
         "rendered": [
-          73,
-          41
-        ],
-        "objectFit": "contain",
-        "objectPosition": "50% 50%"
-      },
-      {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teampuzzle-logo-full-color-cmyk.png",
-        "ok": true,
-        "natural": [
-          1988,
-          1937
-        ],
-        "rendered": [
-          70,
-          68
-        ],
-        "objectFit": "contain",
-        "objectPosition": "50% 50%"
-      },
-      {
-        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/LOGO_BnA_300.png",
-        "ok": true,
-        "natural": [
-          1024,
-          1024
-        ],
-        "rendered": [
-          79,
-          79
+          77,
+          56
         ],
         "objectFit": "contain",
         "objectPosition": "50% 50%"
@@ -4295,7 +4216,7 @@
       {
         "i": 0,
         "cls": "about-intro",
-        "h": 1482,
+        "h": 1550,
         "w": 390
       },
       {
@@ -4307,19 +4228,19 @@
       {
         "i": 2,
         "cls": "about-history about-history-v2",
-        "h": 2590,
+        "h": 2574,
         "w": 390
       },
       {
         "i": 3,
         "cls": "about-leadership about-leadership-v2",
-        "h": 1156,
+        "h": 1632,
         "w": 390
       },
       {
         "i": 4,
         "cls": "about-market-partners",
-        "h": 1640,
+        "h": 2000,
         "w": 390
       },
       {
