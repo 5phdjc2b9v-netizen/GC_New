@@ -2781,10 +2781,18 @@ section[id]{scroll-margin-top:96px}
 
 
 /* Homepage CTA — personal management contact */
+.home-cta{
+  padding-top:105px;
+  padding-bottom:105px;
+}
 .home-cta .cta-inner{
   grid-template-columns:minmax(0,1.18fr) minmax(360px,.82fr);
   gap:72px;
-  align-items:end;
+  align-items:center;
+}
+.home-cta-head,
+.home-cta-contact{
+  align-self:center;
 }
 .home-cta-contact{
   max-width:520px;
@@ -2846,9 +2854,14 @@ section[id]{scroll-margin-top:96px}
   margin:0;
 }
 @media(max-width:980px){
+  .home-cta{
+    padding-top:84px;
+    padding-bottom:84px;
+  }
   .home-cta .cta-inner{
     grid-template-columns:1fr;
     gap:42px;
+    align-items:start;
   }
   .home-cta-contact{
     justify-self:start;
@@ -2870,9 +2883,4 @@ section[id]{scroll-margin-top:96px}
 }
 
 
-/* Homepage CTA vertical balance */
-@media(min-width:981px){
-  .home-cta-contact{
-    transform:translateY(-54px);
-  }
-}
+/* Homepage CTA vertical balance: both columns share one optical center. */
