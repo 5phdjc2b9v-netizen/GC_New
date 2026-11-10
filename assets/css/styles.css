@@ -2330,3 +2330,126 @@ body{background:var(--geo-paper)}
     -webkit-backdrop-filter:none!important;
   }
 }
+
+
+/* Global ambient motion + scroll depth */
+@keyframes geoAmbientShift{
+  0%{background-position:0% 20%,100% 80%,0% 50%}
+  50%{background-position:55% 5%,35% 92%,50% 50%}
+  100%{background-position:100% 25%,0% 70%,100% 50%}
+}
+
+/* Slow, editorial colour movement in the GeoCenter palette. */
+.motion-enabled .hero-editorial,
+.motion-enabled .portfolio-showcase,
+.motion-enabled .history-editorial,
+.motion-enabled .about-hero{
+  background-image:
+    radial-gradient(circle at 18% 18%,rgba(240,220,34,.10),transparent 34%),
+    radial-gradient(circle at 82% 74%,rgba(184,29,43,.055),transparent 38%),
+    linear-gradient(120deg,#f8f3ea 0%,#f4efe7 48%,#fbf8f2 100%);
+  background-size:150% 150%,170% 170%,180% 180%;
+  animation:geoAmbientShift 22s ease-in-out infinite alternate;
+}
+
+.motion-enabled .story,
+.motion-enabled .services,
+.motion-enabled .about-positioning,
+.motion-enabled .about-partners{
+  background-image:
+    radial-gradient(circle at 12% 30%,rgba(240,220,34,.045),transparent 30%),
+    radial-gradient(circle at 90% 68%,rgba(184,29,43,.025),transparent 32%),
+    linear-gradient(120deg,#fff 0%,#fdfbf7 50%,#fff 100%);
+  background-size:170% 170%,180% 180%,200% 200%;
+  animation:geoAmbientShift 30s ease-in-out infinite alternate;
+}
+
+/* Parallax media: the wrapper clips, the image itself moves a few pixels. */
+.motion-enabled .scroll-parallax-media{
+  overflow:hidden;
+}
+.motion-enabled .scroll-parallax-media > img{
+  transform:scale(1.055) translate3d(0,var(--parallax-y,0px),0);
+  transform-origin:center;
+  will-change:transform;
+  transition:transform .08s linear;
+}
+
+/* Program/catalogue covers get a very small vertical depth shift while scrolling. */
+.motion-enabled .scroll-parallax-cover .catalog-cover img{
+  transform:scale(1.035) translate3d(0,var(--cover-parallax-y,0px),0);
+  transform-origin:center;
+  will-change:transform;
+}
+
+/* Book-spine hero: independent translate property keeps hover transforms intact. */
+.motion-enabled .hero-book-geometry .spine:nth-child(1){translate:0 var(--hero-spine-1,0px)}
+.motion-enabled .hero-book-geometry .spine:nth-child(2){translate:0 var(--hero-spine-2,0px)}
+.motion-enabled .hero-book-geometry .spine:nth-child(3){translate:0 var(--hero-spine-3,0px)}
+.motion-enabled .hero-book-geometry .spine:nth-child(4){translate:0 var(--hero-spine-4,0px)}
+.motion-enabled .hero-book-geometry .spine:nth-child(5){translate:0 var(--hero-spine-5,0px)}
+.motion-enabled .hero-book-geometry .spine{
+  will-change:translate,transform;
+}
+
+/* Slight scroll-driven light movement inside key editorial cards, without moving the cards. */
+.motion-enabled .portfolio-world,
+.motion-enabled .history-card,
+.motion-enabled .topic-tile,
+.motion-enabled .catalog-card{
+  --depth-light-x:50%;
+  --depth-light-y:50%;
+}
+.motion-enabled .portfolio-world:after,
+.motion-enabled .history-card:after,
+.motion-enabled .topic-tile:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  z-index:1;
+  background:radial-gradient(circle at var(--depth-light-x) var(--depth-light-y),rgba(255,255,255,.16),transparent 42%);
+  opacity:.65;
+  transition:opacity .25s ease;
+}
+.motion-enabled .portfolio-world,
+.motion-enabled .history-card,
+.motion-enabled .topic-tile{
+  position:relative;
+  isolation:isolate;
+}
+.motion-enabled .portfolio-world > *,
+.motion-enabled .history-card > *,
+.motion-enabled .topic-tile > *{
+  position:relative;
+  z-index:2;
+}
+
+/* Keep the established cover-hover layer above the new ambient layer. */
+@media (hover:hover) and (pointer:fine){
+  .motion-enabled .portfolio-world:has(.product:hover){z-index:500}
+  .motion-enabled .product-scene:has(.product:hover){z-index:600}
+  .motion-enabled .product:hover{z-index:1000!important}
+  .motion-enabled .product:hover figcaption{z-index:1100!important}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .hero-editorial,
+  .portfolio-showcase,
+  .history-editorial,
+  .about-hero,
+  .story,
+  .services,
+  .about-positioning,
+  .about-partners{
+    animation:none!important;
+    background-position:center!important;
+  }
+  .scroll-parallax-media > img,
+  .scroll-parallax-cover .catalog-cover img{
+    transform:none!important;
+  }
+  .hero-book-geometry .spine{
+    translate:none!important;
+  }
+}
