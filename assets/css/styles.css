@@ -2739,3 +2739,27 @@ section[id]{scroll-margin-top:96px}
     height:430px;
   }
 }
+
+
+/* Homepage hero seamless background — variant A, definitive */
+.hero-editorial,
+.hero-editorial > .wrap,
+.hero-editorial-grid,
+.hero-editorial-copy,
+.fact-strip-editorial,
+.fact-strip-editorial .fact{
+  background:var(--geo-paper)!important;
+}
+.hero-editorial-grid{
+  border-top:0!important;
+  border-bottom:0!important;
+  box-shadow:none!important;
+}
+.fact-strip-editorial{
+  border-top:1px solid var(--line)!important;
+  border-bottom:0!important;
+  box-shadow:none!important;
+}
+.hero-editorial-copy{
+  box-shadow:none!important;
+}
