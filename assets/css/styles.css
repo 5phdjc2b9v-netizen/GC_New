@@ -2792,7 +2792,7 @@ section[id]{scroll-margin-top:96px}
 }
 .home-cta-person{
   display:grid;
-  grid-template-columns:118px minmax(0,1fr);
+  grid-template-columns:236px minmax(0,1fr);
   gap:20px;
   align-items:end;
   margin-bottom:24px;
@@ -2800,8 +2800,8 @@ section[id]{scroll-margin-top:96px}
   border-bottom:1px solid rgba(255,255,255,.18);
 }
 .home-cta-portrait{
-  width:118px;
-  height:142px;
+  width:236px;
+  height:284px;
   overflow:visible;
   background:transparent;
   display:flex;
@@ -2857,12 +2857,12 @@ section[id]{scroll-margin-top:96px}
 }
 @media(max-width:640px){
   .home-cta-person{
-    grid-template-columns:96px minmax(0,1fr);
+    grid-template-columns:168px minmax(0,1fr);
     gap:16px;
   }
   .home-cta-portrait{
-    width:96px;
-    height:116px;
+    width:168px;
+    height:204px;
   }
   .home-cta-person-meta strong{
     font-size:18px;
