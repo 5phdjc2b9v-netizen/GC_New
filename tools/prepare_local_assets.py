@@ -19,6 +19,22 @@ def trim_alpha(path, pad=8):
     im.save(p)
 
 
+
+def clean_klaus_artifacts(path):
+    p=Path(path)
+    im=Image.open(p).convert("RGBA")
+    w,h=im.size
+    px=im.load()
+    # Corrupted colour bands live only in the upper-right source canvas.
+    # Preserve the jacket/shoulder in the lower-right area.
+    for y in range(int(h*.68)):
+        for x in range(int(w*.73), w):
+            r,g,b,a=px[x,y]
+            # Remove the entire non-portrait side zone; the face/hair ends before it.
+            px[x,y]=(r,g,b,0)
+    im.save(p)
+    trim_alpha(p, 8)
+
 def keep_largest_alpha_component(path, pad=8):
     p=Path(path)
     im=Image.open(p).convert("RGBA")
@@ -96,7 +112,7 @@ for p in [
 ]:
     trim_alpha(p, 8)
 
-keep_largest_alpha_component(TEAM/"dr-klaus-hoehne.webp", 8)
+clean_klaus_artifacts(TEAM/"dr-klaus-hoehne.webp")
 
 for p in PARTNERS.glob("*.png"):
     trim_white(p, 12)
