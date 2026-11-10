@@ -1,11 +1,15 @@
 from pathlib import Path
+from shutil import copyfile
+
 from PIL import Image
 from rembg import remove
 
 OUT_W, OUT_H = 1200, 1500
 MAX_W, MAX_H = 1120, 1430
 
-def process(src, dst):
+
+def process_cutout(src, dst):
+    """Create a transparent cut-out only for portraits where segmentation is reliable."""
     im = Image.open(src).convert("RGBA")
     cut = remove(
         im,
@@ -27,9 +31,16 @@ def process(src, dst):
     canvas.alpha_composite(cut, (x, y))
     canvas.save(dst, "WEBP", lossless=True, method=6)
 
+
 Path("assets/images/team").mkdir(parents=True, exist_ok=True)
-process("/tmp/anja.jpg", "assets/images/team/anja-alexandra-pfister.webp")
-process("/tmp/klaus.jpg", "assets/images/team/dr-klaus-hoehne.webp")
+
+# Anja's cut-out is clean and can remain transparent.
+process_cutout("/tmp/anja.jpg", "assets/images/team/anja-alexandra-pfister.webp")
+
+# IMPORTANT: never run Dr. Klaus Hoehne's portrait through rembg.
+# The segmentation removed part of his face in the generated WebP.
+# Keep the authentic source portrait intact and let CSS crop the rectangular JPEG.
+copyfile("/tmp/klaus.jpg", "assets/images/team/dr-klaus-hoehne.jpg")
 
 page = Path("unternehmen.html")
 s = page.read_text()
@@ -39,7 +50,11 @@ s = s.replace(
 )
 s = s.replace(
     "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/PHOTO-2026-10-17-00-04-16.jpg",
+    "./assets/images/team/dr-klaus-hoehne.jpg",
+)
+s = s.replace(
     "./assets/images/team/dr-klaus-hoehne.webp",
+    "./assets/images/team/dr-klaus-hoehne.jpg",
 )
 page.write_text(s)
 
