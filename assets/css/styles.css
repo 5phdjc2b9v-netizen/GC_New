@@ -2792,7 +2792,7 @@ section[id]{scroll-margin-top:96px}
 }
 .home-cta-person{
   display:grid;
-  grid-template-columns:108px minmax(0,1fr);
+  grid-template-columns:118px minmax(0,1fr);
   gap:20px;
   align-items:end;
   margin-bottom:24px;
@@ -2800,18 +2800,21 @@ section[id]{scroll-margin-top:96px}
   border-bottom:1px solid rgba(255,255,255,.18);
 }
 .home-cta-portrait{
-  width:108px;
-  height:126px;
-  overflow:hidden;
-  background:#eee7dd;
+  width:118px;
+  height:142px;
+  overflow:visible;
+  background:transparent;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
 }
 .home-cta-portrait img{
   width:100%;
   height:100%;
-  object-fit:cover;
-  object-position:center 14%;
-  transform:scale(1.03);
-  transform-origin:center top;
+  object-fit:contain;
+  object-position:center bottom;
+  transform:none;
+  filter:drop-shadow(0 12px 18px rgba(0,0,0,.16));
 }
 .home-cta-person-meta{
   padding-bottom:3px;
@@ -2854,12 +2857,12 @@ section[id]{scroll-margin-top:96px}
 }
 @media(max-width:640px){
   .home-cta-person{
-    grid-template-columns:88px minmax(0,1fr);
+    grid-template-columns:96px minmax(0,1fr);
     gap:16px;
   }
   .home-cta-portrait{
-    width:88px;
-    height:106px;
+    width:96px;
+    height:116px;
   }
   .home-cta-person-meta strong{
     font-size:18px;
