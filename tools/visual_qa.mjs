@@ -28,6 +28,7 @@ const safe=s=>s.replace(/[^a-z0-9_-]+/gi,'-').replace(/-+/g,'-').replace(/^-|-$/
 for (const pageName of pages){
   for (const [label,width,height] of viewports){
     const page=await browser.newPage({viewport:{width,height},deviceScaleFactor:1});
+    await page.emulateMedia({reducedMotion:'reduce'});
     page.setDefaultNavigationTimeout(15000);
     await page.goto('http://127.0.0.1:4173/'+pageName,{waitUntil:'domcontentloaded'});
 
