@@ -40,11 +40,21 @@ def trim_white(path, pad=10):
 for p in [
     ABOUT/"frankfurt-book-fair-aap.png",
     TEAM/"anja-alexandra-pfister.png",
+    TEAM/"dr-klaus-hoehne.webp",
 ]:
     trim_alpha(p, 8)
 
 for p in PARTNERS.glob("*.png"):
     trim_white(p, 12)
+
+# The gestalten source contains a tiny stray mark above the actual wordmark.
+# Keep only the main wordmark, then trim again.
+gestalten = PARTNERS/"gestalten.png"
+im = Image.open(gestalten).convert("RGBA")
+w,h = im.size
+im = im.crop((max(0,int(w*.06)), int(h*.36), w, h))
+im.save(gestalten)
+trim_white(gestalten, 8)
 
 # Replace external image dependencies with local assets.
 index=Path("index.html")
