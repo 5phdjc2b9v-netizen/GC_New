@@ -1,0 +1,4669 @@
+[
+  {
+    "page": "index.html",
+    "viewport": "desktop-2560",
+    "size": [
+      2560,
+      1440
+    ],
+    "doc": {
+      "scrollWidth": 2560,
+      "clientWidth": 2560,
+      "scrollHeight": 8888
+    },
+    "clippedText": [
+      {
+        "el": "a.service-row.reveal",
+        "text": "01Vertrieb & AußendienstDeutschlandweite Kundenbetreuung, Sortimentsberatung, Aktionen und Umsetzung am Point of Sale.↗",
+        "client": [
+          1320,
+          109
+        ],
+        "scroll": [
+          1320,
+          109
+        ]
+      },
+      {
+        "el": "a.service-row.reveal",
+        "text": "02Customer ServiceBestellungen, Kundenanfragen, Retouren, Verkaufsunterlagen und Messeorganisation.↗",
+        "client": [
+          1320,
+          109
+        ],
+        "scroll": [
+          1320,
+          109
+        ]
+      },
+      {
+        "el": "a.service-row.reveal",
+        "text": "03VerlagsbetreuungPersönliche Ansprechpartner, Titeldaten, Reporting und laufende Programmbetreuung.↗",
+        "client": [
+          1320,
+          109
+        ],
+        "scroll": [
+          1320,
+          109
+        ]
+      },
+      {
+        "el": "a.service-row.reveal",
+        "text": "04AuslieferungGebündelte Logistik, Fakturierung, Sonderleistungen und After-Sales.↗",
+        "client": [
+          1320,
+          109
+        ],
+        "scroll": [
+          1320,
+          109
+        ]
+      }
+    ],
+    "offscreen": [
+      {
+        "el": "img.globe-photo.globe-photo-image",
+        "left": -77,
+        "right": 2637,
+        "w": 2714
+      }
+    ],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://static.wixstatic.com/media/3b5c40_4f5edce81fa64bc980f3bab1eb5d72ec~mv2.jpg",
+        "ok": true,
+        "natural": [
+          3024,
+          4032
+        ],
+        "rendered": [
+          794,
+          1059
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/iwanowski-namibia.jpg",
+        "ok": true,
+        "natural": [
+          500,
+          710
+        ],
+        "rendered": [
+          279,
+          389
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/bikeline-alpe-adria.jpg",
+        "ok": true,
+        "natural": [
+          1920,
+          1012
+        ],
+        "rendered": [
+          417,
+          223
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/womo-slowenien-2026.jpg",
+        "ok": true,
+        "natural": [
+          540,
+          1000
+        ],
+        "rendered": [
+          286,
+          523
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/lonely-planet-okinawa.webp",
+        "ok": true,
+        "natural": [
+          1512,
+          2327
+        ],
+        "rendered": [
+          254,
+          382
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/teneues-rolex-3d.webp",
+        "ok": true,
+        "natural": [
+          1600,
+          1600
+        ],
+        "rendered": [
+          345,
+          340
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/gestalten-mid-century-now.webp",
+        "ok": true,
+        "natural": [
+          1600,
+          1600
+        ],
+        "rendered": [
+          332,
+          332
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/jahrgangsbuch-1955.jpg",
+        "ok": true,
+        "natural": [
+          1250,
+          1667
+        ],
+        "rendered": [
+          240,
+          316
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/1000-places-harz.webp",
+        "ok": true,
+        "natural": [
+          500,
+          708
+        ],
+        "rendered": [
+          202,
+          281
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/world-for-kids-portugal.webp",
+        "ok": true,
+        "natural": [
+          728,
+          974
+        ],
+        "rendered": [
+          222,
+          297
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/biber-butzemann-kroatien.webp",
+        "ok": true,
+        "natural": [
+          715,
+          1024
+        ],
+        "rendered": [
+          207,
+          297
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/teampuzzle-grueffelo.webp",
+        "ok": true,
+        "natural": [
+          1946,
+          1946
+        ],
+        "rendered": [
+          385,
+          385
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/raethgloben-full-circle-r.jpg",
+        "ok": true,
+        "natural": [
+          2500,
+          1434
+        ],
+        "rendered": [
+          2714,
+          886
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "hero hero-editorial",
+        "h": 1054,
+        "w": 2560
+      },
+      {
+        "i": 1,
+        "cls": "story",
+        "h": 1533,
+        "w": 2560
+      },
+      {
+        "i": 2,
+        "cls": "portfolio portfolio-showcase",
+        "h": 2625,
+        "w": 2560
+      },
+      {
+        "i": 3,
+        "cls": "globe-break",
+        "h": 760,
+        "w": 2560
+      },
+      {
+        "i": 4,
+        "cls": "services",
+        "h": 969,
+        "w": 2560
+      },
+      {
+        "i": 5,
+        "cls": "history history-editorial",
+        "h": 903,
+        "w": 2560
+      },
+      {
+        "i": 6,
+        "cls": "partner-band reveal",
+        "h": 205,
+        "w": 2560
+      },
+      {
+        "i": 7,
+        "cls": "cta",
+        "h": 397,
+        "w": 2560
+      }
+    ]
+  },
+  {
+    "page": "index.html",
+    "viewport": "desktop-1440",
+    "size": [
+      1440,
+      1000
+    ],
+    "doc": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "scrollHeight": 8778
+    },
+    "clippedText": [
+      {
+        "el": "a.service-row.reveal",
+        "text": "01Vertrieb & AußendienstDeutschlandweite Kundenbetreuung, Sortimentsberatung, Aktionen und Umsetzung am Point of Sale.↗",
+        "client": [
+          1320,
+          109
+        ],
+        "scroll": [
+          1320,
+          109
+        ]
+      },
+      {
+        "el": "a.service-row.reveal",
+        "text": "02Customer ServiceBestellungen, Kundenanfragen, Retouren, Verkaufsunterlagen und Messeorganisation.↗",
+        "client": [
+          1320,
+          109
+        ],
+        "scroll": [
+          1320,
+          109
+        ]
+      },
+      {
+        "el": "a.service-row.reveal",
+        "text": "03VerlagsbetreuungPersönliche Ansprechpartner, Titeldaten, Reporting und laufende Programmbetreuung.↗",
+        "client": [
+          1320,
+          109
+        ],
+        "scroll": [
+          1320,
+          109
+        ]
+      },
+      {
+        "el": "a.service-row.reveal",
+        "text": "04AuslieferungGebündelte Logistik, Fakturierung, Sonderleistungen und After-Sales.↗",
+        "client": [
+          1320,
+          109
+        ],
+        "scroll": [
+          1320,
+          109
+        ]
+      }
+    ],
+    "offscreen": [
+      {
+        "el": "img.globe-photo.globe-photo-image",
+        "left": -43,
+        "right": 1483,
+        "w": 1526
+      }
+    ],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://static.wixstatic.com/media/3b5c40_4f5edce81fa64bc980f3bab1eb5d72ec~mv2.jpg",
+        "ok": true,
+        "natural": [
+          3024,
+          4032
+        ],
+        "rendered": [
+          794,
+          1059
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/iwanowski-namibia.jpg",
+        "ok": true,
+        "natural": [
+          500,
+          710
+        ],
+        "rendered": [
+          279,
+          389
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/bikeline-alpe-adria.jpg",
+        "ok": true,
+        "natural": [
+          1920,
+          1012
+        ],
+        "rendered": [
+          417,
+          223
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/womo-slowenien-2026.jpg",
+        "ok": true,
+        "natural": [
+          540,
+          1000
+        ],
+        "rendered": [
+          286,
+          523
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/lonely-planet-okinawa.webp",
+        "ok": true,
+        "natural": [
+          1512,
+          2327
+        ],
+        "rendered": [
+          254,
+          382
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/teneues-rolex-3d.webp",
+        "ok": true,
+        "natural": [
+          1600,
+          1600
+        ],
+        "rendered": [
+          345,
+          340
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/gestalten-mid-century-now.webp",
+        "ok": true,
+        "natural": [
+          1600,
+          1600
+        ],
+        "rendered": [
+          332,
+          332
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/jahrgangsbuch-1955.jpg",
+        "ok": true,
+        "natural": [
+          1250,
+          1667
+        ],
+        "rendered": [
+          240,
+          316
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/1000-places-harz.webp",
+        "ok": true,
+        "natural": [
+          500,
+          708
+        ],
+        "rendered": [
+          202,
+          281
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/world-for-kids-portugal.webp",
+        "ok": true,
+        "natural": [
+          728,
+          974
+        ],
+        "rendered": [
+          222,
+          297
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/biber-butzemann-kroatien.webp",
+        "ok": true,
+        "natural": [
+          715,
+          1024
+        ],
+        "rendered": [
+          207,
+          297
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/teampuzzle-grueffelo.webp",
+        "ok": true,
+        "natural": [
+          1946,
+          1946
+        ],
+        "rendered": [
+          385,
+          385
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/raethgloben-full-circle-r.jpg",
+        "ok": true,
+        "natural": [
+          2500,
+          1434
+        ],
+        "rendered": [
+          1526,
+          886
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "hero hero-editorial",
+        "h": 945,
+        "w": 1440
+      },
+      {
+        "i": 1,
+        "cls": "story",
+        "h": 1533,
+        "w": 1440
+      },
+      {
+        "i": 2,
+        "cls": "portfolio portfolio-showcase",
+        "h": 2624,
+        "w": 1440
+      },
+      {
+        "i": 3,
+        "cls": "globe-break",
+        "h": 760,
+        "w": 1440
+      },
+      {
+        "i": 4,
+        "cls": "services",
+        "h": 969,
+        "w": 1440
+      },
+      {
+        "i": 5,
+        "cls": "history history-editorial",
+        "h": 903,
+        "w": 1440
+      },
+      {
+        "i": 6,
+        "cls": "partner-band reveal",
+        "h": 205,
+        "w": 1440
+      },
+      {
+        "i": 7,
+        "cls": "cta",
+        "h": 397,
+        "w": 1440
+      }
+    ]
+  },
+  {
+    "page": "index.html",
+    "viewport": "tablet-768",
+    "size": [
+      768,
+      1024
+    ],
+    "doc": {
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "scrollHeight": 11987
+    },
+    "clippedText": [
+      {
+        "el": "a.service-row.reveal",
+        "text": "01Vertrieb & AußendienstDeutschlandweite Kundenbetreuung, Sortimentsberatung, Aktionen und Umsetzung am Point of Sale.↗",
+        "client": [
+          724,
+          184
+        ],
+        "scroll": [
+          724,
+          184
+        ]
+      },
+      {
+        "el": "a.service-row.reveal",
+        "text": "02Customer ServiceBestellungen, Kundenanfragen, Retouren, Verkaufsunterlagen und Messeorganisation.↗",
+        "client": [
+          724,
+          184
+        ],
+        "scroll": [
+          724,
+          184
+        ]
+      },
+      {
+        "el": "a.service-row.reveal",
+        "text": "03VerlagsbetreuungPersönliche Ansprechpartner, Titeldaten, Reporting und laufende Programmbetreuung.↗",
+        "client": [
+          724,
+          184
+        ],
+        "scroll": [
+          724,
+          184
+        ]
+      },
+      {
+        "el": "a.service-row.reveal",
+        "text": "04AuslieferungGebündelte Logistik, Fakturierung, Sonderleistungen und After-Sales.↗",
+        "client": [
+          724,
+          178
+        ],
+        "scroll": [
+          724,
+          178
+        ]
+      }
+    ],
+    "offscreen": [
+      {
+        "el": "div.page-curve",
+        "left": 517,
+        "right": 787,
+        "w": 270
+      },
+      {
+        "el": "img.globe-photo.globe-photo-image",
+        "left": -23,
+        "right": 791,
+        "w": 814
+      }
+    ],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://static.wixstatic.com/media/3b5c40_4f5edce81fa64bc980f3bab1eb5d72ec~mv2.jpg",
+        "ok": true,
+        "natural": [
+          3024,
+          4032
+        ],
+        "rendered": [
+          764,
+          1018
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/iwanowski-namibia.jpg",
+        "ok": true,
+        "natural": [
+          500,
+          710
+        ],
+        "rendered": [
+          209,
+          297
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/bikeline-alpe-adria.jpg",
+        "ok": true,
+        "natural": [
+          1920,
+          1012
+        ],
+        "rendered": [
+          313,
+          165
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/womo-slowenien-2026.jpg",
+        "ok": true,
+        "natural": [
+          540,
+          1000
+        ],
+        "rendered": [
+          160,
+          297
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/lonely-planet-okinawa.webp",
+        "ok": true,
+        "natural": [
+          1512,
+          2327
+        ],
+        "rendered": [
+          193,
+          297
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/teneues-rolex-3d.webp",
+        "ok": true,
+        "natural": [
+          1600,
+          1600
+        ],
+        "rendered": [
+          297,
+          297
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/gestalten-mid-century-now.webp",
+        "ok": true,
+        "natural": [
+          1600,
+          1600
+        ],
+        "rendered": [
+          297,
+          297
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/jahrgangsbuch-1955.jpg",
+        "ok": true,
+        "natural": [
+          1250,
+          1667
+        ],
+        "rendered": [
+          223,
+          297
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/1000-places-harz.webp",
+        "ok": true,
+        "natural": [
+          500,
+          708
+        ],
+        "rendered": [
+          210,
+          297
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/world-for-kids-portugal.webp",
+        "ok": true,
+        "natural": [
+          728,
+          974
+        ],
+        "rendered": [
+          232,
+          277
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/biber-butzemann-kroatien.webp",
+        "ok": true,
+        "natural": [
+          715,
+          1024
+        ],
+        "rendered": [
+          194,
+          277
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/teampuzzle-grueffelo.webp",
+        "ok": true,
+        "natural": [
+          1946,
+          1946
+        ],
+        "rendered": [
+          327,
+          297
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/raethgloben-full-circle-r.jpg",
+        "ok": true,
+        "natural": [
+          2500,
+          1434
+        ],
+        "rendered": [
+          814,
+          886
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "hero hero-editorial",
+        "h": 1214,
+        "w": 768
+      },
+      {
+        "i": 1,
+        "cls": "story",
+        "h": 1938,
+        "w": 768
+      },
+      {
+        "i": 2,
+        "cls": "portfolio portfolio-showcase",
+        "h": 3966,
+        "w": 768
+      },
+      {
+        "i": 3,
+        "cls": "globe-break",
+        "h": 760,
+        "w": 768
+      },
+      {
+        "i": 4,
+        "cls": "services",
+        "h": 1274,
+        "w": 768
+      },
+      {
+        "i": 5,
+        "cls": "history history-editorial",
+        "h": 1258,
+        "w": 768
+      },
+      {
+        "i": 6,
+        "cls": "partner-band reveal",
+        "h": 257,
+        "w": 768
+      },
+      {
+        "i": 7,
+        "cls": "cta",
+        "h": 532,
+        "w": 768
+      }
+    ]
+  },
+  {
+    "page": "index.html",
+    "viewport": "mobile-390",
+    "size": [
+      390,
+      844
+    ],
+    "doc": {
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 12220
+    },
+    "clippedText": [
+      {
+        "el": "a.service-row.reveal",
+        "text": "01Vertrieb & AußendienstDeutschlandweite Kundenbetreuung, Sortimentsberatung, Aktionen und Umsetzung am Point of Sale.↗",
+        "client": [
+          362,
+          293
+        ],
+        "scroll": [
+          362,
+          293
+        ]
+      },
+      {
+        "el": "a.service-row.reveal",
+        "text": "02Customer ServiceBestellungen, Kundenanfragen, Retouren, Verkaufsunterlagen und Messeorganisation.↗",
+        "client": [
+          362,
+          249
+        ],
+        "scroll": [
+          362,
+          249
+        ]
+      },
+      {
+        "el": "a.service-row.reveal",
+        "text": "03VerlagsbetreuungPersönliche Ansprechpartner, Titeldaten, Reporting und laufende Programmbetreuung.↗",
+        "client": [
+          362,
+          249
+        ],
+        "scroll": [
+          362,
+          249
+        ]
+      },
+      {
+        "el": "a.service-row.reveal",
+        "text": "04AuslieferungGebündelte Logistik, Fakturierung, Sonderleistungen und After-Sales.↗",
+        "client": [
+          362,
+          225
+        ],
+        "scroll": [
+          362,
+          225
+        ]
+      }
+    ],
+    "offscreen": [
+      {
+        "el": "div.page-curve",
+        "left": 260,
+        "right": 398,
+        "w": 137
+      },
+      {
+        "el": "img.globe-photo.globe-photo-image",
+        "left": -12,
+        "right": 402,
+        "w": 413
+      }
+    ],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          146,
+          38
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://static.wixstatic.com/media/3b5c40_4f5edce81fa64bc980f3bab1eb5d72ec~mv2.jpg",
+        "ok": true,
+        "natural": [
+          3024,
+          4032
+        ],
+        "rendered": [
+          382,
+          509
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/iwanowski-namibia.jpg",
+        "ok": true,
+        "natural": [
+          500,
+          710
+        ],
+        "rendered": [
+          143,
+          203
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/bikeline-alpe-adria.jpg",
+        "ok": true,
+        "natural": [
+          1920,
+          1012
+        ],
+        "rendered": [
+          149,
+          78
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/womo-slowenien-2026.jpg",
+        "ok": true,
+        "natural": [
+          540,
+          1000
+        ],
+        "rendered": [
+          110,
+          203
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/lonely-planet-okinawa.webp",
+        "ok": true,
+        "natural": [
+          1512,
+          2327
+        ],
+        "rendered": [
+          132,
+          203
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/teneues-rolex-3d.webp",
+        "ok": true,
+        "natural": [
+          1600,
+          1600
+        ],
+        "rendered": [
+          149,
+          149
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/gestalten-mid-century-now.webp",
+        "ok": true,
+        "natural": [
+          1600,
+          1600
+        ],
+        "rendered": [
+          149,
+          149
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/jahrgangsbuch-1955.jpg",
+        "ok": true,
+        "natural": [
+          1250,
+          1667
+        ],
+        "rendered": [
+          152,
+          203
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/1000-places-harz.webp",
+        "ok": true,
+        "natural": [
+          500,
+          708
+        ],
+        "rendered": [
+          143,
+          203
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/world-for-kids-portugal.webp",
+        "ok": true,
+        "natural": [
+          728,
+          974
+        ],
+        "rendered": [
+          166,
+          223
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/biber-butzemann-kroatien.webp",
+        "ok": true,
+        "natural": [
+          715,
+          1024
+        ],
+        "rendered": [
+          148,
+          213
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/teampuzzle-grueffelo.webp",
+        "ok": true,
+        "natural": [
+          1946,
+          1946
+        ],
+        "rendered": [
+          215,
+          203
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/raethgloben-full-circle-r.jpg",
+        "ok": true,
+        "natural": [
+          2500,
+          1434
+        ],
+        "rendered": [
+          413,
+          723
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "hero hero-editorial",
+        "h": 1424,
+        "w": 390
+      },
+      {
+        "i": 1,
+        "cls": "story",
+        "h": 1688,
+        "w": 390
+      },
+      {
+        "i": 2,
+        "cls": "portfolio portfolio-showcase",
+        "h": 3757,
+        "w": 390
+      },
+      {
+        "i": 3,
+        "cls": "globe-break",
+        "h": 620,
+        "w": 390
+      },
+      {
+        "i": 4,
+        "cls": "services",
+        "h": 1645,
+        "w": 390
+      },
+      {
+        "i": 5,
+        "cls": "history history-editorial",
+        "h": 1336,
+        "w": 390
+      },
+      {
+        "i": 6,
+        "cls": "partner-band reveal",
+        "h": 361,
+        "w": 390
+      },
+      {
+        "i": 7,
+        "cls": "cta",
+        "h": 576,
+        "w": 390
+      }
+    ]
+  },
+  {
+    "page": "leistungen.html",
+    "viewport": "desktop-2560",
+    "size": [
+      2560,
+      1440
+    ],
+    "doc": {
+      "scrollWidth": 2560,
+      "clientWidth": 2560,
+      "scrollHeight": 6814
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/trade/buchhandel-jahrgangsbuecher.jpg",
+        "ok": true,
+        "natural": [
+          1200,
+          1600
+        ],
+        "rendered": [
+          699,
+          560
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "services-hero",
+        "h": 959,
+        "w": 2560
+      },
+      {
+        "i": 1,
+        "cls": "services-principle",
+        "h": 581,
+        "w": 2560
+      },
+      {
+        "i": 2,
+        "cls": "services-sales",
+        "h": 1023,
+        "w": 2560
+      },
+      {
+        "i": 3,
+        "cls": "services-feedback",
+        "h": 1015,
+        "w": 2560
+      },
+      {
+        "i": 4,
+        "cls": "services-backoffice",
+        "h": 802,
+        "w": 2560
+      },
+      {
+        "i": 5,
+        "cls": "services-logistics",
+        "h": 785,
+        "w": 2560
+      },
+      {
+        "i": 6,
+        "cls": "services-more",
+        "h": 555,
+        "w": 2560
+      },
+      {
+        "i": 7,
+        "cls": "services-final",
+        "h": 654,
+        "w": 2560
+      }
+    ]
+  },
+  {
+    "page": "leistungen.html",
+    "viewport": "desktop-1440",
+    "size": [
+      1440,
+      1000
+    ],
+    "doc": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "scrollHeight": 6774
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/trade/buchhandel-jahrgangsbuecher.jpg",
+        "ok": true,
+        "natural": [
+          1200,
+          1600
+        ],
+        "rendered": [
+          699,
+          560
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "services-hero",
+        "h": 950,
+        "w": 1440
+      },
+      {
+        "i": 1,
+        "cls": "services-principle",
+        "h": 581,
+        "w": 1440
+      },
+      {
+        "i": 2,
+        "cls": "services-sales",
+        "h": 1021,
+        "w": 1440
+      },
+      {
+        "i": 3,
+        "cls": "services-feedback",
+        "h": 1005,
+        "w": 1440
+      },
+      {
+        "i": 4,
+        "cls": "services-backoffice",
+        "h": 794,
+        "w": 1440
+      },
+      {
+        "i": 5,
+        "cls": "services-logistics",
+        "h": 780,
+        "w": 1440
+      },
+      {
+        "i": 6,
+        "cls": "services-more",
+        "h": 550,
+        "w": 1440
+      },
+      {
+        "i": 7,
+        "cls": "services-final",
+        "h": 651,
+        "w": 1440
+      }
+    ]
+  },
+  {
+    "page": "leistungen.html",
+    "viewport": "tablet-768",
+    "size": [
+      768,
+      1024
+    ],
+    "doc": {
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "scrollHeight": 8398
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/trade/buchhandel-jahrgangsbuecher.jpg",
+        "ok": true,
+        "natural": [
+          1200,
+          1600
+        ],
+        "rendered": [
+          724,
+          560
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "services-hero",
+        "h": 1140,
+        "w": 768
+      },
+      {
+        "i": 1,
+        "cls": "services-principle",
+        "h": 806,
+        "w": 768
+      },
+      {
+        "i": 2,
+        "cls": "services-sales",
+        "h": 1422,
+        "w": 768
+      },
+      {
+        "i": 3,
+        "cls": "services-feedback",
+        "h": 1007,
+        "w": 768
+      },
+      {
+        "i": 4,
+        "cls": "services-backoffice",
+        "h": 795,
+        "w": 768
+      },
+      {
+        "i": 5,
+        "cls": "services-logistics",
+        "h": 1238,
+        "w": 768
+      },
+      {
+        "i": 6,
+        "cls": "services-more",
+        "h": 558,
+        "w": 768
+      },
+      {
+        "i": 7,
+        "cls": "services-final",
+        "h": 644,
+        "w": 768
+      }
+    ]
+  },
+  {
+    "page": "leistungen.html",
+    "viewport": "mobile-390",
+    "size": [
+      390,
+      844
+    ],
+    "doc": {
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 8944
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          146,
+          38
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/trade/buchhandel-jahrgangsbuecher.jpg",
+        "ok": true,
+        "natural": [
+          1200,
+          1600
+        ],
+        "rendered": [
+          362,
+          390
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "services-hero",
+        "h": 1219,
+        "w": 390
+      },
+      {
+        "i": 1,
+        "cls": "services-principle",
+        "h": 899,
+        "w": 390
+      },
+      {
+        "i": 2,
+        "cls": "services-sales",
+        "h": 1429,
+        "w": 390
+      },
+      {
+        "i": 3,
+        "cls": "services-feedback",
+        "h": 1047,
+        "w": 390
+      },
+      {
+        "i": 4,
+        "cls": "services-backoffice",
+        "h": 776,
+        "w": 390
+      },
+      {
+        "i": 5,
+        "cls": "services-logistics",
+        "h": 1344,
+        "w": 390
+      },
+      {
+        "i": 6,
+        "cls": "services-more",
+        "h": 694,
+        "w": 390
+      },
+      {
+        "i": 7,
+        "cls": "services-final",
+        "h": 723,
+        "w": 390
+      }
+    ]
+  },
+  {
+    "page": "programm.html",
+    "viewport": "desktop-2560",
+    "size": [
+      2560,
+      1440
+    ],
+    "doc": {
+      "scrollWidth": 2560,
+      "clientWidth": 2560,
+      "scrollHeight": 11683
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/bikeline-hikeline-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/womo-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/naturzeit-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1815
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/kettler-wassersport-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/teneues-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/gestalten-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/raethgloben-full-circle-r.jpg",
+        "ok": true,
+        "natural": [
+          2500,
+          1434
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/geocenter-programm-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/iwanowski-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/biber-butzemann-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/world-for-kids-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/kleine-gestalten-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/biber-butzemann-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/jahrgangsbuch-1955.jpg",
+        "ok": true,
+        "natural": [
+          1250,
+          1667
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/teampuzzle-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1585
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "program-hero",
+        "h": 701,
+        "w": 2560
+      },
+      {
+        "i": 1,
+        "cls": "topic-nav",
+        "h": 1110,
+        "w": 2560
+      },
+      {
+        "i": 2,
+        "cls": "program-section",
+        "h": 915,
+        "w": 2560
+      },
+      {
+        "i": 3,
+        "cls": "program-section",
+        "h": 961,
+        "w": 2560
+      },
+      {
+        "i": 4,
+        "cls": "program-section",
+        "h": 934,
+        "w": 2560
+      },
+      {
+        "i": 5,
+        "cls": "program-section",
+        "h": 934,
+        "w": 2560
+      },
+      {
+        "i": 6,
+        "cls": "program-section",
+        "h": 963,
+        "w": 2560
+      },
+      {
+        "i": 7,
+        "cls": "program-section",
+        "h": 937,
+        "w": 2560
+      },
+      {
+        "i": 8,
+        "cls": "program-section",
+        "h": 937,
+        "w": 2560
+      },
+      {
+        "i": 9,
+        "cls": "program-section",
+        "h": 956,
+        "w": 2560
+      },
+      {
+        "i": 10,
+        "cls": "program-section",
+        "h": 915,
+        "w": 2560
+      },
+      {
+        "i": 11,
+        "cls": "map-service",
+        "h": 450,
+        "w": 2560
+      },
+      {
+        "i": 12,
+        "cls": "program-cta",
+        "h": 529,
+        "w": 2560
+      }
+    ]
+  },
+  {
+    "page": "programm.html",
+    "viewport": "desktop-1440",
+    "size": [
+      1440,
+      1000
+    ],
+    "doc": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "scrollHeight": 11678
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/bikeline-hikeline-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/womo-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/naturzeit-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1815
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/kettler-wassersport-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/teneues-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/gestalten-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/raethgloben-full-circle-r.jpg",
+        "ok": true,
+        "natural": [
+          2500,
+          1434
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/geocenter-programm-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/iwanowski-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/biber-butzemann-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/world-for-kids-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/kleine-gestalten-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/biber-butzemann-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/jahrgangsbuch-1955.jpg",
+        "ok": true,
+        "natural": [
+          1250,
+          1667
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/teampuzzle-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1585
+        ],
+        "rendered": [
+          321,
+          428
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "program-hero",
+        "h": 695,
+        "w": 1440
+      },
+      {
+        "i": 1,
+        "cls": "topic-nav",
+        "h": 1110,
+        "w": 1440
+      },
+      {
+        "i": 2,
+        "cls": "program-section",
+        "h": 915,
+        "w": 1440
+      },
+      {
+        "i": 3,
+        "cls": "program-section",
+        "h": 961,
+        "w": 1440
+      },
+      {
+        "i": 4,
+        "cls": "program-section",
+        "h": 934,
+        "w": 1440
+      },
+      {
+        "i": 5,
+        "cls": "program-section",
+        "h": 934,
+        "w": 1440
+      },
+      {
+        "i": 6,
+        "cls": "program-section",
+        "h": 963,
+        "w": 1440
+      },
+      {
+        "i": 7,
+        "cls": "program-section",
+        "h": 937,
+        "w": 1440
+      },
+      {
+        "i": 8,
+        "cls": "program-section",
+        "h": 937,
+        "w": 1440
+      },
+      {
+        "i": 9,
+        "cls": "program-section",
+        "h": 956,
+        "w": 1440
+      },
+      {
+        "i": 10,
+        "cls": "program-section",
+        "h": 915,
+        "w": 1440
+      },
+      {
+        "i": 11,
+        "cls": "map-service",
+        "h": 450,
+        "w": 1440
+      },
+      {
+        "i": 12,
+        "cls": "program-cta",
+        "h": 529,
+        "w": 1440
+      }
+    ]
+  },
+  {
+    "page": "programm.html",
+    "viewport": "tablet-768",
+    "size": [
+      768,
+      1024
+    ],
+    "doc": {
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "scrollHeight": 13367
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/bikeline-hikeline-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/womo-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/naturzeit-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1815
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/kettler-wassersport-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/teneues-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/gestalten-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/raethgloben-full-circle-r.jpg",
+        "ok": true,
+        "natural": [
+          2500,
+          1434
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/geocenter-programm-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/iwanowski-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/biber-butzemann-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/world-for-kids-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/kleine-gestalten-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/biber-butzemann-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/jahrgangsbuch-1955.jpg",
+        "ok": true,
+        "natural": [
+          1250,
+          1667
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/teampuzzle-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1585
+        ],
+        "rendered": [
+          360,
+          481
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "program-hero",
+        "h": 516,
+        "w": 768
+      },
+      {
+        "i": 1,
+        "cls": "topic-nav",
+        "h": 1338,
+        "w": 768
+      },
+      {
+        "i": 2,
+        "cls": "program-section",
+        "h": 942,
+        "w": 768
+      },
+      {
+        "i": 3,
+        "cls": "program-section",
+        "h": 994,
+        "w": 768
+      },
+      {
+        "i": 4,
+        "cls": "program-section",
+        "h": 942,
+        "w": 768
+      },
+      {
+        "i": 5,
+        "cls": "program-section",
+        "h": 942,
+        "w": 768
+      },
+      {
+        "i": 6,
+        "cls": "program-section",
+        "h": 990,
+        "w": 768
+      },
+      {
+        "i": 7,
+        "cls": "program-section",
+        "h": 963,
+        "w": 768
+      },
+      {
+        "i": 8,
+        "cls": "program-section",
+        "h": 1588,
+        "w": 768
+      },
+      {
+        "i": 9,
+        "cls": "program-section",
+        "h": 963,
+        "w": 768
+      },
+      {
+        "i": 10,
+        "cls": "program-section",
+        "h": 942,
+        "w": 768
+      },
+      {
+        "i": 11,
+        "cls": "map-service",
+        "h": 925,
+        "w": 768
+      },
+      {
+        "i": 12,
+        "cls": "program-cta",
+        "h": 533,
+        "w": 768
+      }
+    ]
+  },
+  {
+    "page": "programm.html",
+    "viewport": "mobile-390",
+    "size": [
+      390,
+      844
+    ],
+    "doc": {
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 18616
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          146,
+          38
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/bikeline-hikeline-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/womo-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/naturzeit-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1815
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/kettler-wassersport-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/teneues-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/gestalten-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/raethgloben-full-circle-r.jpg",
+        "ok": true,
+        "natural": [
+          2500,
+          1434
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/geocenter-programm-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/iwanowski-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/biber-butzemann-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/world-for-kids-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/kleine-gestalten-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/biber-butzemann-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1654
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/portfolio/jahrgangsbuch-1955.jpg",
+        "ok": true,
+        "natural": [
+          1250,
+          1667
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/catalogs/teampuzzle-herbst-2026.png",
+        "ok": true,
+        "natural": [
+          1842,
+          1585
+        ],
+        "rendered": [
+          373,
+          497
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "program-hero",
+        "h": 719,
+        "w": 390
+      },
+      {
+        "i": 1,
+        "cls": "topic-nav",
+        "h": 2153,
+        "w": 390
+      },
+      {
+        "i": 2,
+        "cls": "program-section",
+        "h": 1064,
+        "w": 390
+      },
+      {
+        "i": 3,
+        "cls": "program-section",
+        "h": 1117,
+        "w": 390
+      },
+      {
+        "i": 4,
+        "cls": "program-section",
+        "h": 1639,
+        "w": 390
+      },
+      {
+        "i": 5,
+        "cls": "program-section",
+        "h": 1698,
+        "w": 390
+      },
+      {
+        "i": 6,
+        "cls": "program-section",
+        "h": 1692,
+        "w": 390
+      },
+      {
+        "i": 7,
+        "cls": "program-section",
+        "h": 1691,
+        "w": 390
+      },
+      {
+        "i": 8,
+        "cls": "program-section",
+        "h": 2325,
+        "w": 390
+      },
+      {
+        "i": 9,
+        "cls": "program-section",
+        "h": 1064,
+        "w": 390
+      },
+      {
+        "i": 10,
+        "cls": "program-section",
+        "h": 1038,
+        "w": 390
+      },
+      {
+        "i": 11,
+        "cls": "map-service",
+        "h": 1010,
+        "w": 390
+      },
+      {
+        "i": 12,
+        "cls": "program-cta",
+        "h": 614,
+        "w": 390
+      }
+    ]
+  },
+  {
+    "page": "unternehmen.html",
+    "viewport": "desktop-2560",
+    "size": [
+      2560,
+      1440
+    ],
+    "doc": {
+      "scrollWidth": 2560,
+      "clientWidth": 2560,
+      "scrollHeight": 6292
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [
+      {
+        "src": "https://svgsilh.com/svg/2718284.svg",
+        "ok": false,
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          360,
+          0
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/2026-10-FBM_AAP_TR.png",
+        "ok": true,
+        "natural": [
+          940,
+          788
+        ],
+        "rendered": [
+          507,
+          760
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 100%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/IMG_8598.JPG",
+        "ok": true,
+        "natural": [
+          5712,
+          4284
+        ],
+        "rendered": [
+          711,
+          620
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/AAP_Portrait.png",
+        "ok": true,
+        "natural": [
+          940,
+          788
+        ],
+        "rendered": [
+          420,
+          500
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 100%"
+      },
+      {
+        "src": "./assets/images/team/dr-klaus-hoehne.webp",
+        "ok": true,
+        "natural": [
+          1200,
+          1500
+        ],
+        "rendered": [
+          420,
+          500
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 100%"
+      },
+      {
+        "src": "https://svgsilh.com/svg/2718284.svg",
+        "ok": false,
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          360,
+          0
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/bikeline.png",
+        "ok": true,
+        "natural": [
+          1280,
+          267
+        ],
+        "rendered": [
+          134,
+          28
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/hikeline.png",
+        "ok": true,
+        "natural": [
+          717,
+          1280
+        ],
+        "rendered": [
+          49,
+          87
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/womo.png",
+        "ok": true,
+        "natural": [
+          1176,
+          189
+        ],
+        "rendered": [
+          143,
+          23
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teneues.png",
+        "ok": true,
+        "natural": [
+          1414,
+          2000
+        ],
+        "rendered": [
+          243,
+          133
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/gestalten%20schwarz.png",
+        "ok": true,
+        "natural": [
+          905,
+          1280
+        ],
+        "rendered": [
+          378,
+          173
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/iwanowski.png",
+        "ok": true,
+        "natural": [
+          1414,
+          2000
+        ],
+        "rendered": [
+          355,
+          171
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/vista%20point.png",
+        "ok": true,
+        "natural": [
+          1104,
+          628
+        ],
+        "rendered": [
+          151,
+          82
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teampuzzle-logo-full-color-cmyk.png",
+        "ok": true,
+        "natural": [
+          1988,
+          1937
+        ],
+        "rendered": [
+          148,
+          86
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/LOGO_BnA_300.png",
+        "ok": true,
+        "natural": [
+          1024,
+          1024
+        ],
+        "rendered": [
+          175,
+          96
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "about-intro",
+        "h": 957,
+        "w": 2560
+      },
+      {
+        "i": 1,
+        "cls": "about-attitude",
+        "h": 836,
+        "w": 2560
+      },
+      {
+        "i": 2,
+        "cls": "about-history about-history-v2",
+        "h": 1316,
+        "w": 2560
+      },
+      {
+        "i": 3,
+        "cls": "about-leadership about-leadership-v2",
+        "h": 1066,
+        "w": 2560
+      },
+      {
+        "i": 4,
+        "cls": "about-market-partners",
+        "h": 1208,
+        "w": 2560
+      },
+      {
+        "i": 5,
+        "cls": "cta about-cta",
+        "h": 468,
+        "w": 2560
+      }
+    ]
+  },
+  {
+    "page": "unternehmen.html",
+    "viewport": "desktop-1440",
+    "size": [
+      1440,
+      1000
+    ],
+    "doc": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "scrollHeight": 6253
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [
+      {
+        "src": "https://svgsilh.com/svg/2718284.svg",
+        "ok": false,
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          360,
+          0
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/2026-10-FBM_AAP_TR.png",
+        "ok": true,
+        "natural": [
+          940,
+          788
+        ],
+        "rendered": [
+          507,
+          760
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 100%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/IMG_8598.JPG",
+        "ok": true,
+        "natural": [
+          5712,
+          4284
+        ],
+        "rendered": [
+          711,
+          620
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/AAP_Portrait.png",
+        "ok": true,
+        "natural": [
+          940,
+          788
+        ],
+        "rendered": [
+          420,
+          500
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 100%"
+      },
+      {
+        "src": "./assets/images/team/dr-klaus-hoehne.webp",
+        "ok": true,
+        "natural": [
+          1200,
+          1500
+        ],
+        "rendered": [
+          420,
+          500
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 100%"
+      },
+      {
+        "src": "https://svgsilh.com/svg/2718284.svg",
+        "ok": false,
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          360,
+          0
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/bikeline.png",
+        "ok": true,
+        "natural": [
+          1280,
+          267
+        ],
+        "rendered": [
+          134,
+          28
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/hikeline.png",
+        "ok": true,
+        "natural": [
+          717,
+          1280
+        ],
+        "rendered": [
+          49,
+          87
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/womo.png",
+        "ok": true,
+        "natural": [
+          1176,
+          189
+        ],
+        "rendered": [
+          143,
+          23
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teneues.png",
+        "ok": true,
+        "natural": [
+          1414,
+          2000
+        ],
+        "rendered": [
+          243,
+          133
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/gestalten%20schwarz.png",
+        "ok": true,
+        "natural": [
+          905,
+          1280
+        ],
+        "rendered": [
+          378,
+          173
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/iwanowski.png",
+        "ok": true,
+        "natural": [
+          1414,
+          2000
+        ],
+        "rendered": [
+          355,
+          171
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/vista%20point.png",
+        "ok": true,
+        "natural": [
+          1104,
+          628
+        ],
+        "rendered": [
+          151,
+          82
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teampuzzle-logo-full-color-cmyk.png",
+        "ok": true,
+        "natural": [
+          1988,
+          1937
+        ],
+        "rendered": [
+          148,
+          86
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/LOGO_BnA_300.png",
+        "ok": true,
+        "natural": [
+          1024,
+          1024
+        ],
+        "rendered": [
+          175,
+          96
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "about-intro",
+        "h": 930,
+        "w": 1440
+      },
+      {
+        "i": 1,
+        "cls": "about-attitude",
+        "h": 836,
+        "w": 1440
+      },
+      {
+        "i": 2,
+        "cls": "about-history about-history-v2",
+        "h": 1312,
+        "w": 1440
+      },
+      {
+        "i": 3,
+        "cls": "about-leadership about-leadership-v2",
+        "h": 1064,
+        "w": 1440
+      },
+      {
+        "i": 4,
+        "cls": "about-market-partners",
+        "h": 1202,
+        "w": 1440
+      },
+      {
+        "i": 5,
+        "cls": "cta about-cta",
+        "h": 468,
+        "w": 1440
+      }
+    ]
+  },
+  {
+    "page": "unternehmen.html",
+    "viewport": "tablet-768",
+    "size": [
+      768,
+      1024
+    ],
+    "doc": {
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "scrollHeight": 8606
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [
+      {
+        "src": "https://svgsilh.com/svg/2718284.svg",
+        "ok": false,
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          360,
+          0
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/2026-10-FBM_AAP_TR.png",
+        "ok": true,
+        "natural": [
+          940,
+          788
+        ],
+        "rendered": [
+          724,
+          680
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 100%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/IMG_8598.JPG",
+        "ok": true,
+        "natural": [
+          5712,
+          4284
+        ],
+        "rendered": [
+          724,
+          620
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/AAP_Portrait.png",
+        "ok": true,
+        "natural": [
+          940,
+          788
+        ],
+        "rendered": [
+          269,
+          500
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 100%"
+      },
+      {
+        "src": "./assets/images/team/dr-klaus-hoehne.webp",
+        "ok": true,
+        "natural": [
+          1200,
+          1500
+        ],
+        "rendered": [
+          269,
+          500
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 100%"
+      },
+      {
+        "src": "https://svgsilh.com/svg/2718284.svg",
+        "ok": false,
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          360,
+          0
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/bikeline.png",
+        "ok": true,
+        "natural": [
+          1280,
+          267
+        ],
+        "rendered": [
+          149,
+          31
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/hikeline.png",
+        "ok": true,
+        "natural": [
+          717,
+          1280
+        ],
+        "rendered": [
+          54,
+          97
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/womo.png",
+        "ok": true,
+        "natural": [
+          1176,
+          189
+        ],
+        "rendered": [
+          160,
+          26
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teneues.png",
+        "ok": true,
+        "natural": [
+          1414,
+          2000
+        ],
+        "rendered": [
+          246,
+          121
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/gestalten%20schwarz.png",
+        "ok": true,
+        "natural": [
+          905,
+          1280
+        ],
+        "rendered": [
+          377,
+          154
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/iwanowski.png",
+        "ok": true,
+        "natural": [
+          1414,
+          2000
+        ],
+        "rendered": [
+          353,
+          152
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/vista%20point.png",
+        "ok": true,
+        "natural": [
+          1104,
+          628
+        ],
+        "rendered": [
+          159,
+          77
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teampuzzle-logo-full-color-cmyk.png",
+        "ok": true,
+        "natural": [
+          1988,
+          1937
+        ],
+        "rendered": [
+          156,
+          81
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/LOGO_BnA_300.png",
+        "ok": true,
+        "natural": [
+          1024,
+          1024
+        ],
+        "rendered": [
+          179,
+          88
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "about-intro",
+        "h": 1489,
+        "w": 768
+      },
+      {
+        "i": 1,
+        "cls": "about-attitude",
+        "h": 1159,
+        "w": 768
+      },
+      {
+        "i": 2,
+        "cls": "about-history about-history-v2",
+        "h": 1774,
+        "w": 768
+      },
+      {
+        "i": 3,
+        "cls": "about-leadership about-leadership-v2",
+        "h": 1170,
+        "w": 768
+      },
+      {
+        "i": 4,
+        "cls": "about-market-partners",
+        "h": 1703,
+        "w": 768
+      },
+      {
+        "i": 5,
+        "cls": "cta about-cta",
+        "h": 522,
+        "w": 768
+      }
+    ]
+  },
+  {
+    "page": "unternehmen.html",
+    "viewport": "mobile-390",
+    "size": [
+      390,
+      844
+    ],
+    "doc": {
+      "scrollWidth": 458,
+      "clientWidth": 390,
+      "scrollHeight": 9207
+    },
+    "clippedText": [],
+    "offscreen": [
+      {
+        "el": "div.eyebrow",
+        "left": 14,
+        "right": 458,
+        "w": 444
+      },
+      {
+        "el": "h2",
+        "left": 14,
+        "right": 458,
+        "w": 444
+      },
+      {
+        "el": "p",
+        "left": 14,
+        "right": 458,
+        "w": 444
+      }
+    ],
+    "missingImages": [
+      {
+        "src": "https://svgsilh.com/svg/2718284.svg",
+        "ok": false,
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          360,
+          0
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          146,
+          38
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/2026-10-FBM_AAP_TR.png",
+        "ok": true,
+        "natural": [
+          940,
+          788
+        ],
+        "rendered": [
+          362,
+          570
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 100%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/IMG_8598.JPG",
+        "ok": true,
+        "natural": [
+          5712,
+          4284
+        ],
+        "rendered": [
+          362,
+          430
+        ],
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/AAP_Portrait.png",
+        "ok": true,
+        "natural": [
+          940,
+          788
+        ],
+        "rendered": [
+          148,
+          390
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 100%"
+      },
+      {
+        "src": "./assets/images/team/dr-klaus-hoehne.webp",
+        "ok": true,
+        "natural": [
+          1200,
+          1500
+        ],
+        "rendered": [
+          140,
+          390
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 100%"
+      },
+      {
+        "src": "https://svgsilh.com/svg/2718284.svg",
+        "ok": false,
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          360,
+          0
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/bikeline.png",
+        "ok": true,
+        "natural": [
+          1280,
+          267
+        ],
+        "rendered": [
+          73,
+          15
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/hikeline.png",
+        "ok": true,
+        "natural": [
+          717,
+          1280
+        ],
+        "rendered": [
+          27,
+          48
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/womo.png",
+        "ok": true,
+        "natural": [
+          1176,
+          189
+        ],
+        "rendered": [
+          79,
+          13
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teneues.png",
+        "ok": true,
+        "natural": [
+          1414,
+          2000
+        ],
+        "rendered": [
+          105,
+          105
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/gestalten%20schwarz.png",
+        "ok": true,
+        "natural": [
+          905,
+          1280
+        ],
+        "rendered": [
+          152,
+          127
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/iwanowski.png",
+        "ok": true,
+        "natural": [
+          1414,
+          2000
+        ],
+        "rendered": [
+          145,
+          127
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/vista%20point.png",
+        "ok": true,
+        "natural": [
+          1104,
+          628
+        ],
+        "rendered": [
+          73,
+          41
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/teampuzzle-logo-full-color-cmyk.png",
+        "ok": true,
+        "natural": [
+          1988,
+          1937
+        ],
+        "rendered": [
+          70,
+          68
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/5phdjc2b9v-netizen/GC_New/main/LOGO_BnA_300.png",
+        "ok": true,
+        "natural": [
+          1024,
+          1024
+        ],
+        "rendered": [
+          79,
+          79
+        ],
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "about-intro",
+        "h": 1482,
+        "w": 390
+      },
+      {
+        "i": 1,
+        "cls": "about-attitude",
+        "h": 990,
+        "w": 390
+      },
+      {
+        "i": 2,
+        "cls": "about-history about-history-v2",
+        "h": 2590,
+        "w": 390
+      },
+      {
+        "i": 3,
+        "cls": "about-leadership about-leadership-v2",
+        "h": 1156,
+        "w": 390
+      },
+      {
+        "i": 4,
+        "cls": "about-market-partners",
+        "h": 1640,
+        "w": 390
+      },
+      {
+        "i": 5,
+        "cls": "cta about-cta",
+        "h": 536,
+        "w": 390
+      }
+    ]
+  },
+  {
+    "page": "kontakt.html",
+    "viewport": "desktop-2560",
+    "size": [
+      2560,
+      1440
+    ],
+    "doc": {
+      "scrollWidth": 2560,
+      "clientWidth": 2560,
+      "scrollHeight": 6342
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "contact-hero",
+        "h": 897,
+        "w": 2560
+      },
+      {
+        "i": 1,
+        "cls": "contact-directory",
+        "h": 1981,
+        "w": 2560
+      },
+      {
+        "i": 2,
+        "cls": "contact-special",
+        "h": 890,
+        "w": 2560
+      },
+      {
+        "i": 3,
+        "cls": "contact-office",
+        "h": 1034,
+        "w": 2560
+      },
+      {
+        "i": 4,
+        "cls": "contact-returns",
+        "h": 394,
+        "w": 2560
+      },
+      {
+        "i": 5,
+        "cls": "contact-message",
+        "h": 522,
+        "w": 2560
+      }
+    ]
+  },
+  {
+    "page": "kontakt.html",
+    "viewport": "desktop-1440",
+    "size": [
+      1440,
+      1000
+    ],
+    "doc": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "scrollHeight": 6340
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "contact-hero",
+        "h": 897,
+        "w": 1440
+      },
+      {
+        "i": 1,
+        "cls": "contact-directory",
+        "h": 1980,
+        "w": 1440
+      },
+      {
+        "i": 2,
+        "cls": "contact-special",
+        "h": 890,
+        "w": 1440
+      },
+      {
+        "i": 3,
+        "cls": "contact-office",
+        "h": 1033,
+        "w": 1440
+      },
+      {
+        "i": 4,
+        "cls": "contact-returns",
+        "h": 394,
+        "w": 1440
+      },
+      {
+        "i": 5,
+        "cls": "contact-message",
+        "h": 522,
+        "w": 1440
+      }
+    ]
+  },
+  {
+    "page": "kontakt.html",
+    "viewport": "tablet-768",
+    "size": [
+      768,
+      1024
+    ],
+    "doc": {
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "scrollHeight": 7619
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          170,
+          44
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "contact-hero",
+        "h": 891,
+        "w": 768
+      },
+      {
+        "i": 1,
+        "cls": "contact-directory",
+        "h": 2535,
+        "w": 768
+      },
+      {
+        "i": 2,
+        "cls": "contact-special",
+        "h": 1071,
+        "w": 768
+      },
+      {
+        "i": 3,
+        "cls": "contact-office",
+        "h": 1104,
+        "w": 768
+      },
+      {
+        "i": 4,
+        "cls": "contact-returns",
+        "h": 587,
+        "w": 768
+      },
+      {
+        "i": 5,
+        "cls": "contact-message",
+        "h": 462,
+        "w": 768
+      }
+    ]
+  },
+  {
+    "page": "kontakt.html",
+    "viewport": "mobile-390",
+    "size": [
+      390,
+      844
+    ],
+    "doc": {
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 8882
+    },
+    "clippedText": [],
+    "offscreen": [],
+    "missingImages": [],
+    "images": [
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          146,
+          38
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "./assets/images/geocenter-logo.svg",
+        "ok": true,
+        "natural": [
+          300,
+          77
+        ],
+        "rendered": [
+          180,
+          46
+        ],
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "sections": [
+      {
+        "i": 0,
+        "cls": "contact-hero",
+        "h": 962,
+        "w": 390
+      },
+      {
+        "i": 1,
+        "cls": "contact-directory",
+        "h": 2941,
+        "w": 390
+      },
+      {
+        "i": 2,
+        "cls": "contact-special",
+        "h": 1136,
+        "w": 390
+      },
+      {
+        "i": 3,
+        "cls": "contact-office",
+        "h": 1665,
+        "w": 390
+      },
+      {
+        "i": 4,
+        "cls": "contact-returns",
+        "h": 589,
+        "w": 390
+      },
+      {
+        "i": 5,
+        "cls": "contact-message",
+        "h": 429,
+        "w": 390
+      }
+    ]
+  }
+]
