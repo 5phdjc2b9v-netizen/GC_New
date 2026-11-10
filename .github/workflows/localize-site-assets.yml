@@ -1,0 +1,65 @@
+name: Localize and trim website assets
+
+on:
+  push:
+    branches: [relaunch-v1]
+    paths:
+      - "tools/prepare_local_assets.py"
+      - ".github/workflows/localize-site-assets.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: relaunch-v1
+          fetch-depth: 0
+
+      - name: Prepare source files
+        run: |
+          git fetch origin main
+          mkdir -p assets/images/about assets/images/partners assets/images/team assets/images/trade
+          git show origin/main:2026-10-FBM_AAP_TR.png > assets/images/about/frankfurt-book-fair-aap.png
+          git show origin/main:IMG_8598.JPG > assets/images/about/frankfurt-book-fair-exterior.jpg
+          git show origin/main:AAP_Portrait.png > assets/images/team/anja-alexandra-pfister.png
+          git show origin/main:bikeline.png > assets/images/partners/bikeline.png
+          git show origin/main:hikeline.png > assets/images/partners/hikeline.png
+          git show origin/main:womo.png > assets/images/partners/womo.png
+          git show origin/main:teneues.png > assets/images/partners/teneues.png
+          git show "origin/main:gestalten schwarz.png" > assets/images/partners/gestalten.png
+          git show origin/main:iwanowski.png > assets/images/partners/iwanowski.png
+          git show "origin/main:vista point.png" > assets/images/partners/vista-point.png
+          git show origin/main:teampuzzle-logo-full-color-cmyk.png > assets/images/partners/teampuzzle.png
+          git show origin/main:LOGO_BnA_300.png > assets/images/partners/book-n-app.png
+
+      - name: Download remaining public/localizable images
+        run: |
+          curl -L --fail --retry 2 -A "Mozilla/5.0"             "https://static.wixstatic.com/media/3b5c40_4f5edce81fa64bc980f3bab1eb5d72ec~mv2.jpg"             -o assets/images/trade/boutique-coffee-table.jpg
+          curl -L --fail --retry 2 -A "Mozilla/5.0"             "https://commons.wikimedia.org/wiki/Special:Redirect/file/Silhouette_of_Germany.svg"             -o assets/images/about/germany-silhouette.svg
+          grep -qi "<svg" assets/images/about/germany-silhouette.svg
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: python -m pip install pillow
+
+      - name: Trim sources and switch HTML to local assets
+        run: python tools/prepare_local_assets.py
+
+      - name: Commit localized assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/images/about assets/images/partners assets/images/team/anja-alexandra-pfister.png assets/images/trade/boutique-coffee-table.jpg index.html unternehmen.html
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Localize and trim website image assets"
+          git pull --rebase origin relaunch-v1
+          git push origin HEAD:relaunch-v1
