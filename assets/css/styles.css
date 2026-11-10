@@ -2618,3 +2618,24 @@ section[id]{scroll-margin-top:96px}
   .logo-teampuzzle img{max-width:48%!important;max-height:64px!important}
   .logo-bna img{max-width:52%!important;max-height:58px!important}
 }
+
+
+/* Final asset-normalized About refinements */
+.market-map-visual>img{
+  filter:brightness(0)!important;
+  opacity:.12;
+}
+.leader-v2:first-child img,
+.leader-v2:nth-child(2) img{
+  transform:none!important;
+}
+.logo-iwanowski img{
+  max-width:88%!important;
+  max-height:58px!important;
+}
+@media(max-width:640px){
+  .logo-iwanowski img{
+    max-width:92%!important;
+    max-height:48px!important;
+  }
+}
