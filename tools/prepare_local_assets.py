@@ -18,6 +18,59 @@ def trim_alpha(path, pad=8):
         im=im.crop((l,t,r,b))
     im.save(p)
 
+
+def keep_largest_alpha_component(path, pad=8):
+    p=Path(path)
+    im=Image.open(p).convert("RGBA")
+    w,h=im.size
+    alpha=im.getchannel("A")
+    # Remove a thin corrupted strip at the very bottom before component analysis.
+    ap=alpha.load()
+    for y in range(max(0,h-int(h*.018)), h):
+        for x in range(w):
+            ap[x,y]=0
+
+    mask=alpha.point(lambda v: 255 if v>18 else 0)
+    pix=mask.load()
+    seen=bytearray(w*h)
+    best=[]
+    from collections import deque
+    for y in range(h):
+        for x in range(w):
+            idx=y*w+x
+            if seen[idx] or pix[x,y]==0:
+                continue
+            q=deque([(x,y)])
+            seen[idx]=1
+            comp=[]
+            while q:
+                cx,cy=q.popleft()
+                comp.append((cx,cy))
+                for ny in (cy-1,cy,cy+1):
+                    if ny<0 or ny>=h: continue
+                    for nx in (cx-1,cx,cx+1):
+                        if nx<0 or nx>=w or (nx==cx and ny==cy): continue
+                        nidx=ny*w+nx
+                        if not seen[nidx] and pix[nx,ny]:
+                            seen[nidx]=1
+                            q.append((nx,ny))
+            if len(comp)>len(best):
+                best=comp
+    if not best:
+        return
+    keep=Image.new("L",(w,h),0)
+    kp=keep.load()
+    orig=im.getchannel("A").load()
+    for x,y in best:
+        kp[x,y]=orig[x,y]
+    im.putalpha(keep)
+    bbox=keep.getbbox()
+    if bbox:
+        l,t,r,b=bbox
+        l=max(0,l-pad); t=max(0,t-pad); r=min(w,r+pad); b=min(h,b+pad)
+        im=im.crop((l,t,r,b))
+    im.save(p)
+
 def trim_white(path, pad=10):
     p=Path(path)
     im=Image.open(p).convert("RGBA")
@@ -40,9 +93,10 @@ def trim_white(path, pad=10):
 for p in [
     ABOUT/"frankfurt-book-fair-aap.png",
     TEAM/"anja-alexandra-pfister.png",
-    TEAM/"dr-klaus-hoehne.webp",
 ]:
     trim_alpha(p, 8)
+
+keep_largest_alpha_component(TEAM/"dr-klaus-hoehne.webp", 8)
 
 for p in PARTNERS.glob("*.png"):
     trim_white(p, 12)
