@@ -1,3 +1,4 @@
+// final-cross-device-pass
 import { chromium } from 'playwright-core';
 import fs from 'fs';
 import { spawn } from 'child_process';
