@@ -2778,3 +2778,90 @@ section[id]{scroll-margin-top:96px}
     height:118%;
   }
 }
+
+
+/* Homepage CTA — personal management contact */
+.home-cta .cta-inner{
+  grid-template-columns:minmax(0,1.18fr) minmax(360px,.82fr);
+  gap:72px;
+  align-items:end;
+}
+.home-cta-contact{
+  max-width:520px;
+  justify-self:end;
+}
+.home-cta-person{
+  display:grid;
+  grid-template-columns:108px minmax(0,1fr);
+  gap:20px;
+  align-items:end;
+  margin-bottom:24px;
+  padding-bottom:22px;
+  border-bottom:1px solid rgba(255,255,255,.18);
+}
+.home-cta-portrait{
+  width:108px;
+  height:126px;
+  overflow:hidden;
+  background:#eee7dd;
+}
+.home-cta-portrait img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center 14%;
+  transform:scale(1.03);
+  transform-origin:center top;
+}
+.home-cta-person-meta{
+  padding-bottom:3px;
+}
+.home-cta-person-meta strong{
+  display:block;
+  font-family:var(--display-sans);
+  font-size:20px;
+  line-height:1.08;
+  letter-spacing:-.035em;
+  color:#fff;
+}
+.home-cta-person-meta span,
+.home-cta-person-meta small{
+  display:block;
+  color:#c7c5c1;
+  line-height:1.35;
+}
+.home-cta-person-meta span{
+  margin-top:7px;
+  font-size:13px;
+}
+.home-cta-person-meta small{
+  margin-top:2px;
+  font-size:12px;
+  font-weight:700;
+}
+.home-cta-contact>p{
+  margin:0;
+}
+@media(max-width:980px){
+  .home-cta .cta-inner{
+    grid-template-columns:1fr;
+    gap:42px;
+  }
+  .home-cta-contact{
+    justify-self:start;
+    max-width:620px;
+  }
+}
+@media(max-width:640px){
+  .home-cta-person{
+    grid-template-columns:88px minmax(0,1fr);
+    gap:16px;
+  }
+  .home-cta-portrait{
+    width:88px;
+    height:106px;
+  }
+  .home-cta-person-meta strong{
+    font-size:18px;
+  }
+}
