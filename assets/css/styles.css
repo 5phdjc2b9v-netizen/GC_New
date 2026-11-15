@@ -2920,3 +2920,16 @@ section[id]{scroll-margin-top:96px}
  .gc-data-feature-head h2{font-size:clamp(38px,9.1vw,58px)}
 }
 @media(max-width:640px){.site-header .nav.open{top:72px}}
+
+/* Embedded Tally contact form – GeoCenter */
+.gc-tally-contact{background:#f5f1ea;padding:98px 0 110px}
+.gc-tally-contact-wrap{display:grid;grid-template-columns:minmax(260px,.77fr) minmax(0,1.23fr);gap:clamp(34px,5vw,86px);align-items:start}
+.gc-tally-contact-head{position:sticky;top:120px}
+.gc-tally-contact-head h2{font-family:var(--display-sans,"Helvetica Neue",Arial,sans-serif);font-size:clamp(38px,4.7vw,65px);line-height:1.02;letter-spacing:-.055em;font-weight:700;margin:23px 0 18px}
+.gc-tally-contact-head h2 .accent-serif{font-family:var(--accent-serif,Georgia,serif);font-weight:400;font-style:italic;color:var(--red)}
+.gc-tally-contact-head p{font-size:17px;line-height:1.7;color:#57534f;max-width:460px}
+.gc-tally-contact-form{padding:24px 20px 20px;background:white;border:1px solid #e1dbd1;min-width:0;box-shadow:0 25px 56px rgba(23,23,23,.05)}
+.gc-tally-contact-note{padding:12px 12px 0;margin:0;font-size:12px;line-height:1.6;color:#69645d}
+.gc-tally-contact-note a{color:#a31b28;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:960px){.gc-tally-contact-wrap{grid-template-columns:1fr}.gc-tally-contact-head{position:static}}
+@media(max-width:680px){.gc-tally-contact{padding:65px 0 73px}.gc-tally-contact-form{padding:12px 6px 16px}.gc-tally-contact-head h2{font-size:44px}}
