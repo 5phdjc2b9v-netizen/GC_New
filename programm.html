@@ -70,6 +70,24 @@
     .program-cta-box h2{font-size:clamp(2rem,4vw,3.4rem);margin:6px 0 10px}
     .program-cta-box p{max-width:720px;color:#656565;line-height:1.6}
 
+
+    .theme-product-stage{margin:30px 0 34px;border-radius:26px;overflow:hidden;background:#f1eee8;display:grid;grid-template-columns:minmax(250px,.62fr) minmax(0,1.38fr);min-height:430px;border:1px solid rgba(17,17,17,.08)}
+    .theme-product-stage.dark{background:#171716;color:#fff}
+    .theme-product-copy{padding:32px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;z-index:3}
+    .theme-product-copy h3{font-size:clamp(2rem,4vw,3.7rem);line-height:.94;letter-spacing:-.05em;margin:8px 0 14px}
+    .theme-product-copy p{margin:0;color:#676767;line-height:1.6;max-width:440px}
+    .theme-product-stage.dark .theme-product-copy p{color:#c9c5be}
+    .theme-product-scene{position:relative;min-height:430px;overflow:hidden;background:linear-gradient(135deg,rgba(255,255,255,.35),rgba(0,0,0,.03))}
+    .theme-product-stage.dark .theme-product-scene{background:linear-gradient(135deg,#242321,#111)}
+    .stage-book{position:absolute;margin:0;filter:drop-shadow(0 22px 24px rgba(0,0,0,.24));transform-origin:center bottom}
+    .stage-book img{display:block;width:100%;height:auto;max-height:100%;object-fit:contain}
+    .stage-book.one{width:45%;left:8%;bottom:4%;transform:rotate(-4deg);z-index:4}
+    .stage-book.two{width:38%;right:8%;bottom:9%;transform:rotate(5deg);z-index:3}
+    .stage-book.three{width:30%;left:38%;top:7%;transform:rotate(1deg);z-index:2}
+    .stage-book.four{width:27%;right:3%;top:8%;transform:rotate(7deg);z-index:1}
+    .stage-book.single{width:56%;left:22%;bottom:3%;transform:rotate(-2deg);z-index:4}
+    .stage-book.single-wide{width:68%;left:16%;bottom:2%;transform:rotate(-2deg);z-index:4}
+
     .coffee-stage{margin:30px 0 38px;border-radius:28px;background:#171716;color:#fff;overflow:hidden;display:grid;grid-template-columns:minmax(260px,.72fr) minmax(0,1.28fr);min-height:650px}
     .coffee-stage-copy{padding:42px 34px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;z-index:4}
     .coffee-stage-copy .section-kicker{color:#bdb9b2}
@@ -89,8 +107,9 @@
     .coffee-book:hover figcaption{opacity:1}
 
     @media(max-width:900px){
-      .program-hero-grid,.map-grid,.coffee-stage{grid-template-columns:1fr}
+      .program-hero-grid,.map-grid,.coffee-stage,.theme-product-stage{grid-template-columns:1fr}
       .coffee-books{min-height:560px}
+      .theme-product-scene{min-height:390px}
       .program-actions{justify-content:flex-start}
       .catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
       .topic-tile.rad,.topic-tile.womo,.topic-tile.outdoor,.topic-tile.coffee,.topic-tile.maps,.topic-tile.travel,.topic-tile.family,.topic-tile.gift,.topic-tile.puzzle{grid-column:span 6}
@@ -99,7 +118,15 @@
     }
     @media(max-width:620px){
       .program-hero{padding-top:64px}
-      .coffee-stage{min-height:0;border-radius:22px}
+      .coffee-stage,.theme-product-stage{min-height:0;border-radius:22px}
+      .theme-product-copy{padding:26px 22px}
+      .theme-product-scene{min-height:340px}
+      .stage-book.one{width:48%;left:2%}
+      .stage-book.two{width:43%;right:1%}
+      .stage-book.three{width:34%;left:34%;top:4%}
+      .stage-book.four{width:31%;right:-2%;top:7%}
+      .stage-book.single{width:68%;left:16%}
+      .stage-book.single-wide{width:78%;left:11%}
       .coffee-stage-copy{padding:28px 24px}
       .coffee-books{min-height:470px}
       .coffee-book.rolex{width:50%;left:0;bottom:2%}
@@ -148,15 +175,37 @@
 <a class="topic-tile puzzle" href="#puzzle"><span class="n">09</span><div><h3>Puzzle &amp; Spiel</h3><p>Visuelle Produkte für Familie, Geschenk und Impuls.</p></div></a>
 </div></div></section>
 
-<section class="program-section" id="rad"><div class="wrap"><div class="section-kicker">01 · Rad &amp; Radtouren</div><h2>Radkompetenz mit Tradition.</h2><p class="section-copy">Tourenbücher, Radkarten und Wanderprogramme für aktive Kundinnen und Kunden. Den Auftakt macht unser langjähriger Partner Esterbauer mit bikeline und hikeline.</p><div class="catalog-grid">
+<section class="program-section" id="rad"><div class="wrap"><div class="section-kicker">01 · Rad &amp; Radtouren</div><h2>Radkompetenz mit Tradition.</h2><p class="section-copy">Tourenbücher, Radkarten und Wanderprogramme für aktive Kundinnen und Kunden. Den Auftakt macht unser langjähriger Partner Esterbauer mit bikeline und hikeline.</p>
+<div class="theme-product-stage">
+  <div class="theme-product-copy"><div class="section-kicker">Rad im Fokus</div><h3>Touren, die<br>ins Regal gehören.</h3><p>Radführer und Karten funktionieren über konkrete Routen, hohe Nutzbarkeit und starke Serienwiedererkennung.</p></div>
+  <div class="theme-product-scene">
+    <figure class="stage-book single-wide"><img loading="lazy" src="./assets/images/portfolio/bikeline-alpe-adria.jpg" alt="bikeline Alpe Adria Radweg"></figure>
+  </div>
+</div>
+<div class="catalog-grid">
 <a class="catalog-card" href="https://www.geocenter.de/_files/ugd/9fec19_72ab2cb2b54c4a9a9ef8f5275afdc0a0.pdf?index=true" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/bikeline-hikeline-2026.png" alt="Esterbauer bikeline hikeline Programm 2026"></div><div class="catalog-meta"><h3>Verlag Esterbauer</h3><p>Radreisen · Radkarten · Wanderführer</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 </div></div></section>
 
-<section class="program-section" id="wohnmobil"><div class="wrap"><div class="section-kicker">02 · Wohnmobil &amp; Camping</div><h2>Unterwegs mit dem Wohnmobil.</h2><p class="section-copy">Wohnmobilreisen, Stellplätze, Camping und Tourenplanung bilden eine eigene, starke Sortimentswelt. WOMO steht dabei prominent für einen der etablierten Spezialverlage des Segments; Dolde, ECC und DCC ergänzen das Thema mit Stellplatz- und Campingführern.</p><div class="catalog-grid">
+<section class="program-section" id="wohnmobil"><div class="wrap"><div class="section-kicker">02 · Wohnmobil &amp; Camping</div><h2>Unterwegs mit dem Wohnmobil.</h2><p class="section-copy">Wohnmobilreisen, Stellplätze, Camping und Tourenplanung bilden eine eigene, starke Sortimentswelt. WOMO steht dabei prominent für einen der etablierten Spezialverlage des Segments; Dolde, ECC und DCC ergänzen das Thema mit Stellplatz- und Campingführern.</p>
+<div class="theme-product-stage">
+  <div class="theme-product-copy"><div class="section-kicker">Wohnmobil im Fokus</div><h3>Große Reise.<br>Klares Konzept.</h3><p>Wohnmobilführer verbinden Touren, Stellplätze und praktische Planung – ein eigenes Sortiment mit klarer Zielgruppe.</p></div>
+  <div class="theme-product-scene">
+    <figure class="stage-book single"><img loading="lazy" src="./assets/images/portfolio/womo-slowenien-2026.jpg" alt="WOMO Slowenien 2026"></figure>
+  </div>
+</div>
+<div class="catalog-grid">
 <a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/womo-2026.png" alt="WOMO Verlag Programm 2026"></div><div class="catalog-meta"><h3>WOMO Verlag</h3><p>Wohnmobilreisen · Touren · Regionen</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 </div></div></section>
 
-<section class="program-section" id="outdoor"><div class="wrap"><div class="section-kicker">03 · Wandern &amp; Outdoor</div><h2>Draußen zuhause.</h2><p class="section-copy">Wandern, Natur und Wassersport ergänzen das aktive Sortiment und machen die Outdoor-Welt bewusst breiter als klassische Reise.</p><div class="catalog-grid">
+<section class="program-section" id="outdoor"><div class="wrap"><div class="section-kicker">03 · Wandern &amp; Outdoor</div><h2>Draußen zuhause.</h2><p class="section-copy">Wandern, Natur und Wassersport ergänzen das aktive Sortiment und machen die Outdoor-Welt bewusst breiter als klassische Reise.</p>
+<div class="theme-product-stage">
+  <div class="theme-product-copy"><div class="section-kicker">Outdoor im Fokus</div><h3>Unterwegs.<br>Mit Plan.</h3><p>Aktive Themen leben von Orientierung, verlässlichen Informationen und starken Spezialprogrammen.</p></div>
+  <div class="theme-product-scene">
+    <figure class="stage-book one"><img loading="lazy" src="./assets/images/portfolio/bikeline-alpe-adria.jpg" alt="bikeline Alpe Adria Radweg"></figure>
+    <figure class="stage-book two"><img loading="lazy" src="./assets/images/portfolio/womo-slowenien-2026.jpg" alt="WOMO Slowenien 2026"></figure>
+  </div>
+</div>
+<div class="catalog-grid">
 <a class="catalog-card" href="https://www.geocenter.de/_files/ugd/9fec19_c784776b9f69447b8e4cb660c39a2030.pdf?index=true" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/naturzeit-2026.png" alt="Naturzeit Programm Wandern 2026"></div><div class="catalog-meta"><h3>Naturzeit</h3><p>Wandern · Naturreisen · Aktivurlaub</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 <a class="catalog-card" href="https://www.thomas-kettler-verlag.de/wp-content/uploads/2025/11/Vorschau_2026_TKV_kl.pdf" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/kettler-wassersport-2026.png" alt="Thomas Kettler Verlag Wassersport Kanu 2026"></div><div class="catalog-meta"><h3>Thomas Kettler Verlag</h3><p>Wassersport · SUP · Kanu</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 </div></div></section>
@@ -187,22 +236,55 @@
 <a class="catalog-card" href="#blattschnitte"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/geocenter-programm-2026.png" alt="GeoCenter Programm 2026"></div><div class="catalog-meta"><h3>Karten &amp; Blattschnitte</h3><p>Kartenserien · Regionen · geografische Abdeckung</p><span class="catalog-label">GeoCenter Service</span><span class="catalog-link">Blattschnitte öffnen →</span></div></a>
 </div></div></section>
 
-<section class="program-section" id="reise"><div class="wrap"><div class="section-kicker">06 · Reise &amp; Entdecken</div><h2>Reise bleibt Teil unserer DNA.</h2><p class="section-copy">Individualreisen, Länder, Regionen und Familienreisen – kuratiert für unterschiedliche Zielgruppen und Sortimente.</p><div class="catalog-grid">
+<section class="program-section" id="reise"><div class="wrap"><div class="section-kicker">06 · Reise &amp; Entdecken</div><h2>Reise bleibt Teil unserer DNA.</h2><p class="section-copy">Individualreisen, Länder, Regionen und Familienreisen – kuratiert für unterschiedliche Zielgruppen und Sortimente.</p>
+<div class="theme-product-stage dark">
+  <div class="theme-product-copy"><div class="section-kicker">Reise im Fokus</div><h3>Reise bleibt<br>unsere DNA.</h3><p>Vom Individualreiseführer bis zum internationalen City- und Regionenprogramm: echte Auswahl statt Einheitsregal.</p></div>
+  <div class="theme-product-scene">
+    <figure class="stage-book one"><img loading="lazy" src="./assets/images/portfolio/iwanowski-namibia.jpg" alt="Iwanowski Namibia"></figure>
+    <figure class="stage-book two"><img loading="lazy" src="./assets/images/portfolio/lonely-planet-okinawa.webp" alt="Lonely Planet Okinawa"></figure>
+    <figure class="stage-book three"><img loading="lazy" src="./assets/images/portfolio/iwanowski-botswana.jpg" alt="Iwanowski Botswana"></figure>
+    <figure class="stage-book four"><img loading="lazy" src="./assets/images/portfolio/lonely-planet-kyoto.jpg" alt="Lonely Planet Kyoto"></figure>
+  </div>
+</div>
+<div class="catalog-grid">
 <a class="catalog-card" href="https://www.iwanowski.de/wp-content/uploads/leseproben/verlag_herbst_2026/" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/iwanowski-herbst-2026.png" alt="Iwanowski Programm Herbst 2026"></div><div class="catalog-meta"><h3>Iwanowski’s</h3><p>Fernreisen · Individualreisen · Reiseführer</p><span class="catalog-label">Verlagskatalog Herbst 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 <a class="catalog-card" href="https://www.geocenter.de/_files/ugd/9fec19_65258505676e4a8fbab0ad91a2043986.pdf?index=true" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/biber-butzemann-2026.png" alt="Biber und Butzemann Programm 2026"></div><div class="catalog-meta"><h3>Biber &amp; Butzemann</h3><p>Familienreisen · Kinderreiseführer · Deutschland &amp; Europa</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 </div></div></section>
 
-<section class="program-section" id="familie"><div class="wrap"><div class="section-kicker">07 · Familie &amp; Kinder</div><h2>Gemeinsam entdecken.</h2><p class="section-copy">Reise, Wissen und visuelles Entdecken für Kinder und Familien – mit eigenständigen Programmen und Überschneidungen zu Reise und Design.</p><div class="catalog-grid">
+<section class="program-section" id="familie"><div class="wrap"><div class="section-kicker">07 · Familie &amp; Kinder</div><h2>Gemeinsam entdecken.</h2><p class="section-copy">Reise, Wissen und visuelles Entdecken für Kinder und Familien – mit eigenständigen Programmen und Überschneidungen zu Reise und Design.</p>
+<div class="theme-product-stage">
+  <div class="theme-product-copy"><div class="section-kicker">Familie im Fokus</div><h3>Entdecken für<br>Groß und Klein.</h3><p>Familienprogramme verbinden Reise, Wissen und Unterhaltung – mit klaren Zielgruppen und eigenständiger Gestaltung.</p></div>
+  <div class="theme-product-scene">
+    <figure class="stage-book one"><img loading="lazy" src="./assets/images/portfolio/world-for-kids-portugal.webp" alt="Portugal for kids"></figure>
+    <figure class="stage-book two"><img loading="lazy" src="./assets/images/portfolio/biber-butzemann-kroatien.webp" alt="Camping-Abenteuer in Kroatien"></figure>
+  </div>
+</div>
+<div class="catalog-grid">
 <a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/world-for-kids-2026.png" alt="World for Kids Programm 2026"></div><div class="catalog-meta"><h3>World for Kids</h3><p>Kinderreiseführer · Länderwissen · Entdecken</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 <a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/kleine-gestalten-herbst-2026.png" alt="Kleine gestalten Programm Herbst 2026"></div><div class="catalog-meta"><h3>Kleine gestalten</h3><p>Kinderbuch · Wissen · Design</p><span class="catalog-label">Verlagskatalog Herbst 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 <a class="catalog-card" href="https://www.geocenter.de/programm" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/biber-butzemann-2026.png" alt="Biber und Butzemann Programm 2026"></div><div class="catalog-meta"><h3>Biber &amp; Butzemann</h3><p>Familienreisen · Kinderreiseführer · Deutschland &amp; Europa</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 </div></div></section>
 
-<section class="program-section" id="geschenk"><div class="wrap"><div class="section-kicker">08 · Geschenk &amp; Inspiration</div><h2>Für Anlass, Impuls und Präsentation.</h2><p class="section-copy">Hier bündeln wir passende Verlagsprogramme und von GeoCenter zusammengestellte Verkaufsübersichten – unabhängig davon, ob ein Verlag einen eigenen Katalog anbietet.</p><div class="catalog-grid">
+<section class="program-section" id="geschenk"><div class="wrap"><div class="section-kicker">08 · Geschenk &amp; Inspiration</div><h2>Für Anlass, Impuls und Präsentation.</h2><p class="section-copy">Hier bündeln wir passende Verlagsprogramme und von GeoCenter zusammengestellte Verkaufsübersichten – unabhängig davon, ob ein Verlag einen eigenen Katalog anbietet.</p>
+<div class="theme-product-stage">
+  <div class="theme-product-copy"><div class="section-kicker">Geschenk im Fokus</div><h3>Anlass trifft<br>Impuls.</h3><p>Geschenktitel müssen schnell verstanden werden – und auf der Fläche sofort eine Idee auslösen.</p></div>
+  <div class="theme-product-scene">
+    <figure class="stage-book one"><img loading="lazy" src="./assets/images/portfolio/jahrgangsbuch-1955.jpg" alt="Meine ersten 18 Jahre Jahrgang 1955"></figure>
+    <figure class="stage-book two"><img loading="lazy" src="./assets/images/portfolio/1000-places-harz.webp" alt="1000 Places Harz"></figure>
+  </div>
+</div>
+<div class="catalog-grid">
 <a class="catalog-card" href="./kontakt"><div class="catalog-cover"><img loading="lazy" src="./assets/images/portfolio/jahrgangsbuch-1955.jpg" alt="Jahrgangsbuch aus der Reihe Meine ersten 18 Jahre"></div><div class="catalog-meta"><h3>GeoCenter Auswahl</h3><p>Geschenkbücher · Jahrgangsbücher · Impulstitel</p><span class="catalog-label">GeoCenter Verkaufsübersicht</span><span class="catalog-link">Verkaufsunterlagen anfragen →</span></div></a>
 </div></div></section>
 
-<section class="program-section" id="puzzle"><div class="wrap"><div class="section-kicker">09 · Puzzle &amp; Spiel</div><h2>Visuell. Spielerisch. Impulsstark.</h2><p class="section-copy">Puzzles und spielerische Produkte erweitern das Sortiment über das klassische Buch hinaus und funktionieren besonders gut auf Geschenk- und Aktionsflächen.</p><div class="catalog-grid">
+<section class="program-section" id="puzzle"><div class="wrap"><div class="section-kicker">09 · Puzzle &amp; Spiel</div><h2>Visuell. Spielerisch. Impulsstark.</h2><p class="section-copy">Puzzles und spielerische Produkte erweitern das Sortiment über das klassische Buch hinaus und funktionieren besonders gut auf Geschenk- und Aktionsflächen.</p>
+<div class="theme-product-stage">
+  <div class="theme-product-copy"><div class="section-kicker">Puzzle im Fokus</div><h3>Spiel mit<br>Flächenwirkung.</h3><p>Große Formate, starke Motive und hoher Geschenkcharakter machen Puzzle zu einem eigenständigen Impulssegment.</p></div>
+  <div class="theme-product-scene">
+    <figure class="stage-book single-wide"><img loading="lazy" src="./assets/images/portfolio/teampuzzle-grueffelo.webp" alt="TEAMPUZZLE Der Grüffelo"></figure>
+  </div>
+</div>
+<div class="catalog-grid">
 <a class="catalog-card" href="https://online.flippingbook.com/view/326111358/" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/teampuzzle-herbst-2026.png" alt="TEAMPUZZLE Programm Herbst 2026"></div><div class="catalog-meta"><h3>TEAMPUZZLE</h3><p>Puzzle · Geschenk · Familie</p><span class="catalog-label">Verlagskatalog Herbst 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 </div></div></section>
 

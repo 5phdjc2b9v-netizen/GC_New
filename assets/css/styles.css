@@ -2933,3 +2933,9 @@ section[id]{scroll-margin-top:96px}
 .gc-tally-contact-note a{color:#a31b28;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:960px){.gc-tally-contact-wrap{grid-template-columns:1fr}.gc-tally-contact-head{position:static}}
 @media(max-width:680px){.gc-tally-contact{padding:65px 0 73px}.gc-tally-contact-form{padding:12px 6px 16px}.gc-tally-contact-head h2{font-size:44px}}
+
+/* Homepage Bildwelten: three current Coffee Table Books */
+.product-coffee-third{width:34%;left:34%;bottom:82px;transform:rotate(1deg);z-index:3}
+@media(max-width:700px){
+  .product-coffee-third{width:37%;left:31%;bottom:126px}
+}
