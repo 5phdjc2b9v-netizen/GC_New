@@ -2888,3 +2888,35 @@ section[id]{scroll-margin-top:96px}
 /* Legal links inherit the dark footer's typography. */
 .site-footer .footer-bottom a{color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-color:#888}
 .site-footer .footer-bottom a:hover,.site-footer .footer-bottom a:focus-visible{color:#fff;text-decoration-color:currentColor}
+
+/* GeoCenter USP: datengetriebener Vertrieb on all primary pages */
+.site-header .nav{gap:clamp(12px,1.55vw,25px);font-size:13px;white-space:nowrap}
+.site-header .header-inner{gap:clamp(16px,2vw,30px)}
+.site-header .brand{flex-shrink:0}
+.site-header .header-cta{white-space:nowrap;padding-inline:16px}
+.site-header .nav a[aria-current="page"]{color:var(--red)}
+.gc-data-feature{background:#eae3d9;padding:90px 0;border-top:1px solid #d7cfc4;border-bottom:1px solid #d7cfc4}
+.gc-data-feature-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr);gap:8%;align-items:center}
+.gc-data-feature-head h2{font-family:var(--display-sans,"Helvetica Neue",Arial,sans-serif);font-size:clamp(37px,4.5vw,66px);line-height:1.04;font-weight:690;letter-spacing:-.06em;margin:19px 0 0}
+.gc-data-feature-head h2 .accent-serif{font-family:var(--accent-serif,Georgia,serif);font-style:italic;font-weight:400;color:var(--red)}
+.gc-data-feature-copy{border-left:1px solid #bdb5a9;padding-left:32px}
+.gc-data-feature-copy p{font-size:clamp(16px,1.6vw,19px);line-height:1.65;margin:0 0 19px;max-width:640px;color:#4b4641}
+.gc-data-link{display:inline-block;font-size:14px;font-weight:820;padding:8px 0;border-bottom:1px solid var(--red);color:var(--red);text-underline-offset:4px}
+.gc-data-link:hover,.gc-data-link:focus-visible{color:var(--ink);border-color:var(--ink)}
+.gc-data-chips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}
+.gc-data-chips span{display:inline-flex;align-items:center;white-space:nowrap;padding:8px 10px;border:1px solid #c5bdb2;border-radius:100px;font-size:11px;font-weight:760;letter-spacing:.025em}
+.gc-data-feature-compact{padding:69px 0}
+.gc-data-feature-compact .gc-data-feature-head h2{font-size:clamp(35px,3.7vw,55px)}
+@media (max-width:1100px){
+ .site-header .nav{display:none}
+ .site-header .menu-btn{display:block;margin-left:auto}
+ .site-header .header-cta{display:none}
+ .site-header .nav.open{display:flex;position:absolute;top:88px;left:0;right:0;background:var(--paper);padding:22px 26px 28px;flex-direction:column;align-items:flex-start;gap:20px;box-shadow:0 12px 20px rgba(0,0,0,.08);white-space:normal}
+}
+@media(max-width:760px){
+ .gc-data-feature,.gc-data-feature-compact{padding:62px 0}
+ .gc-data-feature-grid{grid-template-columns:1fr;gap:25px}
+ .gc-data-feature-copy{border-left:0;border-top:1px solid #bdb5a9;padding-left:0;padding-top:24px}
+ .gc-data-feature-head h2{font-size:clamp(38px,9.1vw,58px)}
+}
+@media(max-width:640px){.site-header .nav.open{top:72px}}
