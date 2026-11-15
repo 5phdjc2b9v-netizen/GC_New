@@ -23,3 +23,14 @@
 
 ## Working principle
 Improve SEO without sacrificing the intentionally concise, premium B2B design or inventing sales commitments. Keep all changes reversible in Git history.
+
+
+## Tally forms (15.11.2026)
+- Published: general inquiries https://tally.so/r/RWME19 (embedded in `kontakt.html`).
+- Published: structured publisher qualification https://tally.so/r/0VBNzy (embedded in `potentialanalyse.html`).
+- Forms load through `assets/js/tally-embed.js` and support a no-JS fallback to public Tally links.
+- Potential form: 3 steps (program/publisher, channels/data/needs, contact), approximate title count and annual turnover range with opt-out, CAPTCHA, thank-you page.
+- **Before public launch:** adapt and legally review privacy policy for Tally as external form processor, any cookies/third-party resources, data processing agreement and data retention. Consider whether consent management is necessary.
+- **Routing blocker:** Tally plan does not permit custom owner notification recipients; requested delivery to `vertrieb@geocenter.de` was NOT applied. Default Tally owner notifications remain, and submissions are stored in the connected Tally account. Configure workflow/routing or upgrade plan before relying on reception by GeoCenter team.
+- Advanced form dimensions/borders need Tally Pro to appear in published forms. Primary GeoCenter red, typography and basic theme were configured on both.
+- Confirm actual iframe rendering on desktop and mobile and perform a test submission without confidential real data before production domain cutover.
