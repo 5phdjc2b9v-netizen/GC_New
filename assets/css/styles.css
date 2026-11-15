@@ -2884,3 +2884,7 @@ section[id]{scroll-margin-top:96px}
 
 
 /* Homepage CTA vertical balance: both columns share one optical center. */
+
+/* Legal links inherit the dark footer's typography. */
+.site-footer .footer-bottom a{color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-color:#888}
+.site-footer .footer-bottom a:hover,.site-footer .footer-bottom a:focus-visible{color:#fff;text-decoration-color:currentColor}
