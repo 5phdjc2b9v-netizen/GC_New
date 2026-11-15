@@ -98,3 +98,15 @@
  .potential-page .p-panel-foot{flex-direction:column;gap:5px}
  .potential-page .p-framing{padding:38px 0}
 }
+
+/* Tally embedded publisher qualification */
+.potential-page .p-form-section{background:#f5f1ea;padding:110px 0 125px}
+.potential-page .p-form-heading{max-width:800px;margin-bottom:45px}
+.potential-page .p-form-heading h2{margin:20px 0 20px}
+.potential-page .p-form-heading>p{font-size:18px;line-height:1.7;color:#58534e;max-width:690px}
+.potential-page .p-form-meta{display:flex;flex-wrap:wrap;gap:13px;margin-top:24px}
+.potential-page .p-form-meta span{font-size:11px;letter-spacing:.07em;text-transform:uppercase;font-weight:760;border:1px solid #c7bfb4;padding:9px 11px;border-radius:100px}
+.potential-page .p-form-shell{max-width:875px;padding:40px 40px 25px;background:#fff;border:1px solid #e2dbd0;box-shadow:0 22px 52px rgba(23,23,23,.05)}
+.potential-page .p-form-fallback{font-size:12px;color:#65605b;line-height:1.65;padding-top:10px;margin:12px 0 0}
+.potential-page .p-form-fallback a{color:#a8202a;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:760px){.potential-page .p-form-section{padding:70px 0 80px}.potential-page .p-form-shell{padding:18px 12px 15px}.potential-page .p-form-heading>p{font-size:16px}.potential-page .p-form-meta{gap:7px}.potential-page .p-form-meta span{font-size:10px}}
