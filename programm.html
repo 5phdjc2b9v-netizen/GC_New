@@ -69,8 +69,28 @@
     .program-cta-box{background:#f4f1ed;border-radius:24px;padding:34px;display:grid;grid-template-columns:1fr auto;gap:26px;align-items:end}
     .program-cta-box h2{font-size:clamp(2rem,4vw,3.4rem);margin:6px 0 10px}
     .program-cta-box p{max-width:720px;color:#656565;line-height:1.6}
+
+    .coffee-stage{margin:30px 0 38px;border-radius:28px;background:#171716;color:#fff;overflow:hidden;display:grid;grid-template-columns:minmax(260px,.72fr) minmax(0,1.28fr);min-height:650px}
+    .coffee-stage-copy{padding:42px 34px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;z-index:4}
+    .coffee-stage-copy .section-kicker{color:#bdb9b2}
+    .coffee-stage-copy h3{font-size:clamp(2.4rem,5vw,4.8rem);line-height:.92;letter-spacing:-.055em;margin:10px 0 18px}
+    .coffee-stage-copy p{color:#cbc7c0;line-height:1.65;max-width:480px;margin:0}
+    .coffee-stage-scale{margin-top:24px;padding-top:18px;border-top:1px solid rgba(255,255,255,.16);font-size:.86rem;color:#d7d3cd}
+    .coffee-books{position:relative;min-height:650px;overflow:hidden;background:linear-gradient(135deg,#242321,#111)}
+    .coffee-book{position:absolute;margin:0;filter:drop-shadow(0 28px 30px rgba(0,0,0,.35));transform-origin:center bottom}
+    .coffee-book img{display:block;width:100%;height:auto;max-height:100%;object-fit:contain}
+    .coffee-book.rolex{width:44%;left:4%;bottom:4%;transform:rotate(-4deg);z-index:4}
+    .coffee-book.chanel{width:50%;right:-2%;bottom:9%;transform:rotate(4deg);z-index:3}
+    .coffee-book.landrover{width:36%;left:33%;top:4%;transform:rotate(1deg);z-index:2}
+    .coffee-book.pop{width:30%;right:9%;top:7%;transform:rotate(7deg);z-index:1}
+    .coffee-book.sun{width:29%;left:2%;top:12%;transform:rotate(-8deg);z-index:1}
+    .coffee-book figcaption{position:absolute;left:50%;bottom:-38px;transform:translateX(-50%);white-space:nowrap;font-size:.72rem;color:#ddd;opacity:0;transition:.2s}
+    .coffee-book:hover{z-index:10;filter:drop-shadow(0 34px 34px rgba(0,0,0,.45))}
+    .coffee-book:hover figcaption{opacity:1}
+
     @media(max-width:900px){
-      .program-hero-grid,.map-grid{grid-template-columns:1fr}
+      .program-hero-grid,.map-grid,.coffee-stage{grid-template-columns:1fr}
+      .coffee-books{min-height:560px}
       .program-actions{justify-content:flex-start}
       .catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
       .topic-tile.rad,.topic-tile.womo,.topic-tile.outdoor,.topic-tile.coffee,.topic-tile.maps,.topic-tile.travel,.topic-tile.family,.topic-tile.gift,.topic-tile.puzzle{grid-column:span 6}
@@ -79,6 +99,14 @@
     }
     @media(max-width:620px){
       .program-hero{padding-top:64px}
+      .coffee-stage{min-height:0;border-radius:22px}
+      .coffee-stage-copy{padding:28px 24px}
+      .coffee-books{min-height:470px}
+      .coffee-book.rolex{width:50%;left:0;bottom:2%}
+      .coffee-book.chanel{width:56%;right:-8%;bottom:8%}
+      .coffee-book.landrover{width:39%;left:31%;top:4%}
+      .coffee-book.pop{width:33%;right:3%;top:8%}
+      .coffee-book.sun{width:32%;left:-2%;top:12%}
       .topic-grid{grid-template-columns:1fr}
       .topic-tile.rad,.topic-tile.womo,.topic-tile.outdoor,.topic-tile.coffee,.topic-tile.maps,.topic-tile.travel,.topic-tile.family,.topic-tile.gift,.topic-tile.puzzle{grid-column:auto}
       .catalog-grid{grid-template-columns:1fr;gap:22px}
@@ -133,7 +161,23 @@
 <a class="catalog-card" href="https://www.thomas-kettler-verlag.de/wp-content/uploads/2025/11/Vorschau_2026_TKV_kl.pdf" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/kettler-wassersport-2026.png" alt="Thomas Kettler Verlag Wassersport Kanu 2026"></div><div class="catalog-meta"><h3>Thomas Kettler Verlag</h3><p>Wassersport · SUP · Kanu</p><span class="catalog-label">Verlagskatalog 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 </div></div></section>
 
-<section class="program-section" id="coffee"><div class="wrap"><div class="section-kicker">04 · Coffee Table, Bildband &amp; Design</div><h2>Große Bilder. Starke Flächen.</h2><p class="section-copy">Coffee Table Books, Fotografie, Design und Architektur gehören zu den wichtigen Standbeinen unseres Programms – visuell stark und ideal für hochwertige Präsentationen.</p><div class="catalog-grid">
+<section class="program-section" id="coffee"><div class="wrap"><div class="section-kicker">04 · Coffee Table, Bildband &amp; Design</div><h2>Große Bilder. Starke Flächen.</h2><p class="section-copy">Coffee Table Books, Fotografie, Design und Architektur gehören zu den wichtigen Standbeinen unseres Programms – visuell stark und ideal für hochwertige Präsentationen.</p>
+<div class="coffee-stage" aria-label="Auswahl großformatiger Coffee Table Books">
+  <div class="coffee-stage-copy">
+    <div class="section-kicker">Coffee Table Books</div>
+    <h3>Bücher, die<br>Raum einnehmen.</h3>
+    <p>Großformatig, hochwertig ausgestattet und deutlich präsenter als klassische Reiseführer. Diese Bücher funktionieren nicht nur über ihr Thema, sondern auch als Objekt auf Tisch, Fläche und Schaufenster.</p>
+    <div class="coffee-stage-scale">Mehr Format · mehr Gewicht · mehr Präsenz am POS</div>
+  </div>
+  <div class="coffee-books">
+    <figure class="coffee-book rolex"><img loading="lazy" src="./assets/images/coffee/rolex-2026.png" alt="ROLEX Coffee Table Book"><figcaption>ROLEX</figcaption></figure>
+    <figure class="coffee-book chanel"><img loading="lazy" src="./assets/images/coffee/chanel.png" alt="Chanel Coffee Table Book"><figcaption>Chanel</figcaption></figure>
+    <figure class="coffee-book landrover"><img loading="lazy" src="./assets/images/coffee/land-rover.png" alt="Land Rover Coffee Table Book"><figcaption>Land Rover</figcaption></figure>
+    <figure class="coffee-book pop"><img loading="lazy" src="./assets/images/coffee/pop.png" alt="POP Coffee Table Book"><figcaption>POP</figcaption></figure>
+    <figure class="coffee-book sun"><img loading="lazy" src="./assets/images/coffee/teller-voll-sonne.png" alt="Teller voll Sonne Coffee Table Book"><figcaption>Teller voll Sonne</figcaption></figure>
+  </div>
+</div>
+<div class="catalog-grid">
 <a class="catalog-card" href="https://issuu.com/gestalten/docs/teneues_herbst_2026" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/teneues-herbst-2026.png" alt="teNeues Programm Herbst 2026"></div><div class="catalog-meta"><h3>teNeues</h3><p>Fotografie · Lifestyle · Coffee Table Books</p><span class="catalog-label">Verlagskatalog Herbst 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 <a class="catalog-card" href="https://cdn.shopify.com/s/files/1/2717/4124/files/CATF26_gestalten_DE.pdf?v=1776236164" target="_blank" rel="noopener"><div class="catalog-cover"><img loading="lazy" src="./assets/images/catalogs/gestalten-herbst-2026.png" alt="gestalten Programm Herbst 2026"></div><div class="catalog-meta"><h3>gestalten</h3><p>Design · Architektur · Reise &amp; Lifestyle</p><span class="catalog-label">Verlagskatalog Herbst 2026</span><span class="catalog-link">Katalog ansehen →</span></div></a>
 </div></div></section>
