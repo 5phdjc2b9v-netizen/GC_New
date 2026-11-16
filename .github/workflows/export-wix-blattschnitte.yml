@@ -9,16 +9,29 @@ on:
 jobs:
   archive:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     permissions:
-      contents: read
+      contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: relaunch-v1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: python -m pip install requests beautifulsoup4
       - run: python scripts/export_wix_blattschnitte.py
+      - name: Commit mirrored Blattschnitte
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/downloads/blattschnitte assets/data/blattschnitte.json
+          if git diff --cached --quiet; then
+            echo "No Blattschnitt changes"
+          else
+            git commit -m "Mirror legacy Blattschnitt PDFs"
+            git push origin HEAD:relaunch-v1
+          fi
       - uses: actions/upload-artifact@v4
         if: always()
         with:
