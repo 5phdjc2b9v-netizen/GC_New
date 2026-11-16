@@ -41,12 +41,18 @@
     .topic-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:24px}
     .topic-head h2,.program-section h2,.map-service h2{font-size:clamp(2rem,4vw,3.5rem);line-height:1;margin:6px 0 0;letter-spacing:-.035em}
     .topic-note{color:#757575;font-size:.95rem}
-    .topic-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:14px}
-    .topic-tile{min-height:148px;border:1px solid rgba(17,17,17,.14);border-radius:20px;padding:20px 22px;text-decoration:none;color:inherit;display:flex;flex-direction:column;justify-content:space-between;background:#fff;transition:.2s ease}
+    .topic-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:12px}
+    .topic-quicknav-wrap{position:sticky;top:88px;z-index:35;margin-top:24px;padding:9px 0;background:rgba(245,241,234,.94);backdrop-filter:blur(12px);border-top:1px solid rgba(17,17,17,.09);border-bottom:1px solid rgba(17,17,17,.09)}
+    .topic-quicknav{display:flex;align-items:center;gap:6px;overflow-x:auto;scrollbar-width:none;padding:0 2px}
+    .topic-quicknav::-webkit-scrollbar{display:none}
+    .topic-quicknav a{flex:0 0 auto;padding:8px 11px;border-radius:999px;font-size:.76rem;font-weight:750;white-space:nowrap;color:#555;text-decoration:none;border:1px solid transparent;transition:.18s ease}
+    .topic-quicknav a:hover,.topic-quicknav a:focus-visible{color:#111;border-color:rgba(17,17,17,.16);background:#fff}
+    .topic-quicknav .quicknav-label{flex:0 0 auto;margin-right:4px;font-size:.7rem;text-transform:uppercase;letter-spacing:.14em;color:#8a8a8a;font-weight:800}
+    .topic-tile{min-height:126px;border:1px solid rgba(17,17,17,.14);border-radius:18px;padding:17px 20px;text-decoration:none;color:inherit;display:flex;flex-direction:column;justify-content:space-between;background:#fff;transition:.2s ease}
     .topic-tile:hover{transform:translateY(-2px);border-color:rgba(17,17,17,.38)}
     .topic-tile .n{font-size:.78rem;color:#8a8a8a;letter-spacing:.16em}
-    .topic-tile h3{font-size:1.42rem;line-height:1.06;margin:20px 0 0}
-    .topic-tile p{margin:7px 0 0;color:#6f6f6f;line-height:1.45;font-size:.96rem}
+    .topic-tile h3{font-size:1.34rem;line-height:1.08;margin:14px 0 0}
+    .topic-tile p{margin:5px 0 0;color:#6f6f6f;line-height:1.4;font-size:.91rem}
     .topic-tile.rad{grid-column:span 7;background:#f6f3ef}
     .topic-tile.womo{grid-column:span 5}
     .topic-tile.outdoor{grid-column:span 4}
@@ -146,6 +152,8 @@
     }
     @media(max-width:620px){
       .program-hero{padding-top:64px}
+      .topic-quicknav-wrap{top:72px;margin-top:18px}
+      .topic-quicknav a{padding:7px 10px;font-size:.73rem}
       .program-featured{padding:54px 0 62px}
       .program-featured-head{display:block}
       .program-featured-head p{margin-top:14px}
@@ -226,7 +234,23 @@
 <a class="topic-tile family" href="#familie"><span class="n">07</span><div><h3>Familie &amp; Kinder</h3><p>Reisen, Wissen und Entdecken für Familien.</p></div></a>
 <a class="topic-tile gift" href="#geschenk"><span class="n">08</span><div><h3>Geschenk &amp; Inspiration</h3><p>Anlassstarke Titel und kuratierte Verkaufsübersichten.</p></div></a>
 <a class="topic-tile puzzle" href="#puzzle"><span class="n">09</span><div><h3>Puzzle &amp; Spiel</h3><p>Visuelle Produkte für Familie, Geschenk und Impuls.</p></div></a>
-</div></div></section>
+</div>
+<div class="topic-quicknav-wrap" aria-label="Schnellnavigation Themenwelten">
+  <div class="topic-quicknav">
+    <span class="quicknav-label">Themen</span>
+    <a href="#rad">Rad</a>
+    <a href="#wohnmobil">Wohnmobil</a>
+    <a href="#outdoor">Outdoor</a>
+    <a href="#coffee">Bildwelten</a>
+    <a href="#karten">Karten &amp; Globen</a>
+    <a href="#reise">Reise</a>
+    <a href="#familie">Familie</a>
+    <a href="#geschenk">Geschenk</a>
+    <a href="#puzzle">Puzzle</a>
+    <a href="#blattschnitte">Blattschnitte</a>
+  </div>
+</div>
+</div></section>
 
 <section class="program-section" id="rad"><div class="wrap"><div class="section-kicker">01 · Rad &amp; Radtouren</div><h2>Radkompetenz mit Tradition.</h2><p class="section-copy">Tourenbücher, Radkarten und Wanderprogramme für aktive Kundinnen und Kunden. Den Auftakt macht unser langjähriger Partner Esterbauer mit bikeline und hikeline.</p>
 <div class="theme-product-stage">
