@@ -6,7 +6,7 @@
   const root=new URL('../../',script?.src||location.href);
   const href=(path)=>new URL(path,root).href;
   const nav=document.querySelector('.site-header .nav');
-  if(!nav)return;
+  if(!nav || nav.classList.contains('nav-mega'))return;
   const menus=[
     {label:'Programm',path:'programm',cards:[
       ['Rad & Wandern','bikeline, hikeline und Tourenprogramme','programm#rad'],
@@ -49,10 +49,30 @@
 const menu=document.querySelector('.menu-btn');
 const nav=document.querySelector('.nav');
 if(menu&&nav){
+  menu.textContent='Menü';
+  menu.setAttribute('aria-label','Navigation öffnen');
+  menu.setAttribute('aria-controls','site-mega-navigation');
+  nav.id='site-mega-navigation';
+  const closeMenu=()=>{
+    nav.classList.remove('open');
+    document.body.classList.remove('mega-is-open');
+    menu.setAttribute('aria-expanded','false');
+    menu.setAttribute('aria-label','Navigation öffnen');
+    menu.textContent='Menü';
+  };
   menu.addEventListener('click',()=>{
-    nav.classList.toggle('open');
-    menu.setAttribute('aria-expanded',nav.classList.contains('open'));
+    const opening=!nav.classList.contains('open');
+    nav.classList.toggle('open',opening);
+    document.body.classList.toggle('mega-is-open',opening);
+    menu.setAttribute('aria-expanded',String(opening));
+    menu.setAttribute('aria-label',opening?'Navigation schließen':'Navigation öffnen');
+    menu.textContent=opening?'Schließen':'Menü';
+    if(opening)nav.querySelectorAll('.mega-entry').forEach(entry=>entry.open=true);
   });
+  document.addEventListener('keydown',event=>{
+    if(event.key==='Escape'&&nav.classList.contains('open')){closeMenu();menu.focus();}
+  });
+  nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeMenu));
 }
 
 const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
