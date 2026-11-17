@@ -15,7 +15,7 @@
 .site-header .menu-btn.gc-editorial-toggle[aria-expanded="true"]:before{content:'×';font-size:26px}
 body.gc-editorial-open{overflow:hidden}
 body.gc-editorial-open .site-header,body.gc-editorial-open .site-header.is-hidden{
- position:relative;z-index:10002!important;background:#111113!important;
+ position:fixed!important;top:0;left:0;right:0;z-index:10002!important;background:#111113!important;
  transform:none!important;border-bottom:1px solid #39393b!important;box-shadow:none!important
 }
 body.gc-editorial-open .site-header .brand{position:relative;z-index:10004}
