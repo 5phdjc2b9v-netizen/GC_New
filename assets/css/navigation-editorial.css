@@ -98,3 +98,21 @@ body.gc-editorial-open .site-header .header-cta{display:none!important}
  .gc-editorial-overlay{animation:none}
  .gc-editorial-tile{transition:none}
 }
+
+/* GeoCenter signature yellow — considered accents on the editorial overlay */
+.gc-editorial-overlay{--gc-yellow:#f1d33d}
+.gc-editorial-eyebrow{color:var(--gc-yellow)}
+.gc-editorial-eyebrow:before{content:"";display:inline-block;width:26px;height:3px;background:var(--gc-yellow);vertical-align:middle;margin-right:12px}
+.gc-editorial-heading h2 em{color:#f1d33d}
+.gc-editorial-section-label span:first-child{color:var(--gc-yellow)}
+.gc-editorial-tile:nth-child(2){background:#f1d33d;color:#151515!important}
+.gc-editorial-tile:nth-child(2):hover{background:#ffe56b}
+.gc-editorial-tile:nth-child(2) .gc-editorial-tile-top span:last-child{color:#151515}
+.gc-editorial-tile:not(:first-child):not(:nth-child(2)) .gc-editorial-tile-top span:last-child{color:#be312b}
+.gc-editorial-linkgroup h3{border-bottom-color:rgba(241,211,61,.55)}
+.gc-editorial-linkgroup a:hover,.gc-editorial-linkgroup a:focus-visible{color:var(--gc-yellow)}
+.gc-editorial-linkgroup a span{color:var(--gc-yellow)}
+.gc-editorial-cta{position:relative}
+.gc-editorial-cta:before{content:"";height:5px;background:var(--gc-yellow);position:absolute;left:0;right:0;top:0}
+.gc-editorial-cta b span{color:var(--gc-yellow)}
+.site-header .menu-btn.gc-editorial-toggle[aria-expanded="true"]{border-color:var(--gc-yellow,#f1d33d)}
