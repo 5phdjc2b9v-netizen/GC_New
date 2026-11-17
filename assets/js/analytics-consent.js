@@ -1,11 +1,10 @@
-/* GeoCenter Analytics readiness (GA4): disabled until configured.
- * Consent-first: GA4 is not requested until a visitor actively opts in.
- * Set GA4_MEASUREMENT_ID to the real G-XXXXXXXXXX ID after privacy review.
- */
+/* GeoCenter GA4: consent-first, production-domain-only analytics. */
 (function () {
   'use strict';
-  const GA4_MEASUREMENT_ID = ''; // Intentionally empty until GA4 data stream is supplied.
+  const GA4_MEASUREMENT_ID = 'G-NBK3M2W9P7';
   if (!/^G-[A-Z0-9]+$/.test(GA4_MEASUREMENT_ID)) return;
+  // Keep preview and temporary Pages URLs out of the production reporting.
+  if (!['www.geocenter.de', 'geocenter.de'].includes(location.hostname)) return;
 
   const STORAGE_KEY = 'geocenter.analytics_consent.v1';
   const STYLE_ID = 'gc-analytics-consent-style';
@@ -92,9 +91,16 @@
     btn.setAttribute('aria-label', 'Analyse-Einwilligung ändern');
     btn.style.cssText = 'background:transparent;border:0;color:inherit;text-decoration:underline;cursor:pointer;font:inherit;padding:8px';
     btn.addEventListener('click', function () {
+      // Immediately stop tracking requests by reloading without stored consent.
       try { localStorage.removeItem(STORAGE_KEY); } catch (_) {}
-      /* Previously loaded tracking cannot be unloaded on the current page.
-         A reload enforces a renewed choice before any future request. */
+      // Remove first-party GA cookies when consent is withdrawn.
+      document.cookie.split(';').forEach(function (part) {
+        const name = part.trim().split('=')[0];
+        if (/^_ga(?:_|$)/.test(name)) {
+          document.cookie = name + '=; Max-Age=0; path=/; SameSite=Lax';
+          document.cookie = name + '=; Max-Age=0; path=/; domain=.geocenter.de; SameSite=Lax';
+        }
+      });
       location.reload();
     });
     footer.appendChild(btn);
