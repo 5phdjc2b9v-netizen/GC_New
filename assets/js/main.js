@@ -1,3 +1,51 @@
+
+// Centralized responsive mega menu. Absolute URLs are derived from this script,
+// so navigation also works from /insights/ and all article subpages.
+(function initGeoCenterMegaMenu(){
+  const script=document.currentScript;
+  const root=new URL('../../',script?.src||location.href);
+  const href=(path)=>new URL(path,root).href;
+  const nav=document.querySelector('.site-header .nav');
+  if(!nav)return;
+  const menus=[
+    {label:'Programm',path:'programm',cards:[
+      ['Rad & Wandern','bikeline, hikeline und Tourenprogramme','programm#rad'],
+      ['Wohnmobil','Reiseführer, Stellplätze und Touren','programm#womo'],
+      ['Reisen & Entdecken','Reiseführer, Lesebücher und Regionen','programm#reise'],
+      ['Bildwelten','Coffee Table Books und hochwertige Bildbände','programm#bildwelten'],
+      ['Familie','Reisen und Entdecken mit Kindern','programm#familie'],
+      ['Geschenk','Jahrgangsbücher und besondere Geschenke','programm#geschenk'],
+      ['Puzzle & Spiel','Gemeinsam entdecken und spielen','programm#puzzle'],
+      ['Übersichtskarten','Blattschnitte Deutschland und Europa','programm#kartenservice']
+    ],footer:[['Aktueller Katalog','programm#katalog'],['Gesamtprogramm','programm#backlist']]},
+    {label:'Leistungen',path:'leistungen',cards:[
+      ['Vertrieb & Außendienst','Flächendeckende Betreuung im Handel','leistungen#vertrieb'],
+      ['Customer Service','Persönlicher Service für Handel und Verlage','leistungen#customer-service'],
+      ['Verlagsbetreuung','Begleitung vom Titel bis zur Verkaufsfläche','leistungen#verlagsbetreuung'],
+      ['Auslieferung','Logistik, Fakturierung und Retouren','leistungen#auslieferung'],
+      ['Potentialanalyse','Vertriebspotentiale datenbasiert erschließen','potentialanalyse']
+    ],footer:[['Zusammenarbeit anfragen','kontakt']]},
+    {label:'GeoCenter',path:'unternehmen',cards:[
+      ['Über uns','Familiengeführt und im Handel verwurzelt','unternehmen'],
+      ['Potentialanalyse','Datengetriebener Vertrieb','potentialanalyse'],
+      ['Insights','Wissen und Praxis aus dem Buchhandel','insights/'],
+      ['Ansprechpartner','Außendienst und Kontaktübersicht','kontakt#aussendienst']
+    ],footer:[['Kontakt aufnehmen','kontakt']]}
+  ];
+  const escapeHtml=(s)=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const html=menus.map((m,i)=>'<details class="mega-entry"><summary aria-label="'+escapeHtml(m.label)+' öffnen">'+escapeHtml(m.label)+'</summary><div class="mega-panel"><div class="mega-heading"><strong>'+escapeHtml(m.label)+' entdecken</strong><a href="'+href(m.path)+'">Alle '+escapeHtml(m.label)+'-Inhalte →</a></div><div class="mega-grid">'+m.cards.map(c=>'<a class="mega-tile" href="'+href(c[2])+'"><strong>'+escapeHtml(c[0])+'</strong><span>'+escapeHtml(c[1])+'</span></a>').join('')+'</div><div class="mega-footer">'+m.footer.map(f=>'<a href="'+href(f[1])+'">'+escapeHtml(f[0])+' →</a>').join('')+'</div></div></details>').join('');
+  nav.innerHTML=html+'<a href="'+href('insights/')+'">Insights</a><a href="'+href('kontakt')+'">Kontakt</a>';
+  nav.classList.add('nav-mega');
+  const style=document.createElement('link');style.rel='stylesheet';style.href=href('assets/css/mega-menu.css?v=20261117');document.head.append(style);
+  const entries=[...nav.querySelectorAll('.mega-entry')];
+  entries.forEach(entry=>{
+    entry.addEventListener('toggle',()=>{if(entry.open)entries.forEach(other=>{if(other!==entry)other.open=false})});
+    entry.addEventListener('keydown',e=>{if(e.key==='Escape'){entry.open=false;entry.querySelector('summary').focus()}});
+  });
+  document.addEventListener('pointerdown',e=>{if(!e.target.closest('.site-header'))entries.forEach(entry=>entry.open=false)});
+  document.querySelector('.menu-btn')?.addEventListener('click',()=>{if(!nav.classList.contains('open'))entries.forEach(entry=>entry.open=false)});
+})();
+
 const menu=document.querySelector('.menu-btn');
 const nav=document.querySelector('.nav');
 if(menu&&nav){
