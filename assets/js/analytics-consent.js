@@ -38,8 +38,6 @@
         window.gtag('event', 'contact_phone_click', { event_category: 'lead', page_path: location.pathname });
       } else if (destination.pathname.toLowerCase().endsWith('.pdf')) {
         window.gtag('event', 'file_download', { file_extension: 'pdf', page_path: location.pathname });
-      } else if (/potentialanalyse/i.test(destination.pathname) && !/potentialanalyse/i.test(location.pathname)) {
-        window.gtag('event', 'potentialanalyse_cta_click', { event_category: 'lead', page_path: location.pathname });
       }
     });
   };
