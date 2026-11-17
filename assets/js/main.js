@@ -30,11 +30,7 @@
       ['Bildwelten','programm#coffee'],['Familie','programm#familie'],['Geschenk','programm#geschenk'],['Puzzle & Spiel','programm#puzzle'],['Übersichtskarten','programm#karten']]},
     {name:'Leistungen',path:'leistungen',line:'Vertrieb, der weiterdenkt.',detail:'Persönlich, bundesweit und datengetrieben.',number:'02',links:[
       ['Vertrieb & Außendienst','leistungen#vertrieb'],['Customer Service','leistungen#customer-service'],
-      ['Verlagsbetreuung','leistungen#verlagsbetreuung'],['Auslieferung','leistungen#auslieferung']]},
-    {name:'Potentialanalyse',path:'potentialanalyse',line:'Chancen erkennen. Märkte erschließen.',detail:'Potentiale datenbasiert entdecken und priorisieren.',number:'03',links:[
-      ['Potentialanalyse anfragen','potentialanalyse#anfrage'],['Unsere Analysefelder','potentialanalyse#analysefelder'],
-      ['Datengetriebener Vertrieb','leistungen#vertrieb']]},
-    {name:'Über uns',path:'unternehmen',line:'Erfahrung trifft neue Perspektiven.',detail:'Menschen, Haltung und gelebte Nähe zum Handel.',number:'04',links:[
+      ['Verlagsbetreuung','leistungen#verlagsbetreuung'],['Auslieferung','leistungen#auslieferung']]},\n    {name:'Über uns',path:'unternehmen',line:'Erfahrung trifft neue Perspektiven.',detail:'Menschen, Haltung und gelebte Nähe zum Handel.',number:'03',links:[
       ['GeoCenter kennenlernen','unternehmen'],['Außendienst finden','kontakt#aussendienst'],
       ['Kontakt','kontakt'],['Insights','insights/']]}
   ];
@@ -46,8 +42,8 @@
   const columns=[
     {title:'Themenwelten',items:groups[0].links},
     {title:'Unsere Leistungen',items:groups[1].links},
-    {title:'Wissen & Perspektiven',items:[['Insights','insights/'],['Potentialanalyse','potentialanalyse'],['Datengetriebener Vertrieb','index.html#datengetriebener-vertrieb'],['Verlagsvertrieb','leistungen']]},
-    {title:'Direkt zu GeoCenter',items:groups[3].links}
+    {title:'Wissen & Perspektiven',items:[['Insights','insights/'],['Datengetriebener Vertrieb','index.html#datengetriebener-vertrieb'],['Verlagsvertrieb','leistungen']]},
+    {title:'Direkt zu GeoCenter',items:groups[2].links}
   ];
   const col=group=>`<div class="gc-editorial-linkgroup"><h3>${escape(group.title)}</h3><ul>${group.items.map(([label,href])=>`<li><a href="${url(href)}">${escape(label)} <span aria-hidden="true">↗</span></a></li>`).join('')}</ul></div>`;
   const overlay=document.createElement('div');
@@ -62,15 +58,15 @@
       </div>
       <div class="gc-editorial-intro-aside"><p>Starke Programme. Neue Perspektiven.<br>Vertrieb, der verbindet.</p><a href="${url('kontakt')}">Jetzt Kontakt aufnehmen <span aria-hidden="true">↗</span></a></div>
     </div>
-    <div class="gc-editorial-section-label"><span>01 / UNSERE WELTEN</span><span>VIER EINSTIEGE. EIN STARKES NETZWERK.</span></div>
+    <div class="gc-editorial-section-label"><span>01 / UNSERE WELTEN</span><span>DREI EINSTIEGE. EIN STARKES NETZWERK.</span></div>
     <div class="gc-editorial-tiles">${groups.map(tile).join('')}</div>
     <div class="gc-editorial-lower">
       <div class="gc-editorial-linkcolumns">${columns.map(col).join('')}</div>
-      <a class="gc-editorial-cta" href="${url('potentialanalyse')}">
-        <span class="gc-editorial-cta-eyebrow">POTENTIALANALYSE</span>
-        <strong>Wie viel Markt steckt noch in Ihrem Programm?</strong>
-        <span>Mit Daten und Erfahrung neue Vertriebschancen entdecken.</span>
-        <b>Analyse anfragen <span aria-hidden="true">↗</span></b>
+      <a class="gc-editorial-cta" href="${url('kontakt')}">
+        <span class="gc-editorial-cta-eyebrow">KONTAKT</span>
+        <strong>Sie möchten Ihr Programm weiterentwickeln?</strong>
+        <span>Wir freuen uns auf den Austausch über passende Vertriebswege.</span>
+        <b>Kontakt aufnehmen <span aria-hidden="true">↗</span></b>
       </a>
     </div>
   </div>`;
