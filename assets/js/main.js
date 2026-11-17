@@ -1,79 +1,113 @@
+/* GeoCenter Editorial Navigation v3 – shared across every page */
+(function initEditorialNavigation() {
+  const header=document.querySelector('.site-header');
+  const oldButton=header?.querySelector('.menu-btn');
+  if(!header||!oldButton||document.querySelector('#gc-editorial-navigation'))return;
+  const source=document.currentScript?.src||document.querySelector('script[src*="main.js"]')?.src||location.href;
+  const root=new URL('../../',source);
+  const url=(path)=>new URL(path,root).href;
+  const css=document.createElement('link');
+  css.rel='stylesheet';
+  css.href=url('assets/css/navigation-editorial.css?v=20261117-1');
+  document.head.append(css);
 
-// Centralized responsive mega menu. Absolute URLs are derived from this script,
-// so navigation also works from /insights/ and all article subpages.
-(function initGeoCenterMegaMenu(){
-  const script=document.currentScript;
-  const root=new URL('../../',script?.src||location.href);
-  const href=(path)=>new URL(path,root).href;
-  const nav=document.querySelector('.site-header .nav');
-  if(!nav || nav.classList.contains('nav-mega'))return;
-  const menus=[
-    {label:'Programm',path:'programm',cards:[
-      ['Rad & Wandern','bikeline, hikeline und Tourenprogramme','programm#rad'],
-      ['Wohnmobil','Reiseführer, Stellplätze und Touren','programm#wohnmobil'],
-      ['Reisen & Entdecken','Reiseführer, Lesebücher und Regionen','programm#reise'],
-      ['Bildwelten','Coffee Table Books und hochwertige Bildbände','programm#coffee'],
-      ['Familie','Reisen und Entdecken mit Kindern','programm#familie'],
-      ['Geschenk','Jahrgangsbücher und besondere Geschenke','programm#geschenk'],
-      ['Puzzle & Spiel','Gemeinsam entdecken und spielen','programm#puzzle'],
-      ['Übersichtskarten','Blattschnitte Deutschland und Europa','programm#karten']
-    ],footer:[['Aktueller Katalog','programm'],['Gesamtprogramm','programm']]},
-    {label:'Leistungen',path:'leistungen',cards:[
-      ['Vertrieb & Außendienst','Flächendeckende Betreuung im Handel','leistungen#vertrieb'],
-      ['Customer Service','Persönlicher Service für Handel und Verlage','leistungen#customer-service'],
-      ['Verlagsbetreuung','Begleitung vom Titel bis zur Verkaufsfläche','leistungen#verlagsbetreuung'],
-      ['Auslieferung','Logistik, Fakturierung und Retouren','leistungen#auslieferung'],
-      ['Potentialanalyse','Vertriebspotentiale datenbasiert erschließen','potentialanalyse']
-    ],footer:[['Zusammenarbeit anfragen','kontakt']]},
-    {label:'GeoCenter',path:'unternehmen',cards:[
-      ['Über uns','Familiengeführt und im Handel verwurzelt','unternehmen'],
-      ['Potentialanalyse','Datengetriebener Vertrieb','potentialanalyse'],
-      ['Insights','Wissen und Praxis aus dem Buchhandel','insights/'],
-      ['Ansprechpartner','Außendienst und Kontaktübersicht','kontakt#aussendienst']
-    ],footer:[['Kontakt aufnehmen','kontakt']]}
+  const groups=[
+    {name:'Programm',path:'programm',line:'Bücher, die Menschen bewegen.',detail:'Themenwelten, Novitäten und das Gesamtprogramm.',number:'01',links:[
+      ['Rad & Wandern','programm#rad'],['Wohnmobil','programm#wohnmobil'],['Reisen & Entdecken','programm#reise'],
+      ['Bildwelten','programm#coffee'],['Familie','programm#familie'],['Geschenk','programm#geschenk'],['Puzzle & Spiel','programm#puzzle'],['Übersichtskarten','programm#karten']]},
+    {name:'Leistungen',path:'leistungen',line:'Vertrieb, der weiterdenkt.',detail:'Persönlich, bundesweit und datengetrieben.',number:'02',links:[
+      ['Vertrieb & Außendienst','leistungen#vertrieb'],['Customer Service','leistungen#customer-service'],
+      ['Verlagsbetreuung','leistungen#verlagsbetreuung'],['Auslieferung','leistungen#auslieferung']]},
+    {name:'Potentialanalyse',path:'potentialanalyse',line:'Chancen erkennen. Märkte erschließen.',detail:'Potentiale datenbasiert entdecken und priorisieren.',number:'03',links:[
+      ['Potentialanalyse anfragen','potentialanalyse#anfrage'],['Unsere Analysefelder','potentialanalyse#analysefelder'],
+      ['Datengetriebener Vertrieb','leistungen#vertrieb']]},
+    {name:'Über uns',path:'unternehmen',line:'Erfahrung trifft neue Perspektiven.',detail:'Menschen, Haltung und gelebte Nähe zum Handel.',number:'04',links:[
+      ['GeoCenter kennenlernen','unternehmen'],['Außendienst finden','kontakt#aussendienst'],
+      ['Kontakt','kontakt'],['Insights','insights/']]}
   ];
-  const escapeHtml=(s)=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const html=menus.map((m,i)=>'<details class="mega-entry"><summary aria-label="'+escapeHtml(m.label)+' öffnen">'+escapeHtml(m.label)+'</summary><div class="mega-panel"><div class="mega-heading"><strong>'+escapeHtml(m.label)+' entdecken</strong><a href="'+href(m.path)+'">Alle '+escapeHtml(m.label)+'-Inhalte →</a></div><div class="mega-grid">'+m.cards.map(c=>'<a class="mega-tile" href="'+href(c[2])+'"><strong>'+escapeHtml(c[0])+'</strong><span>'+escapeHtml(c[1])+'</span></a>').join('')+'</div><div class="mega-footer">'+m.footer.map(f=>'<a href="'+href(f[1])+'">'+escapeHtml(f[0])+' →</a>').join('')+'</div></div></details>').join('');
-  nav.innerHTML=html+'<a href="'+href('insights/')+'">Insights</a><a href="'+href('kontakt')+'">Kontakt</a>';
-  nav.classList.add('nav-mega');
-  const style=document.createElement('link');style.rel='stylesheet';style.href=href('assets/css/mega-menu.css?v=20261117');document.head.append(style);
-  const entries=[...nav.querySelectorAll('.mega-entry')];
-  entries.forEach(entry=>{
-    entry.addEventListener('toggle',()=>{if(entry.open)entries.forEach(other=>{if(other!==entry)other.open=false})});
-    entry.addEventListener('keydown',e=>{if(e.key==='Escape'){entry.open=false;entry.querySelector('summary').focus()}});
-  });
-  document.addEventListener('pointerdown',e=>{if(!e.target.closest('.site-header'))entries.forEach(entry=>entry.open=false)});
-  document.querySelector('.menu-btn')?.addEventListener('click',()=>{if(!nav.classList.contains('open'))entries.forEach(entry=>entry.open=false)});
-})();
+  const escape=(value)=>String(value).replace(/[&<>"']/g,match=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[match]));
+  const tile=group=>`<a class="gc-editorial-tile" href="${url(group.path)}" aria-label="${escape(group.name)} ansehen">
+    <span class="gc-editorial-tile-top"><span>${group.number}</span><span aria-hidden="true">↗</span></span>
+    <span class="gc-editorial-tile-bottom"><strong>${escape(group.name)}</strong><span>${escape(group.line)}</span><small>${escape(group.detail)}</small></span>
+  </a>`;
+  const columns=[
+    {title:'Themenwelten',items:groups[0].links},
+    {title:'Unsere Leistungen',items:groups[1].links},
+    {title:'Wissen & Perspektiven',items:[['Insights','insights/'],['Potentialanalyse','potentialanalyse'],['Datengetriebener Vertrieb','index.html#datengetriebener-vertrieb'],['Verlagsvertrieb','leistungen']]},
+    {title:'Direkt zu GeoCenter',items:groups[3].links}
+  ];
+  const col=group=>`<div class="gc-editorial-linkgroup"><h3>${escape(group.title)}</h3><ul>${group.items.map(([label,href])=>`<li><a href="${url(href)}">${escape(label)} <span aria-hidden="true">↗</span></a></li>`).join('')}</ul></div>`;
+  const overlay=document.createElement('div');
+  overlay.id='gc-editorial-navigation';
+  overlay.className='gc-editorial-overlay';
+  overlay.hidden=true;
+  overlay.innerHTML=`<div class="gc-editorial-inner">
+    <div class="gc-editorial-intro">
+      <div class="gc-editorial-heading">
+        <div class="gc-editorial-eyebrow">GEOCENTER / ORIENTIERUNG</div>
+        <h2>Weniger suchen.<br><em>Mehr entdecken.</em></h2>
+      </div>
+      <div class="gc-editorial-intro-aside"><p>Starke Programme. Neue Perspektiven.<br>Vertrieb, der verbindet.</p><a href="${url('kontakt')}">Jetzt Kontakt aufnehmen <span aria-hidden="true">↗</span></a></div>
+    </div>
+    <div class="gc-editorial-section-label"><span>01 / UNSERE WELTEN</span><span>VIER EINSTIEGE. EIN STARKES NETZWERK.</span></div>
+    <div class="gc-editorial-tiles">${groups.map(tile).join('')}</div>
+    <div class="gc-editorial-lower">
+      <div class="gc-editorial-linkcolumns">${columns.map(col).join('')}</div>
+      <a class="gc-editorial-cta" href="${url('potentialanalyse')}">
+        <span class="gc-editorial-cta-eyebrow">POTENTIALANALYSE</span>
+        <strong>Wie viel Markt steckt noch in Ihrem Programm?</strong>
+        <span>Mit Daten und Erfahrung neue Vertriebschancen entdecken.</span>
+        <b>Analyse anfragen <span aria-hidden="true">↗</span></b>
+      </a>
+    </div>
+  </div>`;
+  header.insertAdjacentElement('afterend',overlay);
+  // Replace the previously wired button so legacy mobile-menu listeners cannot conflict.
+  const button=oldButton.cloneNode(false);
+  oldButton.replaceWith(button);
+  button.className='menu-btn gc-editorial-toggle';
+  button.type='button';
+  button.setAttribute('aria-controls',overlay.id);
+  button.setAttribute('aria-haspopup','dialog');
+  button.setAttribute('aria-expanded','false');
+  button.setAttribute('aria-label','Menü öffnen');
+  button.textContent='Menü';
+  overlay.setAttribute('role','dialog');
+  overlay.setAttribute('aria-modal','true');
+  overlay.setAttribute('aria-label','GeoCenter Hauptnavigation');
 
-const menu=document.querySelector('.menu-btn');
-const nav=document.querySelector('.nav');
-if(menu&&nav){
-  menu.textContent='Menü';
-  menu.setAttribute('aria-label','Navigation öffnen');
-  menu.setAttribute('aria-controls','site-mega-navigation');
-  nav.id='site-mega-navigation';
-  const closeMenu=()=>{
-    nav.classList.remove('open');
-    document.body.classList.remove('mega-is-open');
-    menu.setAttribute('aria-expanded','false');
-    menu.setAttribute('aria-label','Navigation öffnen');
-    menu.textContent='Menü';
+  const focusable=()=>[...overlay.querySelectorAll('a[href],button:not([disabled])')].filter(el=>el.getClientRects().length);
+  const open=()=>{
+    overlay.hidden=false;
+    document.body.classList.add('gc-editorial-open');
+    button.textContent='Schließen';
+    button.setAttribute('aria-expanded','true');
+    button.setAttribute('aria-label','Menü schließen');
+    focusable()[0]?.focus({preventScroll:true});
   };
-  menu.addEventListener('click',()=>{
-    const opening=!nav.classList.contains('open');
-    nav.classList.toggle('open',opening);
-    document.body.classList.toggle('mega-is-open',opening);
-    menu.setAttribute('aria-expanded',String(opening));
-    menu.setAttribute('aria-label',opening?'Navigation schließen':'Navigation öffnen');
-    menu.textContent=opening?'Schließen':'Menü';
-    if(opening)nav.querySelectorAll('.mega-entry').forEach(entry=>entry.open=true);
+  const close=()=>{
+    overlay.hidden=true;
+    document.body.classList.remove('gc-editorial-open');
+    button.textContent='Menü';
+    button.setAttribute('aria-expanded','false');
+    button.setAttribute('aria-label','Menü öffnen');
+    button.focus({preventScroll:true});
+  };
+  button.addEventListener('click',()=>overlay.hidden?open():close());
+  overlay.addEventListener('click',event=>{
+    if(event.target.closest('a')){overlay.hidden=true;document.body.classList.remove('gc-editorial-open');}
   });
   document.addEventListener('keydown',event=>{
-    if(event.key==='Escape'&&nav.classList.contains('open')){closeMenu();menu.focus();}
+    if(overlay.hidden)return;
+    if(event.key==='Escape'){event.preventDefault();close();}
+    if(event.key==='Tab'){
+      const items=[button,...focusable()];
+      const first=items[0],last=items[items.length-1];
+      if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}
+      else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}
+    }
   });
-  nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeMenu));
-}
+})();
 
 const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
