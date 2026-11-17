@@ -1,0 +1,42 @@
+/* GeoCenter legal pages – editorial B2B design */
+.gc-legal-page{background:#fff;color:#171717}
+.gc-legal-page *{box-sizing:border-box}
+.gc-legal-hero{background:#191919;color:#f5f1ea;padding:85px 0 78px;position:relative;overflow:hidden}
+.gc-legal-hero:after{content:"";position:absolute;right:-9%;top:-30%;width:min(60vw,760px);height:650px;background:radial-gradient(ellipse at center,rgba(255,255,255,.075),transparent 68%);pointer-events:none}
+.gc-legal-hero .wrap{position:relative;z-index:1}
+.gc-legal-eyebrow{font-size:11px;letter-spacing:.19em;text-transform:uppercase;font-weight:800;color:#e9d934;margin-bottom:35px;display:flex;gap:14px;align-items:center}
+.gc-legal-eyebrow:before{content:"";display:block;width:33px;height:3px;background:#e9d934}
+.gc-legal-hero-grid{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(230px,.6fr);gap:50px;align-items:end}
+.gc-legal-hero h1{font-family:var(--display-sans,Arial,sans-serif);font-size:clamp(60px,8vw,124px);letter-spacing:-.078em;line-height:.94;margin:0;font-weight:760;max-width:950px}
+.gc-legal-hero h1 span{display:block;color:#e14b3f}
+.gc-legal-hero .gc-legal-intro{font-size:clamp(17px,1.6vw,22px);line-height:1.55;color:#d0ccc7;max-width:340px;margin:0 0 8px}
+.gc-legal-breadcrumb{font-size:13px;margin:0 0 36px;color:#bcb7b2}
+.gc-legal-breadcrumb a{text-decoration:underline;text-underline-offset:4px}
+.gc-legal-layout{display:grid;grid-template-columns:minmax(210px,.32fr) minmax(0,1fr);gap:clamp(45px,7vw,125px);padding-top:76px;padding-bottom:120px;align-items:start}
+.gc-legal-sidebar{position:sticky;top:125px;max-height:calc(100dvh - 145px);overflow-y:auto;border-top:3px solid #d33f35;padding-top:20px}
+.gc-legal-sidebar h2{font-size:11px;font-weight:850;letter-spacing:.17em;text-transform:uppercase;color:#70675f;margin:0 0 23px}
+.gc-legal-sidebar a{display:block;padding:10px 0;border-bottom:1px solid #dedbd5;font-size:13px;font-weight:650;color:#494541;line-height:1.4}
+.gc-legal-sidebar a:hover,.gc-legal-sidebar a:focus-visible{color:#b81d2b;text-decoration:underline;text-underline-offset:4px}
+.gc-legal-sidebar .gc-legal-side-note{font-size:12px;color:#746e68;line-height:1.6;margin:26px 0 0}
+.gc-legal-body{min-width:0;max-width:910px}
+.gc-legal-body section{padding:0 0 42px;margin:0 0 48px;border-bottom:1px solid #dedbd5;scroll-margin-top:125px}
+.gc-legal-body section:last-of-type{border-bottom:0}
+.gc-legal-body section>h2{font-family:var(--display-sans,Arial,sans-serif);font-size:clamp(30px,3.1vw,45px);font-weight:740;line-height:1.14;letter-spacing:-.055em;margin:0 0 24px}
+.gc-legal-body h3{font-size:clamp(17px,1.7vw,21px);font-weight:750;letter-spacing:-.024em;line-height:1.3;margin:32px 0 12px}
+.gc-legal-body p,.gc-legal-body address,.gc-legal-body li{font-size:15.5px;line-height:1.86;color:#4d4843}
+.gc-legal-body p{margin:0 0 17px}
+.gc-legal-body address{font-style:normal;margin:0 0 19px}
+.gc-legal-body ul{padding-left:23px;margin:16px 0 21px}
+.gc-legal-body li{margin-bottom:7px}
+.gc-legal-body a:not(.gc-legal-endlink){color:#ac2632;text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+.gc-legal-body .legal-note,.gc-legal-body .gc-note{font-size:12px;color:#766e65}
+.gc-legal-body #impressum>p:first-of-type{font-size:20px;color:#1b1b1b}
+.gc-legal-highlight{background:#f5f1ea;border-left:3px solid #be312e;padding:22px 27px;margin-bottom:40px;font-size:14px;line-height:1.65;color:#4e4540}
+.gc-legal-highlight strong{color:#171717}
+.gc-legal-related{margin-top:48px;padding:30px;background:#f5f1ea;border-radius:13px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.gc-legal-related strong{font-size:20px;letter-spacing:-.035em}
+.gc-legal-endlink{font-size:14px;font-weight:800;text-decoration:none!important;color:#b81d2b!important}
+.gc-legal-endlink:hover{text-decoration:underline!important}
+@media(max-width:900px){.gc-legal-layout{grid-template-columns:1fr;gap:34px;padding-top:46px}.gc-legal-sidebar{position:static;max-height:none;display:flex;gap:15px;flex-wrap:wrap;align-items:center}.gc-legal-sidebar h2{width:100%;margin-bottom:0}.gc-legal-sidebar a{padding:9px 0}.gc-legal-sidebar .gc-legal-side-note{display:none}.gc-legal-hero-grid{grid-template-columns:1fr;gap:22px}.gc-legal-hero .gc-legal-intro{max-width:750px}}
+@media(max-width:640px){.gc-legal-hero{padding:55px 0 60px}.gc-legal-hero h1{font-size:clamp(53px,12.7vw,80px)}.gc-legal-hero .gc-legal-intro{font-size:17px}.gc-legal-eyebrow{margin-bottom:27px}.gc-legal-layout{padding-bottom:75px}.gc-legal-body section{margin-bottom:36px;padding-bottom:34px}.gc-legal-related{flex-direction:column;align-items:flex-start;padding:25px}}
+@media(prefers-reduced-motion:reduce){.gc-legal-page{scroll-behavior:auto}}
