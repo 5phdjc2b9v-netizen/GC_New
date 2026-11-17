@@ -10,14 +10,14 @@
   const menus=[
     {label:'Programm',path:'programm',cards:[
       ['Rad & Wandern','bikeline, hikeline und Tourenprogramme','programm#rad'],
-      ['Wohnmobil','Reiseführer, Stellplätze und Touren','programm#womo'],
+      ['Wohnmobil','Reiseführer, Stellplätze und Touren','programm#wohnmobil'],
       ['Reisen & Entdecken','Reiseführer, Lesebücher und Regionen','programm#reise'],
-      ['Bildwelten','Coffee Table Books und hochwertige Bildbände','programm#bildwelten'],
+      ['Bildwelten','Coffee Table Books und hochwertige Bildbände','programm#coffee'],
       ['Familie','Reisen und Entdecken mit Kindern','programm#familie'],
       ['Geschenk','Jahrgangsbücher und besondere Geschenke','programm#geschenk'],
       ['Puzzle & Spiel','Gemeinsam entdecken und spielen','programm#puzzle'],
-      ['Übersichtskarten','Blattschnitte Deutschland und Europa','programm#kartenservice']
-    ],footer:[['Aktueller Katalog','programm#katalog'],['Gesamtprogramm','programm#backlist']]},
+      ['Übersichtskarten','Blattschnitte Deutschland und Europa','programm#karten']
+    ],footer:[['Aktueller Katalog','programm'],['Gesamtprogramm','programm']]},
     {label:'Leistungen',path:'leistungen',cards:[
       ['Vertrieb & Außendienst','Flächendeckende Betreuung im Handel','leistungen#vertrieb'],
       ['Customer Service','Persönlicher Service für Handel und Verlage','leistungen#customer-service'],
