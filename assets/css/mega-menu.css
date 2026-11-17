@@ -36,12 +36,14 @@
  .mega-panel .mega-grid{grid-template-columns:1fr}
  .mega-panel .mega-tile{min-height:0}
 }
-/* Bildwelten: hide the white photographic backdrop around the angled book.
-   The original image remains unchanged; polygon tracks the photographed silhouette. */
-.scene-images .product-midcentury img{clip-path:polygon(4% 37%,47% 20%,94% 55%,37% 85%,5% 72%);-webkit-clip-path:polygon(4% 37%,47% 20%,94% 55%,37% 85%,5% 72%);border-radius:0}
+/* Original book isolated in SVG with transparent background: no additional CSS crop. */
+.scene-images .product-midcentury img{clip-path:none!important;-webkit-clip-path:none!important;border-radius:0}
 @media(hover:hover) and (pointer:fine){
  .scene-images .product{cursor:default;transition:transform .32s ease,filter .32s ease,opacity .32s ease}
  .scene-images .product:hover{z-index:1100!important;transform:translateY(-15px) scale(1.08) rotate(0deg)!important;filter:drop-shadow(0 30px 26px rgba(0,0,0,.36))}
  .scene-images .product:hover figcaption{opacity:1!important}
 }
 @media(prefers-reduced-motion:reduce){.mega-panel .mega-tile,.scene-images .product{transition:none!important}}
+
+/* Avoid the animated header disappearing during navigation hover. */
+.site-header:has(.mega-entry[open]),.site-header:has(.mega-entry:hover){transform:translateY(0)!important}
