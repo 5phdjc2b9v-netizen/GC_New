@@ -1,7 +1,7 @@
 /* Shared analytics bootstrap: currently inert until GA4 ID is configured. */
 (function () {
   const current = document.currentScript?.src || new URL('assets/js/main.js', document.baseURI).href;
-  const src = new URL('./analytics-consent.js?v=20261117-1', current);
+  const src = new URL('./analytics-consent.js?v=20261117-2', current);
   if (!document.querySelector('script[data-gc-analytics]')) {
     const script = document.createElement('script');
     script.defer = true;
