@@ -2978,25 +2978,3 @@ section[id]{scroll-margin-top:96px}
   .scene-images .product-midcentury{left:34.5%!important}
   .scene-images .product-pop{left:67%!important}
 }
-
-/* Bildwelten: 70% larger physical books, with a staggered editorial composition.
-   From 30% -> 51% of the unchanged scene width. */
-@media(min-width:701px){
- .world-images{min-height:680px}
- .world-images .scene-images{min-height:500px;margin-top:18px}
- .world-images .scene-images .product{width:51%!important;max-width:none!important}
- .world-images .scene-images .product-rolex{left:-3%!important;bottom:18px!important;z-index:2}
- .world-images .scene-images .product-midcentury{left:23%!important;bottom:96px!important;z-index:4}
- .world-images .scene-images .product-pop{left:51%!important;bottom:13px!important;z-index:3}
- .world-images .scene-images .product img{max-height:none!important}
- .world-images .scene-images .product:hover{z-index:1000!important}
-}
-@media(max-width:700px){
- .world-images{min-height:540px}
- .world-images .scene-images{min-height:370px;margin-top:22px}
- .world-images .scene-images .product{width:52.7%!important;max-width:none!important}
- .world-images .scene-images .product-rolex{left:-3%!important;bottom:12px!important;z-index:2}
- .world-images .scene-images .product-midcentury{left:23%!important;bottom:95px!important;z-index:4}
- .world-images .scene-images .product-pop{left:51%!important;bottom:8px!important;z-index:3}
- .world-images .scene-images .product img{max-height:none!important}
-}
