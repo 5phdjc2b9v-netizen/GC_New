@@ -8,7 +8,7 @@
   const url=(path)=>new URL(path,root).href;
   const css=document.createElement('link');
   css.rel='stylesheet';
-  css.href=url('assets/css/navigation-editorial.css?v=20261117-1');
+  css.href=url('assets/css/navigation-editorial.css?v=20261117-2');
   document.head.append(css);
 
   const groups=[
