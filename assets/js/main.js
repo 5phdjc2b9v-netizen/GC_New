@@ -30,7 +30,8 @@
       ['Bildwelten','programm#coffee'],['Familie','programm#familie'],['Geschenk','programm#geschenk'],['Puzzle & Spiel','programm#puzzle'],['Übersichtskarten','programm#karten']]},
     {name:'Leistungen',path:'leistungen',line:'Vertrieb, der weiterdenkt.',detail:'Persönlich, bundesweit und datengetrieben.',number:'02',links:[
       ['Vertrieb & Außendienst','leistungen#vertrieb'],['Customer Service','leistungen#customer-service'],
-      ['Verlagsbetreuung','leistungen#verlagsbetreuung'],['Auslieferung','leistungen#auslieferung']]},\n    {name:'Über uns',path:'unternehmen',line:'Erfahrung trifft neue Perspektiven.',detail:'Menschen, Haltung und gelebte Nähe zum Handel.',number:'03',links:[
+      ['Verlagsbetreuung','leistungen#verlagsbetreuung'],['Auslieferung','leistungen#auslieferung']]},
+    {name:'Über uns',path:'unternehmen',line:'Erfahrung trifft neue Perspektiven.',detail:'Menschen, Haltung und gelebte Nähe zum Handel.',number:'03',links:[
       ['GeoCenter kennenlernen','unternehmen'],['Außendienst finden','kontakt#aussendienst'],
       ['Kontakt','kontakt'],['Insights','insights/']]}
   ];
