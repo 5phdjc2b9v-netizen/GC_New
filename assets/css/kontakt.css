@@ -24,3 +24,6 @@
 .contact-page [id]{scroll-margin-top:115px}
 @media(max-width:850px){.contact-top,.contact-heading,.returns-box{grid-template-columns:1fr}.contact-person{grid-template-columns:1fr 1fr;gap:10px 24px}.contact-person .links{grid-column:2}.contact-office-grid{gap:0 24px}}
 @media(max-width:600px){.contact-page .contact-hero{padding:64px 0}.contact-top{margin-top:40px}.contact-shortcuts{grid-template-columns:1fr}.contact-shortcuts a{min-height:115px;border-right:0;border-bottom:1px solid var(--line);padding:22px 4px}.contact-shortcuts a:last-child{border:0}.postcode-tool{padding:22px}.postcode-controls{flex-direction:column}.postcode-controls button{width:100%}.contact-person{grid-template-columns:1fr;gap:7px}.contact-person .links{grid-column:auto}.contact-office-grid{grid-template-columns:1fr}.contact-person address{margin-top:5px}}
+
+.contact-person .contact-person-name{display:block;font-size:clamp(21px,2vw,29px);line-height:1.15;letter-spacing:-.04em;margin:4px 0 0;font-weight:700}
+.contact-office-grid .contact-person .contact-person-name{margin:0}
