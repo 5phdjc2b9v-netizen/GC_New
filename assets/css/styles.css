@@ -3144,3 +3144,8 @@ section[id]{scroll-margin-top:96px}
   .world-images .scene-images .product figcaption strong{font-size:13px!important}
   .world-images .scene-images .product figcaption span{font-size:12px!important}
 }
+
+/* Non-semantic product captions retain their previous visual emphasis. */
+.product figcaption .product-label{display:block;font-size:12px;font-weight:700}
+@media(max-width:700px){.product figcaption .product-label{font-size:11px}}
+.product:hover figcaption .product-label{position:relative;z-index:1101;color:var(--ink)!important}
