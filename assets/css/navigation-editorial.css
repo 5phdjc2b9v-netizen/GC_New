@@ -119,3 +119,9 @@ body.gc-editorial-open .site-header .header-cta{display:none!important}
 
 .gc-editorial-tile-bottom .gc-editorial-tile-title{font-family:var(--display-sans,Arial,sans-serif);font-size:clamp(25px,2.35vw,38px);line-height:1.05;letter-spacing:-.065em;font-weight:850}
 @media(max-width:650px){.gc-editorial-tile-bottom .gc-editorial-tile-title{font-size:clamp(21px,5vw,30px)}}
+
+/* The whole tile remains clickable, but only its concise heading is link text. */
+.gc-editorial-tile{position:relative}
+.gc-editorial-tile .gc-editorial-tile-title{color:inherit!important;text-decoration:none!important;display:block}
+.gc-editorial-tile .gc-editorial-tile-title::after{content:"";position:absolute;inset:0;z-index:2}
+.gc-editorial-tile:focus-within{outline:3px solid #eecb57;outline-offset:3px}

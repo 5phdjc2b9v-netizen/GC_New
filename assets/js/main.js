@@ -36,10 +36,10 @@
       ['Kontakt','kontakt'],['Insights','insights/']]}
   ];
   const escape=(value)=>String(value).replace(/[&<>"']/g,match=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[match]));
-  const tile=group=>`<a class="gc-editorial-tile" href="${url(group.path)}" aria-label="${escape(group.name)} ansehen">
+  const tile=group=>`<div class="gc-editorial-tile">
     <span class="gc-editorial-tile-top"><span>${group.number}</span><span aria-hidden="true">↗</span></span>
-    <span class="gc-editorial-tile-bottom"><span class="gc-editorial-tile-title">${escape(group.name)}</span><span>${escape(group.line)}</span><small>${escape(group.detail)}</small></span>
-  </a>`;
+    <span class="gc-editorial-tile-bottom"><a class="gc-editorial-tile-title" href="${url(group.path)}">${escape(group.name)}</a><span>${escape(group.line)}</span><small>${escape(group.detail)}</small></span>
+  </div>`;
   const columns=[
     {title:'Themenwelten',items:groups[0].links},
     {title:'Unsere Leistungen',items:groups[1].links},
