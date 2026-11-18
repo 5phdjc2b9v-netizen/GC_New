@@ -116,3 +116,6 @@ body.gc-editorial-open .site-header .header-cta{display:none!important}
 .gc-editorial-cta:before{content:"";height:5px;background:var(--gc-yellow);position:absolute;left:0;right:0;top:0}
 .gc-editorial-cta b span{color:var(--gc-yellow)}
 .site-header .menu-btn.gc-editorial-toggle[aria-expanded="true"]{border-color:var(--gc-yellow,#f1d33d)}
+
+.gc-editorial-tile-bottom .gc-editorial-tile-title{font-family:var(--display-sans,Arial,sans-serif);font-size:clamp(25px,2.35vw,38px);line-height:1.05;letter-spacing:-.065em;font-weight:850}
+@media(max-width:650px){.gc-editorial-tile-bottom .gc-editorial-tile-title{font-size:clamp(21px,5vw,30px)}}

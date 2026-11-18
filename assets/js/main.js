@@ -38,7 +38,7 @@
   const escape=(value)=>String(value).replace(/[&<>"']/g,match=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[match]));
   const tile=group=>`<a class="gc-editorial-tile" href="${url(group.path)}" aria-label="${escape(group.name)} ansehen">
     <span class="gc-editorial-tile-top"><span>${group.number}</span><span aria-hidden="true">↗</span></span>
-    <span class="gc-editorial-tile-bottom"><strong>${escape(group.name)}</strong><span>${escape(group.line)}</span><small>${escape(group.detail)}</small></span>
+    <span class="gc-editorial-tile-bottom"><span class="gc-editorial-tile-title">${escape(group.name)}</span><span>${escape(group.line)}</span><small>${escape(group.detail)}</small></span>
   </a>`;
   const columns=[
     {title:'Themenwelten',items:groups[0].links},

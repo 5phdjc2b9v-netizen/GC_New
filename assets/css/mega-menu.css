@@ -107,3 +107,9 @@ body.mega-is-open .site-header .menu-btn{color:#181818!important}
 }
 @media(max-width:390px){.site-header .nav.nav-mega.open .mega-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.site-header .nav.nav-mega.open{animation:none!important}}
+
+/* Styled navigation titles do not require strong emphasis semantics. */
+.mega-panel .mega-heading .mega-heading-title{font-size:19px;letter-spacing:-.035em;font-weight:700}
+.mega-panel .mega-tile .mega-tile-title{font-size:16px;line-height:1.15;margin-bottom:8px;font-weight:700;color:inherit}
+.site-header .nav.nav-mega.open .mega-heading .mega-heading-title{display:none}
+.site-header .nav.nav-mega.open .mega-tile .mega-tile-title{color:#fff;font-size:clamp(13px,1.15vw,17px);letter-spacing:-.01em;margin-bottom:5px}
